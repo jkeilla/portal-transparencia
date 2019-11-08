@@ -26,24 +26,35 @@ html {
 }
 
 .jumbotron {
-    background: url("../img/img.png") no-repeat;
+    background: url("../img/banner.jpg") no-repeat;
     background-size: cover;
-    padding-top: 10% !important;
+    padding: 5% 0 !important;
     filter: drop-shadow(0 2px 4px black);
 }
 
-header .jumbotron, .consulta-processos {
+header .jumbotron, .section-blue {
     text-align: center;
     color: white;
 }
 
-.consulta-processos {
+.logo-maceio {
+    width: 12%;
+}
+
+.titulo-site {
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.section-blue {
     background-color: #3573ba;
-    height: 200px;
+    height: 300px;
 }
 
 .box-content {
-    width: 85%;
+    width: 75%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFF;
