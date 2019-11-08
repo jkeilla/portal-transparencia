@@ -1,0 +1,50 @@
+/* @import url("reset.css"); */
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
+
+html {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #3573ba;
+    height: 55px;
+}
+
+.navbar li a {
+    font-family: 'Titillium Web', sans-serif !important;
+    color: #FFF !important;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #3573ba;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+}
+
+.jumbotron {
+    background: url("../img/img.png") no-repeat;
+    background-size: cover;
+    padding-top: 10% !important;
+    filter: drop-shadow(0 2px 4px black);
+}
+
+header .jumbotron, .consulta-processos {
+    text-align: center;
+    color: white;
+}
+
+.consulta-processos {
+    background-color: #3573ba;
+    height: 200px;
+}
+
+.box-content {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+}
