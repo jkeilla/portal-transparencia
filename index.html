@@ -9,17 +9,23 @@
 
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/reset.css">
-    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    
+    <!-- <link rel="stylesheet" href="public/css/bootstrap.min.css"> -->
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    
+    <script src="public/js/rating.js"></script>
+    
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
-
 </head>
 
 <body>
 
     <header>
 
-        <nav class="navbar">
+        <nav class="navbar justify-content-center fixed-top">
 
             <ul class="nav">
                 <li class="nav-item">
@@ -47,25 +53,295 @@
 
         <div class="jumbotron jumbotron-fluid">
             
-            <img src="public/img/logo-maceio.png" alt="Prefeitura de Maceió" class="logo-maceio">
+            <img src="public/img/logo-maceio.png" alt="Prefeitura de Maceió" class="logo-maceio filter-shadow">
 
-            <h1 class="titulo-site">Portal da Transparência</h1>
+            <h1 class="titulo-site filter-shadow">Portal da Transparência Municipal</h1>
 
-            <div class="container input-group mb-3">
+            <div class="container input-group mb-3 width-input">
 
-                <input type="text" class="form-control" placeholder="Qual serviço você deseja?">
+                <input type="search" class="form-control py-2 btn-outline-secondaryborder-right-0 border filter-shadow" value="Qual serviço você deseja?">
                 
-                <div class="input-group-append">
+                <span class="input-group-append">
+                    <button class="btn border-left-0 border" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </div>
 
-                    <span class="fas fa-search"></span>
+    </header>
+
+    <section class="section-white">
+
+        <div class="box-content">
+
+            <div id="conteudo-geral">
+    
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Planejamento Orçamentário
+                            </div>
+
+                        </div>
+
+                    </a/>
+
+                </div>  
+
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Receita
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+                
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Despesa
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Servidores
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Bolsa Família
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Licitações
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Contratos
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Convênios
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Demonstrativo Contábeis
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Consulta a Legislação
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Perguntas Frequentes
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Glossário
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class='servico-box-novo fades'>
+
+                    <a href="#" class="no-decor">
+
+                        <div class='servico-box-novo-icone'>
+                            <img src="public/img/arq.png">
+                        </div>
+
+                        <div class='servico-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Obras
+                            </div>
+
+                        </div>
+
+                    </a>
 
                 </div>
 
             </div>
-            
+
         </div>
 
-    </header>
+    </section>
 
     <section class="section-blue">
 
@@ -74,21 +350,111 @@
         </div>
 
     </section>
-
+    
     <section class="section-white">
 
-        <div class="box-content">
+        <div class="sites-box-content">
+
+            <h3 class="titulo-sites">Links:</h3>
+
+            <br>
+
+            <div id="conteudo-geral">
+    
+                <div class='sites-box-novo fades'>
+
+                    <a href="http://www.servicos.maceio.al.gov.br/faces/pages/index.xhtml" target="_blank" class="no-decor">
+
+                        <div class='sites-box-novo-img'>
+                            <img src="public/img/portalservicos_print.png">
+                        </div>
+
+                        <div class='sites-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Portal de Serviços
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+
+                <div class='sites-box-novo fades'>
+
+                    <a href="http://www2.ouvidoria.maceio.al.gov.br/ouvidoria/faces/pages/principal.xhtml" target="_blank" class="no-decor">
+
+                        <div class='sites-box-novo-img'>
+                            <img src="public/img/ouvidoria.png">
+                        </div>
+
+                        <div class='sites-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Ouvidaria
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+                
+                <div class='sites-box-novo fades'>
+
+                    <a href="http://www2.informa.maceio.al.gov.br/esicsolicitante/pages/login.jsf" target="_blank" class="no-decor">
+
+                        <div class='sites-box-novo-img'>
+                            <img src="public/img/informamaceio.png">
+                        </div>
+
+                        <div class='sites-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Informa Maceió
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>  
+
+                <div class='sites-box-novo fades'>
+
+                    <a href="http://www2.portaldocidadao.maceio.al.gov.br/portaldocidadao/principal.faces" target="_blank" class="no-decor">
+
+                        <div class='sites-box-novo-img'>
+                            <img src="public/img/portal_do_cidadao.png">
+                        </div>
+
+                        <div class='sites-box-novo-texto'>
+
+                            <div class='titulo'>
+                                Portal do Cidadão
+                            </div>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
 
         </div>
 
-    </section>
+        <div class="container">
+
+            <div class="row lead">
+
+                <p>Avalie este Portal</p>
+                <div id="stars" class="starrr"></div>
+                <span id="count">0</span> estrela(s)
+
+            </div>
     
-    <section class="section-black">
-
-        <div class="box-content">
-
-            <h3>Links:</h3>
-
         </div>
 
     </section>
@@ -98,6 +464,7 @@
     
     <script src="public/js/jquery-3.4.1.min.js"></script>
     <script src="public/js/bootstrap.bundle.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
     
 </body>
 
