@@ -1,5 +1,4 @@
-/* @import url("reset.css"); */
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
+
 
 body, html {
     font-family: 'Montserrat' !important;
@@ -19,6 +18,10 @@ body, html {
     font-size: 15px;
 }
 
+.navbar a:hover {
+    text-decoration: underline white;
+}
+
 header .jumbotron {
     text-align: center;
     color: white;
@@ -29,7 +32,6 @@ header .jumbotron {
     background-size: cover;
     padding: 5% 0 !important;
     margin-top: 55px;
-    filter: drop-shadow(0 2px 4px black);
 }
 
 .filter-shadow {
@@ -37,7 +39,7 @@ header .jumbotron {
 }
 
 .logo-maceio {
-    width: 12%;
+    width: 14%;
 }
 
 .titulo-site {
@@ -52,17 +54,31 @@ header .jumbotron {
 
 /* -------- Body ------------ */
 
+.section-blue, .section-white, .section-black {
+    text-align: center;
+}
+
 .section-blue {
     background-color: #3573ba;
-    height: 300px;
-    text-align: center;
     color: white;
 }
 
 .section-white {
+    margin: 2% 0;
     background-color: #ffffff;
-    text-align: center;
     color: black;
+}
+
+.section-black {
+    height: 117px;
+    background-color: #37464f;
+    color: white;
+}
+
+.section-black img {
+    width: 1.7%;
+    margin: 0.2%;
+    float: left;
 }
 
 .box-content {
@@ -70,23 +86,12 @@ header .jumbotron {
     padding: 20px 0 20px 0;
     margin-left: auto;
     margin-right: auto;
-    /*background-color: #FFF;*/
-    color: #000000;
 }
 
-.conteudo-geral {
-    width: 100%;
-    float: left;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.servico-box-novo {
-    background-color: rgba(255, 255, 255, 0.1);
+.servico-box {
     box-shadow: 0 0 7px #000000d4;
-    color: #3673ba;
     padding: 10px;
-    margin: 10px 12px 6px 0;
+    margin: 1%;
     width: 160px;
     height: 135px;
     max-height: 150px;
@@ -95,7 +100,7 @@ header .jumbotron {
     border-radius: 10px;
 }
 
-.servico-box-novo-icone {
+.servico-box-icone {
     position: relative;
     display: flex;
     padding: 5px 0 10px 0;
@@ -105,24 +110,21 @@ header .jumbotron {
     border-bottom: 3px solid #3673ba;
 }
 
-.servico-box-novo-texto {
+.servico-box-texto {
     border: 0px;
-    padding-top: 10px;
     max-width: 100%;
     position: relative;
 }
 
-.servico-box-novo .titulo {
+.servico-box .titulo {
     color: #3673ba;
     font-size: 18px;
     font-weight: 700;
-    margin-top: -7px;
     width: 100%;
     display: block;
-    position: relative;
 }
 
-.servico-box-novo img {
+.servico-box img {
     width: 50px;
 }
 
@@ -130,21 +132,15 @@ header .jumbotron {
     text-decoration: none;
 }
 
+
 /* -------- Sites ------------ */
+
 
 .titulo-sites {
     color: #3673ba;
 }
 
-.sites-box-content {
-    width: 90%;
-    padding: 20px 0 20px 0;
-    margin-left: auto;
-    margin-right: auto;
-    color: #000000;
-}
-
-.sites-box-novo {
+.sites-box {
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 7px #000000d4;
     color: #3673ba;
@@ -158,7 +154,7 @@ header .jumbotron {
     border-radius: 10px;
 }
 
-.sites-box-novo-img {
+.sites-box-img {
     position: relative;
     display: flex;
     padding: 0 0 10px 0;
@@ -168,20 +164,20 @@ header .jumbotron {
     border-bottom: 3px solid #3673ba;
 }
 
-.sites-box-novo img {
+.sites-box img {
     width: 230px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.sites-box-novo-texto {
+.sites-box-texto {
     border: 0px;
     padding-top: 5px;
     max-width: 100%;
     position: relative;
 }
 
-.sites-box-novo .titulo {
+.sites-box .titulo {
     color: #3673ba;
     font-size: 18px;
     font-weight: 700;
