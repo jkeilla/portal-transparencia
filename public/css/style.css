@@ -1,40 +1,39 @@
 /* @import url("reset.css"); */
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
 
-html {
-    font-family: 'Montserrat';
-    font-weight: bold;
+body, html {
+    font-family: 'Montserrat' !important;
+    font-weight: bold !important;
 }
+
+/* -------- Header ------------ */
 
 .navbar {
     background-color: #3573ba;
     height: 55px;
+    box-shadow: 0 0 7px black;
 }
 
 .navbar li a {
-    font-family: 'Titillium Web', sans-serif !important;
     color: #FFF !important;
     font-size: 15px;
 }
 
-.footer {
-    background-color: #3573ba;
-    width: 100%;
-    height: 40px;
-    position: fixed;
-    bottom: 0;
+header .jumbotron {
+    text-align: center;
+    color: white;
 }
 
 .jumbotron {
     background: url("../img/banner.jpg") no-repeat;
     background-size: cover;
     padding: 5% 0 !important;
+    margin-top: 25px;
     filter: drop-shadow(0 2px 4px black);
 }
 
-header .jumbotron, .section-blue {
-    text-align: center;
-    color: white;
+.filter-shadow {
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 .logo-maceio {
@@ -45,17 +44,167 @@ header .jumbotron, .section-blue {
     font-weight: bold;
     margin-top: 1%;
     margin-bottom: 2%;
+    font-size: 40px !important;
 }
+
+.width-input {
+    width: 75% !important;
+}
+
+/* -------- Body ------------ */
 
 .section-blue {
     background-color: #3573ba;
     height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.section-white {
+    background-color: #ffffff;
+    text-align: center;
+    color: black;
 }
 
 .box-content {
     width: 75%;
-    height: 100%;
+    padding: 20px 0 20px 0;
     margin-left: auto;
     margin-right: auto;
-    background-color: #FFF;
+    /*background-color: #FFF;*/
+    color: #000000;
 }
+
+.conteudo-geral {
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.servico-box-novo {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 7px #000000d4;
+    color: #3673ba;
+    padding: 10px;
+    margin: 10px 12px 6px 0;
+    width: 160px;
+    height: 135px;
+    max-height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.servico-box-novo-icone {
+    position: relative;
+    display: flex;
+    padding: 5px 0 10px 0;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-bottom: 3px solid #3673ba;
+}
+
+.servico-box-novo-texto {
+    border: 0px;
+    padding-top: 10px;
+    max-width: 100%;
+    position: relative;
+}
+
+.servico-box-novo .titulo {
+    color: #3673ba;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -7px;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.servico-box-novo img {
+    width: 50px;
+}
+
+.no-decor:hover {
+    text-decoration: none;
+}
+
+.container .row {
+    display: contents;
+}
+
+/* -------- Sites ------------ */
+
+.titulo-sites {
+    color: #3673ba;
+}
+
+.sites-box-content {
+    width: 90%;
+    padding: 20px 0 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+}
+
+.sites-box-novo {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 7px #000000d4;
+    color: #3673ba;
+    padding: 0;
+    margin: 10px 15px 10px 15px;
+    width: 230px;
+    height: 135px;
+    max-height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.sites-box-novo-img {
+    position: relative;
+    display: flex;
+    padding: 0 0 10px 0;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-bottom: 3px solid #3673ba;
+}
+
+.sites-box-novo img {
+    width: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sites-box-novo-texto {
+    border: 0px;
+    padding-top: 5px;
+    max-width: 100%;
+    position: relative;
+}
+
+.sites-box-novo .titulo {
+    color: #3673ba;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -4px;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+
+
+/* -------- Footer ------------ */
+
+.footer {
+    background-color: #3573ba;
+    width: 100%;
+    height: 40px;
+    /*position: fixed;*/
+    bottom: 0;
+}
+
