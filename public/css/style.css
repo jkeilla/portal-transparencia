@@ -64,7 +64,8 @@ header .jumbotron {
 }
 
 .box-content {
-    width: 75%;
+    /*width: 75%;*/
+    width: 85%;
     padding: 20px 0 20px 0;
     margin-left: auto;
     margin-right: auto;
@@ -136,14 +137,11 @@ header .jumbotron {
     margin: 0 !important;
 }
 
-.container .row {
-    display: contents;
-}
-
 /* -------- Sites ------------ */
 
 .titulo-sites {
-    color: #3673ba;
+    /*color: #3673ba;*/
+    color: #000000;
 }
 
 .sites-box-content {
@@ -233,6 +231,18 @@ iframe {
     width: 100%;
 }
 
+.container .row {
+    display: contents;
+}
+
+.contact-border-right {
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.contact-border-left {
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+
 
 /* -------- Footer ------------ */
 
@@ -242,6 +252,7 @@ iframe {
     height: 70px;
     bottom: 0;
     padding: 0.8% 1%;
+    display: flex;
 }
 
 .footer-img {
