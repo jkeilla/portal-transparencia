@@ -63,19 +63,6 @@ header .jumbotron {
     color: black;
 }
 
-.contato p {
-    font-size: 14px;
-}
-
-.contato li a img {
-    width: 35px;
-}
-
-.social-networks {
-    display: inline-grid;
-    justify-content: center;
-}
-
 .box-content {
     width: 75%;
     padding: 20px 0 20px 0;
@@ -134,7 +121,7 @@ header .jumbotron {
 }
 
 .hr {
-    width: 90%;
+    width: 80%;
 }
 
 .servico-box img {
@@ -215,6 +202,38 @@ header .jumbotron {
 }
 
 
+/* -------- Contato ------------ */
+
+.contato p {
+    font-size: 14px;
+}
+
+.contato li a img {
+    width: 35px;
+}
+
+.contato-titulo {
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.social-networks h4 {
+    margin-bottom: 6%;
+}
+
+.endereco h4 {
+    margin-bottom: 3%;
+}
+
+.social-networks li {
+    margin: 2% 0;
+}
+
+iframe {
+    width: 100%;
+}
+
+
 /* -------- Footer ------------ */
 
 .footer {
@@ -231,11 +250,4 @@ header .jumbotron {
 
 .footer img {
     width: 13%;
-}
-
-.footer-texto {
-    float: right;
-    color: white;
-    display: flex;
-    justify-content: right;
 }
