@@ -1,3 +1,7 @@
+@import url("reset.css");
+@import url("servicos.css");
+
+
 body, html {
     font-family: 'Montserrat' !important;
     font-weight: bold !important;
@@ -229,6 +233,14 @@ header .jumbotron {
     margin: 2% 0;
 }
 
+.menu-superior .nav>li>a {
+    padding: 16px 15px;
+}
+
+.menu-superior .nav>li>a:hover {
+    background-color: #488dce;
+}
+
 iframe {
     width: 100%;
 }
@@ -250,4 +262,15 @@ iframe {
 
 .footer img {
     width: 13%;
+}
+
+.fade {
+    opacity: unset !important;
+}
+
+
+/* -------- Utils ------------ */
+
+.no-padding {
+    padding: 0 !important;
 }
