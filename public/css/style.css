@@ -1,3 +1,8 @@
+/* /css/style/ 
+   Author: Dylnara Azevedo & Jéssica Keila
+   Since: 04/11/2019
+*/
+
 body, html {
     font-family: 'Montserrat' !important;
     font-weight: bold !important;
@@ -64,12 +69,10 @@ header .jumbotron {
 }
 
 .box-content {
-    /*width: 75%;*/
-    width: 85%;
+    width: 80%;
     padding: 20px 0 20px 0;
     margin-left: auto;
     margin-right: auto;
-    /*background-color: #FFF;*/
     color: #000000;
 }
 
@@ -137,6 +140,15 @@ header .jumbotron {
     margin: 0 !important;
 }
 
+/* -------- Maps ------------ */
+
+#painel > .panel-heading {
+    /* background-image: linear-gradient(to bottom,#008FD5 0,#e8e8e8 100%); */
+    background-image: none !important;
+    background-color: #ffe0e6 !important;
+    color: #000 !important;
+}
+
 /* -------- Sites ------------ */
 
 .titulo-sites {
@@ -201,6 +213,9 @@ header .jumbotron {
 
 
 /* -------- Contato ------------ */
+.width-contato {
+    width: 85%;
+}
 
 .contato p {
     font-size: 14px;
@@ -219,6 +234,13 @@ header .jumbotron {
     margin-bottom: 6%;
 }
 
+.endereco {
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-left: 1px solid rgba(0,0,0,.1);
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
 .endereco h4 {
     margin-bottom: 3%;
 }
@@ -235,14 +257,6 @@ iframe {
     display: contents;
 }
 
-.contact-border-right {
-    border-right: 1px solid rgba(0,0,0,.1);
-}
-
-.contact-border-left {
-    border-left: 1px solid rgba(0,0,0,.1);
-}
-
 
 /* -------- Footer ------------ */
 
@@ -252,7 +266,6 @@ iframe {
     height: 70px;
     bottom: 0;
     padding: .3rem 1rem;
-    /*padding: 0.8% 1%;*/
     display: -ms-flexbox;
     display: flex;
     align-items: center;
