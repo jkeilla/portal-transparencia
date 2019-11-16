@@ -237,7 +237,8 @@ header .jumbotron {
 }
 
 .contato li a img {
-    width: 35px;
+    /*width: 35px;*/
+    width: 45px;
 }
 
 .contato-titulo {
