@@ -313,6 +313,10 @@ iframe {
     margin-top: 55px;
 }
 
+.sitemap-width {
+    width: 85%;
+}
+
 .box-sitemap {
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 7px #000000d4;
@@ -378,19 +382,15 @@ section .col-md-3:first-child {
     margin-bottom: 20px;
 }
 
-/*.col-md-3 ul li a::before {
-    content: '';
-    position: absolute;
-    height: 1px;
-    width: 8px;
-    top: 35%;
-    left: 20px;
-    background-color: #3573ba;
-}*/
-
 @media (max-width: 767px) {
     section .col-md-3 {
-      border-left: none;
+        border-left: none;
+    }
+
+    .box-sitemap ul li:hover {
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
 }
 
