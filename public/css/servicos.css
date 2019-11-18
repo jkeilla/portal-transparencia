@@ -9,14 +9,15 @@
     justify-content: center;
 }
 
-.menu-lateral a {
+.menu-lateral button {
     background-color: white;
     border-radius: 10px !important;
     font-size: 1rem;
     color: #3573ba;
-    width: 300px;
     margin-bottom: 2%;
     text-align: center;
+    width: 100%;
+    border: 0;
 }
 
 .menu-lateral .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -24,14 +25,30 @@
     color: #3573ba;
 }
 
-.menu-lateral a:hover {
+.menu-lateral button:hover {
     filter: drop-shadow(0px 2px 3px #616161);
     transform: translateY(-1px);
 }
 
-.menu-lateral a:focus {
+.menu-lateral button:focus {
     transform: translateZ(5px);
     -webkit-box-shadow: 0px 1px 4px #474747 inset;
 	   -moz-box-shadow: 0px 1px 4px #474747 inset; 
             box-shadow: 0px 1px 4px #474747 inset;     
+}
+
+.box-servicos {
+    margin: 1%;
+}
+
+.box-servicos form {
+    margin: 2%;
+}
+
+.box-servicos table {
+    margin-top: 5% !important;    
+}
+
+.buttons-receita {
+    margin-top: 4%;
 }
