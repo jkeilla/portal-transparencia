@@ -166,7 +166,7 @@ header .jumbotron {
 
 /* -------- Sites ------------ */
 
-.titulo-sites {
+.titulo-sites, .titulo-about {
     /*color: #3673ba;*/
     color: #000000;
 }
@@ -226,8 +226,8 @@ header .jumbotron {
     position: relative;
 }
 
-
 /* -------- Contato ------------ */
+
 .width-contato {
     width: 85%;
 }
@@ -307,23 +307,23 @@ iframe {
     margin-bottom: 0;
 }
 
-/* -------- sitemap ------------ */
+/* -------- sitemap & about ------------ */
 
-.sitemap-top {
+.sitemap-top, .about-top {
     margin-top: 55px;
 }
 
-.sitemap-width {
+.sitemap-width, .about-width {
     width: 85%;
 }
 
-.box-sitemap {
+.box-sitemap, .box-about {
     /*background-color: rgba(255, 255, 255, 0.1);
     background-color: rgba(255, 255, 255, 0.53);*/
     background-color: rgba(255, 255, 255, 0.75);
     box-shadow: 0 0 7px #000000d4;
     padding: 20px;
-    margin: 20px 0 0 0;
+    margin: 20px 0;
     width: 100%;
     height: auto;
     display: inline-block;
@@ -398,7 +398,20 @@ section .col-md-3:first-child {
     }
 }
 
-/* ---------- imagem ----------- */
+.box-about {
+    padding: 30px 40px;
+    text-align: justify;
+}
+
+.about-text {
+    color: #3573ba;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+/* ---------- imagem background ----------- */
 
 #backg-section {
     background: url(../img/03_Maceioanoite.jpg) no-repeat center top;
@@ -409,12 +422,21 @@ section .col-md-3:first-child {
     -o-background-size: cover;
 }
 
-#backg-section .overlay {
+#backg-section .overlay, #about-section .overlay {
     padding: -20px;
     background: -moz-linear-gradient(top, rgba(225, 233, 234) 0%, rgba(236, 245, 247, 0.75) 100%);
     background: -webkit-linear-gradient(top, rgba(225, 233, 234) 0%, rgba(236, 245, 247, 0.75) 100%);
     background: linear-gradient(to bottom, rgba(225, 233, 234) 0%, rgba(236, 245, 247, 0.75) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053740', endColorstr='#bf053740', GradientType=0 );
+}
+
+#about-section {
+    background: url(../img/04_PontaVerde.jpg) no-repeat center top;
+    background-color: #7bc3d1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 
