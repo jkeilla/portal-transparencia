@@ -1,8 +1,4 @@
-// $('#user-rating-form').on('change','[name="rating"]',function(){
-// 	$('#selected-rating').text($('[name="rating"]:checked').val());
-// });
-
-// // Starrr plugin (https://github.com/dobtco/starrr)
+// Starrr plugin (https://github.com/dobtco/starrr)
 var __slice = [].slice;
 
 (function($, window) {
@@ -37,11 +33,8 @@ var __slice = [].slice;
         return _this.syncRating();
       });
       this.$el.on('click.starrr', 'span', function(e) {
-    if (_this.options.rating === _this.$el.find('span').index(e.currentTarget)+1){
-		return false;
-	}
-	return _this.setRating(_this.$el.find('span').index(e.currentTarget) + 1);
-});
+        return _this.setRating(_this.$el.find('span').index(e.currentTarget) + 1);
+      });
       this.$el.on('starrr:change', this.options.change);
     }
 
@@ -50,7 +43,7 @@ var __slice = [].slice;
 
       _results = [];
       for (_i = 1, _ref = this.options.numStars; 1 <= _ref ? _i <= _ref : _i >= _ref; 1 <= _ref ? _i++ : _i--) {
-        _results.push(this.$el.append("<i class='fa fa-star-o'></i>"));
+        _results.push(this.$el.append("<span class='glyphicon .glyphicon-star-empty'></span>"));
       }
       return _results;
     };
@@ -70,16 +63,16 @@ var __slice = [].slice;
       rating || (rating = this.options.rating);
       if (rating) {
         for (i = _i = 0, _ref = rating - 1; 0 <= _ref ? _i <= _ref : _i >= _ref; i = 0 <= _ref ? ++_i : --_i) {
-          this.$el.find('i').eq(i).removeClass('fa-star-o').addClass('fa-star');
+          this.$el.find('span').eq(i).removeClass('glyphicon-star-empty').addClass('glyphicon-star');
         }
       }
       if (rating && rating < 5) {
         for (i = _j = rating; rating <= 4 ? _j <= 4 : _j >= 4; i = rating <= 4 ? ++_j : --_j) {
-          this.$el.find('i').eq(i).removeClass('fa-star').addClass('fa-star-o');
+          this.$el.find('span').eq(i).removeClass('glyphicon-star').addClass('glyphicon-star-empty');
         }
       }
       if (!rating) {
-        return this.$el.find('i').removeClass('fa-star').addClass('fa-star-o');
+        return this.$el.find('span').removeClass('glyphicon-star').addClass('glyphicon-star-empty');
       }
     };
 
