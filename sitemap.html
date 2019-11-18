@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,23 +9,24 @@
     <title>Portal da Transparência de Maceió</title>
 
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/reset.css">
-    <link rel="stylesheet" href="public/css/bootstrap.min.css">       
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
     
     <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+
 </head>
 
 <body>
 
     <header>
 
-        <nav class="navbar justify-content-center fixed-top">
+        <nav class="navbar justify-content-center fixed-top no-padding menu-superior">
 
             <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link active" href="./index.html">Início</a>
+                  <a class="nav-link" href="./index.html">Início</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./about.html">Sobre</a>
@@ -41,9 +43,31 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./fale_conosco.html">Fale Conosco</a>
                 </li>
+
             </ul>
 
         </nav>
+
+        <div class="jumbotron jumbotron-fluid">
+            
+            <img src="public/img/logo.png" alt="Prefeitura de Maceió" class="logo-maceio filter-shadow">
+
+            <h1 class="titulo-site filter-shadow">Portal da Transparência Municipal</h1>
+
+            <div class="container input-group mb-3 width-input">
+
+                <input type="search" class="form-control py-2 btn-outline-secondaryborder-right-0 border filter-shadow" value="Qual serviço você deseja?">
+                
+                <span class="input-group-append">
+                    <button class="btn border-left-0 border" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+
+                </span>
+
+            </div>
+
+        </div>
 
     </header>
 
