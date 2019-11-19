@@ -190,7 +190,7 @@
                         
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
 
-                                <a class="nav-item nav-link" id="nav-balancete-tab" data-toggle="tab" href="#nav-balancete" role="tab" aria-controls="nav-balancete" aria-selected="true">Balancete</a>
+                                <a class="nav-item nav-link active" id="nav-balancete-tab" data-toggle="tab" href="#nav-balancete" role="tab" aria-controls="nav-balancete" aria-selected="true">Balancete</a>
 
                                 <a class="nav-item nav-link" id="nav-uniao-tab" data-toggle="tab" href="#nav-uniao" role="tab" aria-controls="nav-uniao" aria-selected="false">Transferência da União</a>
 
@@ -344,6 +344,38 @@
 
                                 </form>
 
+                                <table class="table">
+
+                                    <thead>
+    
+                                        <tr>
+                                            
+                                            <th scope="col">Natureza da Receita</th>
+                                            <th scope="col">Descrição</th>
+                                            <th scope="col">Prev. Anual (R$)</th>
+                                            <th scope="col">Prev. Anual Atualizada (R$)</th>
+                                            <th scope="col">Arrecadado (R$)</th>
+
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
                             </div>
                             
                             <div class="tab-pane fade" id="nav-estado" role="tabpanel" aria-labelledby="nav-estado-tab">
@@ -397,6 +429,38 @@
 
                                 </form>
 
+                                <table class="table">
+
+                                    <thead>
+    
+                                        <tr>
+                                            
+                                            <th scope="col">Natureza da Receita</th>
+                                            <th scope="col">Descrição</th>
+                                            <th scope="col">Prev. Anual (R$)</th>
+                                            <th scope="col">Prev. Anual Atualizada (R$)</th>
+                                            <th scope="col">Arrecadado (R$)</th>
+
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
                             </div>
 
                             <div class="tab-pane fade" id="nav-receita" role="tabpanel" aria-labelledby="nav-receita-tab">
@@ -439,6 +503,38 @@
 
                                 </form>
 
+                                <table class="table">
+
+                                    <thead>
+    
+                                        <tr>
+                                            
+                                            <th scope="col">Órgão</th>
+                                            <th scope="col">Prev. Anual (R$)</th>
+                                            <th scope="col">Prev. Anual Atualizada (R$)</th>
+                                            <th scope="col">Arrecadado (R$)</th>
+                                            <th scope="col">(%)</th>
+                                            
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
                             </div>
 
                         </div>
@@ -447,680 +543,1060 @@
                     
                     <div class="tab-pane fade" id="v-pills-despesas" role="tabpanel" aria-labelledby="v-pills-despesas-tab">
                         
-                            <p>Conjunto de dispêndios realizados pelas entes públicas para custear os serviços públicos (despesas correntes) prestados a sociedade ou para a realização de investimentos (despesas de capital). As pesquisas apresentam informações por Credores (por nome e CNPJ/CPF), Programas, Diárias, Itens de Consumo Resto a Pagar e Quadro de Detalhamento de Despesa (QDD).</p>
+                        <p>Conjunto de dispêndios realizados pelas entes públicas para custear os serviços públicos (despesas correntes) prestados a sociedade ou para a realização de investimentos (despesas de capital). As pesquisas apresentam informações por Credores (por nome e CNPJ/CPF), Programas, Diárias, Itens de Consumo Resto a Pagar e Quadro de Detalhamento de Despesa (QDD).</p>
+                    
+                        <nav>
                         
-                            <nav>
-                            
-                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    
-                                    <a class="nav-item nav-link active" id="nav-despesas-tab" data-toggle="tab" href="#nav-despesas" role="tab" aria-controls="nav-despesas" aria-selected="true">Despesas</a>
-    
-                                    <a class="nav-item nav-link" id="nav-credores-tab" data-toggle="tab" href="#nav-credores" role="tab" aria-controls="nav-credores" aria-selected="false">Credores</a>
-    
-                                    <a class="nav-item nav-link" id="nav-programas-tab" data-toggle="tab" href="#nav-programas" role="tab" aria-controls="nav-programas" aria-selected="false">Programas</a>
-    
-                                    <a class="nav-item nav-link" id="nav-diarias-tab" data-toggle="tab" href="#nav-diarias" role="tab" aria-controls="nav-diarias" aria-selected="false">Diárias</a>
-    
-                                    <a class="nav-item nav-link" id="nav-itens-tab" data-toggle="tab" href="#nav-itens" role="tab" aria-controls="nav-itens" aria-selected="false">Ítens a Pagar</a>
-    
-                                    <a class="nav-item nav-link" id="nav-excedentes-tab" data-toggle="tab" href="#nav-excedentes" role="tab" aria-controls="nav-excedentes" aria-selected="false">Excedentes a Pagar</a>
-    
-                                    <a class="nav-item nav-link" id="nav-qdd-tab" data-toggle="tab" href="#nav-qdd" role="tab" aria-controls="nav-qdd" aria-selected="false">QDD</a>
-    
-                                    <a class="nav-item nav-link" id="nav-por-orgaos-tab" data-toggle="tab" href="#nav-por-orgaos" role="tab" aria-controls="nav-por-orgaos" aria-selected="false">Despesas por Órgão</a>
-    
-                                </div>
-    
-                            </nav>
-    
-                            <div class="tab-content box-servicos" id="nav-tabContent">
-    
-                                <div class="tab-pane fade show active" id="nav-despesas" role="tabpanel" aria-labelledby="nav-despesas-tab">
-                                    
-                                    <form>
-    
-                                        <div class="form-group">
-    
-                                            <label>Período</label>
-    
-                                            <div class="form-row">
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-    
-                                            </div>
-    
-                                        </div>
-    
-                                        <div class="form-group">
-    
-                                            <label for="selectOrgao">Orgão</label>
-                                            
-                                            <select name="orgao" class="form-control" id="selectOrgao">
-                                                <option value="todos" selected>TODOS</option>    
-                                                <option value="...">...</option>    
-                                            </select>
-    
-                                        </div>
-    
-                                        <div class="form-group">
-    
-                                            <label for="selectNatureza">Natureza da Receita</label>
-                                            
-                                            <select name="natureza" class="form-control" id="selectNatureza">
-                                                <option value="todos" selected>TODOS</option>    
-                                                <option value="...">...</option>    
-                                            </select>
-    
-                                        </div>
-    
-                                        <div class="buttons-receita">
-                                            <button type="submit" class="btn btn-primary">Consultar</button>
-                                            <button type="submit" class="btn btn-warning">Cancelar</button>
-                                        </div>
-    
-                                    </form>
-    
-                                    <table class="table">
-    
-                                        <thead>
-        
-                                            <tr>
-                                                
-                                                <th scope="col">Nível</th>
-                                                <th scope="col">Natureza da Receita</th>
-                                                <th scope="col">Descrição</th>
-                                                <th scope="col">Prev. Anual (R$)</th>
-                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
-                                                <th scope="col">Arrecadado (R$)</th>
-                                                <th scope="col">(%)</th>
-                                                <th scope="col">Visualizar</th>
-                                                
-                                            </tr>
-        
-                                        </thead>
-        
-                                        <tbody>
-        
-                                            <tr>
-    
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-    
-                                            </tr>
-        
-                                        </tbody>
-                                        
-                                    </table>
-    
-                                </div>
-    
-                                <div class="tab-pane fade" id="nav-credores" role="tabpanel" aria-labelledby="nav-credores-tab">
-                                    
-                                    <form>
-    
-                                        <div class="form-group">
-    
-                                            <label>Período</label>
-    
-                                            <div class="form-row">
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-    
-                                            </div>
-    
-                                        </div>
-    
-                                        <div class="form-group">
-    
-                                            <label for="selectOrgao">Orgão</label>
-                                            
-                                            <select name="orgao" class="form-control" id="selectOrgao">
-                                                <option value="todos" selected>TODOS</option>    
-                                                <option value="...">...</option>    
-                                            </select>
-    
-                                        </div>
-    
-                                        <div class="form-group">
-    
-                                            <label for="selectNatureza">Natureza da Receita</label>
-                                            
-                                            <select name="natureza" class="form-control" id="selectNatureza">
-                                                <option value="todos" selected>TODOS</option>    
-                                                <option value="...">...</option>    
-                                            </select>
-    
-                                        </div>
-    
-                                        <div class="buttons-receita">
-                                            <button type="submit" class="btn btn-primary">Consultar</button>
-                                            <button type="submit" class="btn btn-warning">Cancelar</button>
-                                        </div>
-    
-                                    </form>
-    
-                                    <table class="table">
-    
-                                        <thead>
-        
-                                            <tr>
-                                                
-                                                <th scope="col">Natureza da Receita</th>
-                                                <th scope="col">Descrição</th>
-                                                <th scope="col">Prev. Anual (R$)</th>
-                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
-                                                <th scope="col">Arrecadado (R$)</th>
-                                                <th scope="col">(%)</th>
-                                                
-                                            </tr>
-        
-                                        </thead>
-        
-                                        <tbody>
-        
-                                            <tr>
-    
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-    
-                                            </tr>
-        
-                                        </tbody>
-                                        
-                                    </table>
-    
-                                </div>
-                                
-                                <div class="tab-pane fade" id="nav-programas" role="tabpanel" aria-labelledby="nav-programas-tab">
-                                    
-                                    <form>
-    
-                                        <div class="form-group">
-    
-                                            <label>Período</label>
-    
-                                            <div class="form-row">
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-    
-                                            </div>
-    
-                                        </div>
-    
-                                        <div class="form-group">
-    
-                                            <label for="selectOrgao">Orgão</label>
-                                            
-                                            <select name="orgao" class="form-control" id="selectOrgao">
-                                                <option value="todos" selected>TODOS</option>    
-                                                <option value="...">...</option>    
-                                            </select>
-    
-                                        </div>
-    
-                                        <div class="form-group">
-    
-                                            <label for="selectNatureza">Natureza da Receita</label>
-                                            
-                                            <select name="natureza" class="form-control" id="selectNatureza">
-                                                <option value="todos" selected>TODOS</option>    
-                                                <option value="...">...</option>    
-                                            </select>
-    
-                                        </div>
-    
-                                        <div class="buttons-receita">
-                                            <button type="submit" class="btn btn-primary">Consultar</button>
-                                            <button type="submit" class="btn btn-warning">Cancelar</button>
-                                        </div>
-    
-                                    </form>
-    
-                                    <table class="table">
-    
-                                        <thead>
-        
-                                            <tr>
-                                                
-                                                <th scope="col">Natureza da Receita</th>
-                                                <th scope="col">Descrição</th>
-                                                <th scope="col">Prev. Anual (R$)</th>
-                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
-                                                <th scope="col">Arrecadado (R$)</th>
-                                                <th scope="col">(%)</th>
-                                                
-                                            </tr>
-        
-                                        </thead>
-        
-                                        <tbody>
-        
-                                            <tr>
-    
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-    
-                                            </tr>
-        
-                                        </tbody>
-                                        
-                                    </table>
-    
-                                </div>
-    
-                                <div class="tab-pane fade" id="nav-diarias" role="tabpanel" aria-labelledby="nav-diarias-tab">
-    
-                                    <form>
-    
-                                        <div class="form-group">
-    
-                                            <label>Período</label>
-    
-                                            <div class="form-row">
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-    
-                                            </div>
-    
-                                        </div>
-    
-                                        <div class="form-group">
-    
-                                            <label for="selectOrgao">Orgão</label>
-                                            
-                                            <select name="orgao" class="form-control" id="selectOrgao">
-                                                <option value="todos" selected>TODOS</option>    
-                                                <option value="...">...</option>    
-                                            </select>
-    
-                                        </div>
-    
-                                        <div class="buttons-receita">
-                                            <button type="submit" class="btn btn-primary">Consultar</button>
-                                            <button type="submit" class="btn btn-warning">Cancelar</button>
-                                        </div>
-    
-                                    </form>
-    
-                                    <table class="table">
-    
-                                        <thead>
-        
-                                            <tr>
-                                                
-                                                <th scope="col">Órgão</th>
-                                                <th scope="col">Prev. Anual (R$)</th>
-                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
-                                                <th scope="col">Arrecadado (R$)</th>
-                                                <th scope="col">(%)</th>
-                                                
-                                            </tr>
-        
-                                        </thead>
-        
-                                        <tbody>
-        
-                                            <tr>
-    
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-    
-                                            </tr>
-        
-                                        </tbody>
-                                        
-                                    </table>
-    
-                                </div>
-    
-                                <div class="tab-pane fade" id="nav-itens" role="tabpanel" aria-labelledby="nav-receita-tab">
-    
-                                    <form>
-    
-                                        <div class="form-group">
-    
-                                            <label>Período</label>
-    
-                                            <div class="form-row">
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-    
-                                            </div>
-    
-                                        </div>
-    
-                                        <div class="form-group">
-    
-                                            <label for="selectOrgao">Orgão</label>
-                                            
-                                            <select name="orgao" class="form-control" id="selectOrgao">
-                                                <option value="todos" selected>TODOS</option>    
-                                                <option value="...">...</option>    
-                                            </select>
-    
-                                        </div>
-    
-                                        <div class="buttons-receita">
-                                            <button type="submit" class="btn btn-primary">Consultar</button>
-                                            <button type="submit" class="btn btn-warning">Cancelar</button>
-                                        </div>
-    
-                                    </form>
-    
-                                    <table class="table">
-    
-                                        <thead>
-        
-                                            <tr>
-                                                
-                                                <th scope="col">Órgão</th>
-                                                <th scope="col">Prev. Anual (R$)</th>
-                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
-                                                <th scope="col">Arrecadado (R$)</th>
-                                                <th scope="col">(%)</th>
-                                                
-                                            </tr>
-        
-                                        </thead>
-        
-                                        <tbody>
-        
-                                            <tr>
-    
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-    
-                                            </tr>
-        
-                                        </tbody>
-                                        
-                                    </table>
-    
-                                </div>
-    
-                                <div class="tab-pane fade" id="nav-excedentes" role="tabpanel" aria-labelledby="nav-receita-tab">
-    
-                                    <form>
-    
-                                        <div class="form-group">
-    
-                                            <label>Período</label>
-    
-                                            <div class="form-row">
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-    
-                                            </div>
-    
-                                        </div>
-    
-                                        <div class="form-group">
-    
-                                            <label for="selectOrgao">Orgão</label>
-                                            
-                                            <select name="orgao" class="form-control" id="selectOrgao">
-                                                <option value="todos" selected>TODOS</option>    
-                                                <option value="...">...</option>    
-                                            </select>
-    
-                                        </div>
-    
-                                        <div class="buttons-receita">
-                                            <button type="submit" class="btn btn-primary">Consultar</button>
-                                            <button type="submit" class="btn btn-warning">Cancelar</button>
-                                        </div>
-    
-                                    </form>
-    
-                                    <table class="table">
-    
-                                        <thead>
-        
-                                            <tr>
-                                                
-                                                <th scope="col">Órgão</th>
-                                                <th scope="col">Prev. Anual (R$)</th>
-                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
-                                                <th scope="col">Arrecadado (R$)</th>
-                                                <th scope="col">(%)</th>
-                                                
-                                            </tr>
-        
-                                        </thead>
-        
-                                        <tbody>
-        
-                                            <tr>
-    
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-    
-                                            </tr>
-        
-                                        </tbody>
-                                        
-                                    </table>
-    
-                                </div>
-    
-                                <div class="tab-pane fade" id="nav-qdd" role="tabpanel" aria-labelledby="nav-receita-tab">
-    
-                                    <form>
-    
-                                        <div class="form-group">
-    
-                                            <label>Período</label>
-    
-                                            <div class="form-row">
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-    
-                                            </div>
-    
-                                        </div>
-    
-                                        <div class="form-group">
-    
-                                            <label for="selectOrgao">Orgão</label>
-                                            
-                                            <select name="orgao" class="form-control" id="selectOrgao">
-                                                <option value="todos" selected>TODOS</option>    
-                                                <option value="...">...</option>    
-                                            </select>
-    
-                                        </div>
-    
-                                        <div class="buttons-receita">
-                                            <button type="submit" class="btn btn-primary">Consultar</button>
-                                            <button type="submit" class="btn btn-warning">Cancelar</button>
-                                        </div>
-    
-                                    </form>
-    
-                                    <table class="table">
-    
-                                        <thead>
-        
-                                            <tr>
-                                                
-                                                <th scope="col">Órgão</th>
-                                                <th scope="col">Prev. Anual (R$)</th>
-                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
-                                                <th scope="col">Arrecadado (R$)</th>
-                                                <th scope="col">(%)</th>
-                                                
-                                            </tr>
-        
-                                        </thead>
-        
-                                        <tbody>
-        
-                                            <tr>
-    
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-    
-                                            </tr>
-        
-                                        </tbody>
-                                        
-                                    </table>
-    
-                                </div>
-    
-                                <div class="tab-pane fade" id="nav-por-orgaos" role="tabpanel" aria-labelledby="nav-por-orgaos-tab">
-    
-                                    <form>
-    
-                                        <div class="form-group">
-    
-                                            <label>Período</label>
-    
-                                            <div class="form-row">
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-                                                
-                                                <div class="col">
-                                                    <input type="date" class="form-control">
-                                                </div>
-    
-                                            </div>
-    
-                                        </div>
-    
-                                        <div class="form-group">
-    
-                                            <label for="selectOrgao">Orgão</label>
-                                            
-                                            <select name="orgao" class="form-control" id="selectOrgao">
-                                                <option value="todos" selected>TODOS</option>    
-                                                <option value="...">...</option>    
-                                            </select>
-    
-                                        </div>
-    
-                                        <div class="buttons-receita">
-                                            <button type="submit" class="btn btn-primary">Consultar</button>
-                                            <button type="submit" class="btn btn-warning">Cancelar</button>
-                                        </div>
-    
-                                    </form>
-    
-                                    <table class="table">
-    
-                                        <thead>
-        
-                                            <tr>
-                                                
-                                                <th scope="col">Órgão</th>
-                                                <th scope="col">Prev. Anual (R$)</th>
-                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
-                                                <th scope="col">Arrecadado (R$)</th>
-                                                <th scope="col">(%)</th>
-                                                
-                                            </tr>
-        
-                                        </thead>
-        
-                                        <tbody>
-        
-                                            <tr>
-    
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-                                                <td>...</td>
-    
-                                            </tr>
-        
-                                        </tbody>
-                                        
-                                    </table>
-    
-                                </div>
-    
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                                <a class="nav-item nav-link active" id="nav-despesas-tab" data-toggle="tab" href="#nav-despesas" role="tab" aria-controls="nav-despesas" aria-selected="true">Despesas</a>
+
+                                <a class="nav-item nav-link" id="nav-credores-tab" data-toggle="tab" href="#nav-credores" role="tab" aria-controls="nav-credores" aria-selected="false">Credores</a>
+
+                                <a class="nav-item nav-link" id="nav-programas-tab" data-toggle="tab" href="#nav-programas" role="tab" aria-controls="nav-programas" aria-selected="false">Programas</a>
+
+                                <a class="nav-item nav-link" id="nav-diarias-tab" data-toggle="tab" href="#nav-diarias" role="tab" aria-controls="nav-diarias" aria-selected="false">Diárias</a>
+
+                                <a class="nav-item nav-link" id="nav-itens-tab" data-toggle="tab" href="#nav-itens" role="tab" aria-controls="nav-itens" aria-selected="false">Ítens de Consumo</a>
+
+                                <a class="nav-item nav-link" id="nav-excedentes-tab" data-toggle="tab" href="#nav-excedentes" role="tab" aria-controls="nav-excedentes" aria-selected="false">Excedentes a Pagar</a>
+
+                                <a class="nav-item nav-link" id="nav-qdd-tab" data-toggle="tab" href="#nav-qdd" role="tab" aria-controls="nav-qdd" aria-selected="false">QDD</a>
+
+                                <a class="nav-item nav-link" id="nav-por-orgaos-tab" data-toggle="tab" href="#nav-por-orgaos" role="tab" aria-controls="nav-por-orgaos" aria-selected="false">Despesas por Órgão</a>
+
                             </div>
+
+                        </nav>
+    
+                        <div class="tab-content box-servicos" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="nav-despesas" role="tabpanel" aria-labelledby="nav-despesas-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgao">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgao">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Elemento da Despesa</label>
+                                        
+                                        <select name="natureza" class="form-control" id="selectNatureza">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="buttons-receita">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <table class="table">
+
+                                    <thead>
+    
+                                        <tr>
+                                            
+                                            <th scope="col">Elemento da Despesa</th>
+                                            <th scope="col">Conta Despesa</th>
+                                            <th scope="col">Descrição</th>
+                                            <th scope="col">Orçado (R$)</th>
+                                            <th scope="col">Orçado Atualizado (R$)</th>
+                                            <th scope="col">Empenho (R$)</th>
+                                            <th scope="col">Liguidado (%)</th>
+                                            <th scope="col">Pago (%)</th>
+                                            <th scope="col">Visualizar</th>
+                                            
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-credores" role="tabpanel" aria-labelledby="nav-credores-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgao">Nome do Credor</label>
+                                        <input type="text" class="form-control">
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">CPF / CNPJ</label>
+                                        <input type="text" class="form-control">
+
+                                    </div>
+
+                                    <div class="buttons-receita">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <table class="table">
+
+                                    <thead>
+    
+                                        <tr>
+                                            
+                                            <th scope="col">Nome / Razão Social</th>
+                                            <th scope="col">CPF / CPNJ</th>
+                                            <th scope="col">Empenho (R$)</th>
+                                            <th scope="col">Liquidado (R$)</th>
+                                            <th scope="col">Pago (R$)</th>
+
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
+                            </div>
+                            
+                            <div class="tab-pane fade" id="nav-programas" role="tabpanel" aria-labelledby="nav-programas-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgao">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgao">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="buttons-receita">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <table class="table">
+
+                                    <thead>
+    
+                                        <tr>
+                                            
+                                            <th scope="col">Programa</th>
+                                            <th scope="col">Órgão</th>
+                                            <th scope="col">Empenho (R$)</th>
+                                            <th scope="col">Liquidado (R$)</th>
+                                            <th scope="col">Pago (R$)</th>
+                                            
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-diarias" role="tabpanel" aria-labelledby="nav-diarias-tab">
+
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgao">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgao">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="buttons-receita">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <table class="table">
+
+                                    <thead>
+    
+                                        <tr>
+                                            
+                                            <th scope="col">Órgão</th>
+                                            <th scope="col">Conta Despesa</th>
+                                            <th scope="col">Orçado (R$)</th>
+                                            <th scope="col">Orçado Atualizado (R$)</th>
+                                            <th scope="col">Empenho (R$)</th>
+                                            <th scope="col">Liquidado (R$)</th>
+                                            <th scope="col">Pago (%)</th>
+                                            
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-itens" role="tabpanel" aria-labelledby="nav-receita-tab">
+
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgao">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgao">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Almoxarifado</label>
+                                        <input type="text" class="form-control">
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Material</label>
+                                        <input type="text" class="form-control">
+
+                                    </div>
+
+                                    <div class="buttons-receita">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <table class="table">
+
+                                    <thead>
+    
+                                        <tr>
+                                            
+                                            <th scope="col">Material</th>
+                                            <th scope="col">Quantidade</th>
+                                            <th scope="col">Data</th>
+                                            <th scope="col">Unitário (R$)</th>
+                                            <th scope="col">Total (R$)</th>
+                                            <th scope="col">Tipo</th>
+                                            <th scope="col">Empenho</th>
+                                            <th scope="col">Nota</th>
+                                            <th scope="col">Fornecedor</th>
+                                            <th scope="col">Processo</th>
+                                            
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-excedentes" role="tabpanel" aria-labelledby="nav-receita-tab">
+
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgao">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgao">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="buttons-receita">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                    <button type="button" class="btn btn-muted btn-block" data-toggle="collapse" data-target="#collapseResumo" aria-expanded="false" aria-controls="collapseResumo" title="Clique para expandir a tabela">Resumo por Órgão</button>
+
+
+                                    <div class="collapse table-responsive" id="collapseResumo">
+
+                                        <table class="table table-sm">
+
+                                            <thead>
+
+                                                <tr>
+
+                                                    <th scope="col">Órgão</th>
+                                                    <th scope="col">Valor Inscrito</th>
+                                                    <th scope="col">Liquidado (R$)</th>
+                                                    <th scope="col">Pago (R$)</th>
+                                                    <th scope="col">Saldo (R$)</th>
+
+                                                </tr>
+
+                                            </thead>
+
+                                            <tbody>
+
+                                                    <tr>
+            
+                                                        <td>...</td>
+                                                        <td>...</td>
+                                                        <td>...</td>
+                                                        <td>...</td>
+                                                        <td>...</td>
+            
+                                                    </tr>
+                
+                                                </tbody>
+
+                                        </table>
+
+                                    </div>
+
+                                    <!-- </div> -->
+
+                                </form>
+
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Órgão</th>
+                                                <th scope="col">Prev. Anual (R$)</th>
+                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
+                                                <th scope="col">Arrecadado (R$)</th>
+                                                <th scope="col">(%)</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-qdd" role="tabpanel" aria-labelledby="nav-receita-tab">
+
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label for="selectAno" class="label-servicos">Ano</label>
+                                        <select name="ano" class="form-control" id="selectAno">
+                                            <option value="2019">2019</option>
+                                            <option value="2019">2018</option>
+                                            <option value="2019">2017</option>
+                                            <option value="2019">2016</option>
+                                            <option value="2019">2015</option>
+                                            <option value="2019">2014</option>
+                                            <option value="2019">2013</option>
+                                            <option value="2019">2012</option>
+                                            <option value="2019">2003</option>
+                                        </select>
+        
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label>Até</label>
+                                        <input type="date" class="form-control">
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgao">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgao">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Elemento da Despesa</label>
+                                        
+                                        <select name="natureza" class="form-control" id="selectNatureza">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="buttons-receita">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <table class="table">
+
+                                    <thead>
+    
+                                        <tr>
+                                            
+                                            <th scope="col">Elemento da Despesa</th>
+                                            <th scope="col">Conta Despesa</th>
+                                            <th scope="col">Orçado (R$)</th>
+                                            <th scope="col">Orçado Atualizado (R$)</th>
+                                            <th scope="col">Empenho (R$)</th>
+                                            <th scope="col">Liquidado (R$)</th>
+                                            <th scope="col">Pago (R$)</th>
+                                            <th scope="col">Reservado (R$)</th>
+                                            <th scope="col">Contingenciado (R$)</th>
+                                            <th scope="col">Saldo Disponível (R$)</th>
+                                            
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-por-orgaos" role="tabpanel" aria-labelledby="nav-por-orgaos-tab">
+
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgao">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgao">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="buttons-receita">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <table class="table">
+
+                                    <thead>
+    
+                                        <tr>
+                                            
+                                            <th scope="col">Órgão</th>
+                                            <th scope="col">Orçado (R$)</th>
+                                            <th scope="col">Orçado Atualizado (R$)</th>
+                                            <th scope="col">Empenho (R$)</th>
+                                            <th scope="col">Liquidado (R$)</th>
+                                            <th scope="col">Pago (R$)</th>
+                                            
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
+                            </div>
+
+                        </div>
 
                     </div>
                     
-                    <div class="tab-pane fade" id="v-pills-servidores" role="tabpanel" aria-labelledby="v-pills-servidores-tab"><p>Teste4</p></div>
+                    <div class="tab-pane fade" id="v-pills-servidores" role="tabpanel" aria-labelledby="v-pills-servidores-tab">
+
+                        <p>A listagem e os vencimentos dos servidores do poder executivo municipal, podem ser consultados por órgão, ano, nome, cargo e vínculo, gerando resultados que incluem os valores e as cargas horárias de todos os servidores efetivos, comissionados, ativos e inativos.</p>
+                        
+                        <form>
+
+                            <div class="form-group">
+
+                                <label>Referência</label>
+
+                                <div class="form-row">
+                                    
+                                    <div class="col">
+                                        <input type="date" class="form-control">
+                                    </div>
+                                    
+                                    <div class="col">
+                                        <input type="date" class="form-control">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-row">
+                                    
+                                <div class="col">
+                                    <label for="nomeServidores">Nome</label>
+                                    <input type="text" class="form-control" id="nomeServidores">
+                                </div>
+                                
+                                <div class="col">
+                                    <label for="cpfServidores">CPF</label>
+                                    <input type="text" class="form-control" id="cpfServidores">
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="inputCargo">Cargo</label>
+                                <input type="text" class="form-control" id="inputCargo">
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="selectNatureza">Vínculo</label>
+                                
+                                <select name="natureza" class="form-control" id="selectNatureza">
+                                    <option value="todos" selected>TODOS</option>    
+                                    <option value="...">...</option>    
+                                </select>
+
+                            </div>
+
+                            <div class="buttons-receita">
+                                <button type="submit" class="btn btn-primary">Consultar</button>
+                                <button type="submit" class="btn btn-warning">Cancelar</button>
+                            </div>
+
+                        </form>
+
+                    </div>
     
-                    <div class="tab-pane fade" id="v-pills-bolsa" role="tabpanel" aria-labelledby="v-pills-bolsa-tab"><p>Teste4</p></div>
+                    <div class="tab-pane fade" id="v-pills-bolsa" role="tabpanel" aria-labelledby="v-pills-bolsa-tab">
+                        
+                        <p>Para saber em que dia sacar o benefício, a família deve observar qual é o último algarismo do Número de Identificação Social (NIS) impresso no cartão do Bolsa Família. Aquelas que têm cartões terminados em 1 recebem no primeiro dia do calendário de pagamento, os terminados em 2 no segundo dia e assim por diante. O calendário de pagamento do mês de março segue até 29 de março. Além do calendário anual de pagamento, o beneficiário da capital alagoana também pode obter mais informações sobre o calendário de pagamento pelo telefone (82) 3315-3686 ou na Central de Relacionamento do MDS (0800 707 2003).</p>
+
+                        <nav>
+                        
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                                <a class="nav-item nav-link active" id="nav-bolsa-familia-tab" data-toggle="tab" href="#nav-bolsa-familia" role="tab" aria-controls="nav-bolsa-familia" aria-selected="true">Bolsa Família</a>
+
+                                <a class="nav-item nav-link" id="nav-calendario-tab" data-toggle="tab" href="#nav-calendario" role="tab" aria-controls="nav-calendario" aria-selected="false">Calendário de Pagamentos</a>
+
+                            </div>
+
+                        </nav>
     
-                    <div class="tab-pane fade" id="v-pills-licitacoes" role="tabpanel" aria-labelledby="v-pills-licitacoes-tab"><p>Teste4</p></div>
+                        <div class="tab-content box-servicos" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="nav-bolsa-familia" role="tabpanel" aria-labelledby="nav-bolsa-familia-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+                                        <label>Titular</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+
+                                    <div class="form-row">
+
+                                        <div class="col">
+
+                                            <label for="selectExercicioBolsa">Exercicio</label>
+                                            <select name="exercicio" class="form-control" id="selectExercicioBolsa">
+                                                <option value="2019">2019</option>
+                                                <option value="2019">2018</option>
+                                                <option value="2019">2017</option>
+                                                <option value="2019">2016</option>
+                                                <option value="2019">2015</option>
+                                                <option value="2019">2014</option>
+                                                <option value="2019">2013</option>
+                                                <option value="2019">2012</option>
+                                                <option value="2019">2003</option>
+                                            </select>
+
+                                        </div>
+
+                                        <div class="col">
+                                            <label>CPF</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        
+                                        <div class="col">
+                                            <label>Número NIS</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="buttons-receita">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <table class="table">
+
+                                    <thead>
     
-                    <div class="tab-pane fade" id="v-pills-contratos" role="tabpanel" aria-labelledby="v-pills-contratos-tab"><p>Teste4</p></div>
+                                        <tr>
+                                            
+                                            <th scope="col">Titular</th>
+                                            <th scope="col">NIS</th>
+                                            <th scope="col">CPF</th>
+                                            <th scope="col">Título de Eleitor</th>
+                                            
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-calendario" role="tabpanel" aria-labelledby="nav-calendario-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+                                            
+                                            <div class="col">
+                                                <input type="date" class="form-control">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgao">Nome do Credor</label>
+                                        <input type="text" class="form-control">
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">CPF / CNPJ</label>
+                                        <input type="text" class="form-control">
+
+                                    </div>
+
+                                    <div class="buttons-receita">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <table class="table">
+
+                                    <thead>
+    
+                                        <tr>
+                                            
+                                            <th scope="col">Nome / Razão Social</th>
+                                            <th scope="col">CPF / CPNJ</th>
+                                            <th scope="col">Empenho (R$)</th>
+                                            <th scope="col">Liquidado (R$)</th>
+                                            <th scope="col">Pago (R$)</th>
+
+                                        </tr>
+    
+                                    </thead>
+    
+                                    <tbody>
+    
+                                        <tr>
+
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+                                            <td>...</td>
+
+                                        </tr>
+    
+                                    </tbody>
+                                    
+                                </table>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+    
+                    <div class="tab-pane fade" id="v-pills-licitacoes" role="tabpanel" aria-labelledby="v-pills-licitacoes-tab">
+
+                        <a class="btn btn-primary" href="http://www.licitacao.maceio.al.gov.br/" target="_blank">
+                            Clique aqui para ser redirecionado ao site licitacao.maceio.al.gov.br
+                        </a>
+
+                    </div>
+    
+                    <div class="tab-pane fade" id="v-pills-contratos" role="tabpanel" aria-labelledby="v-pills-contratos-tab">
+                        
+                        <form>
+
+                            <div class="form-group">
+
+                                <label>Número</label>
+
+                                <div class="form-row">
+                                    
+                                    <div class="col-9">
+                                        <input type="number" class="form-control" placeholder="Número do Contrato">
+                                    </div>
+                                    
+                                    <div class="col">
+                                        <input type="text" class="form-control" data-mask="0000" maxlength="4" placeholder="Ano">
+                                    </div>
+
+                                </div>
+                                
+                            </div>
+
+                            <div class="form-group">
+
+                                <label>Período</label>
+
+                                <div class="form-row">
+                                    
+                                    <div class="col">
+                                        <input type="date" class="form-control">
+                                    </div>
+                                    
+                                    <div class="col">
+                                        <input type="date" class="form-control">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="selectOrgao">Orgão</label>
+                                
+                                <select name="orgao" class="form-control" id="selectOrgao">
+                                    <option value="todos" selected>TODOS</option>    
+                                    <option value="...">...</option>    
+                                </select>
+
+                            </div>
+                            
+                        </form>
+
+                    </div>
     
                     <div class="tab-pane fade" id="v-pills-convenios" role="tabpanel" aria-labelledby="v-pills-convenios-tab"><p>Teste4</p></div>
     
