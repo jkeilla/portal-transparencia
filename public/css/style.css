@@ -324,7 +324,11 @@ iframe {
     margin-top: 55px;
 }
 
-.sitemap-width, .about-width {
+.about-width {
+    width: 75%;
+}
+
+.sitemap-width {
     width: 85%;
 }
 
@@ -342,6 +346,19 @@ iframe {
     border-radius: 10px;
     font-size: 14px;
     text-align: left;
+}
+
+.box-about {
+    padding: 30px 40px;
+    text-align: justify;
+}
+
+.about-text {
+    color: #3573ba;
+    font-weight: bold;
+    font-size: 16px !important;
+    line-height: 25px;
+    margin-bottom: 0;
 }
 
 section .col-md-3 {
@@ -418,19 +435,6 @@ section .col-md-3:first-child {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-}
-
-.box-about {
-    padding: 30px 40px;
-    text-align: justify;
-}
-
-.about-text {
-    color: #3573ba;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 0;
 }
 
 /* ---------- imagem background ----------- */
