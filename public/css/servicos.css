@@ -50,14 +50,16 @@
     margin-top: 5% !important;    
 }
 
-.buttons-receita {
+.btn-consulta-servicos {
     margin-top: 4%;
-}
-
-.buttons-receita {
-    margin-bottom: 3%;
 }
 
 #v-pills-licitacoes {
     margin: 25%;
+}
+
+.ate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
