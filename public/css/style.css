@@ -318,17 +318,21 @@ iframe {
     margin-bottom: 0;
 }
 
-/* -------- sitemap & about ------------ */
+/* -------- siteMap & about ------------ */
 
 .sitemap-top, .about-top, .talk-top {
     margin-top: 55px;
 }
 
-.sitemap-width, .about-width {
+.about-width {
+    width: 75%;
+}
+
+.sitemap-width {
     width: 85%;
 }
 
-.box-sitemap, .box-about {
+.box-sitemap, .box-about, .box-talk {
     /*background-color: rgba(255, 255, 255, 0.1);
     background-color: rgba(255, 255, 255, 0.53);*/
     background-color: rgba(255, 255, 255, 0.75);
@@ -344,6 +348,19 @@ iframe {
     text-align: left;
 }
 
+.box-about {
+    padding: 30px 40px;
+    text-align: justify;
+}
+
+.about-text {
+    color: #3573ba;
+    font-weight: bold;
+    font-size: 16px !important;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
 section .col-md-3 {
   border-left: 1px solid #ccc;
 }
@@ -351,9 +368,6 @@ section .col-md-3 {
 .fade {
     opacity: unset !important;
 }
-
-
-/* -------- Utils ------------ */
 
 .no-padding {
     padding: 0 !important;
@@ -420,19 +434,6 @@ section .col-md-3:first-child {
     }
 }
 
-.box-about {
-    padding: 30px 40px;
-    text-align: justify;
-}
-
-.about-text {
-    color: #3573ba;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 0;
-}
-
 /* ---------- imagem background ----------- */
 
 #backg-section {
@@ -470,6 +471,38 @@ section .col-md-3:first-child {
     background-size: cover;
     -o-background-size: cover;
 }
+
+/* ---------- Fale conosco ----------- */
+
+.buttons-talk {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.btn-talk {
+    margin: 0 5px;
+    width: 100px;
+}
+
+.text-talk {
+    font-size: 16px !important;
+}
+
+/* ---------- form edited ----------- */
+
+.form-group {
+    margin-bottom: 5px !important;
+}
+
+label {
+    margin-bottom: 0 !important;
+}
+
+.btn-primary {
+    background-color: #3573ba !important;
+    border-color: #3573ba !important;
+}
+
 
 
 
