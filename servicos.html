@@ -1720,9 +1720,286 @@
 
                         </div>
 
+                        <div class="btn-consulta-servicos">
+                            <button type="submit" class="btn btn-primary">Consultar</button>
+                            <button type="submit" class="btn btn-warning">Cancelar</button>
+                        </div>
+
+                        <div class="table-responsive">
+
+                            <table class="table">
+
+                                <thead>
+
+                                    <tr>
+                                        
+                                        <th scope="col">Número</th>
+                                        <th scope="col">Tipo de convênio</th>
+                                        <th scope="col">Data</th>
+                                        <th scope="col">Órgão</th>
+                                        <th scope="col">Data Vig. Final</th>
+                                        <th scope="col">Data Vig. Prorrogada</th>
+                                        <th scope="col">Objeto</th>
+                                        <th scope="col">Valor (%)</th>
+                                        
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                    </tr>
+
+                                </tbody>
+                                
+                            </table>
+                            
+                        </div>
+
                     </div>
     
-                    <div class="tab-pane fade" id="v-pills-demonstrativos" role="tabpanel" aria-labelledby="v-pills-demonstrativos-tab"><p>Teste4</p></div>
+                    <div class="tab-pane fade" id="v-pills-demonstrativos" role="tabpanel" aria-labelledby="v-pills-demonstrativos-tab">
+                        
+                        <p>Demonstrativos Contábeis relativos à Lei 4.320/64 (Balanço Orçamentário, Balanço Financeiro, Balanço Patrimonial, Demonstração das Variações Patrimoniais, Demonstração da Dívida fundada interna, Demonstração da Dívida Flutuante, Demonstração dos Fluxos de Caixa e Demonstração das Mutações do Patrimônio Líquido (DMPL) - e Lei de Responsabilidade Fiscal – LRF – (RREO e RGF) por exercício e tipo.</p>
+                        
+                        <nav>
+                        
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                                <a class="nav-item nav-link active" id="nav-demonstrativos-tab" data-toggle="tab" href="#nav-demonstrativos" role="tab" aria-controls="nav-demonstrativos" aria-selected="true">Demonstrativos</a>
+
+                                <a class="nav-item nav-link" id="nav-lrf-tab" data-toggle="tab" href="#nav-lrf" role="tab" aria-controls="nav-lrf" aria-selected="false">LRF</a>
+
+                            </div>
+
+                        </nav>
+
+                        <div class="tab-content box-servicos" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="nav-demonstrativos" role="tabpanel" aria-labelledby="nav-demonstrativos-tab">
+                                
+                                <form>
+
+                                    <div class="form-row">
+
+                                        <div class="form-group col">
+
+                                            <label for="selectExercicio" class="label-servicos">Exercício</label>
+                                            <select name="exercicio" class="form-control" id="selectExercicio">
+                                                <option value="2019">2019</option>
+                                                <option value="2019">2018</option>
+                                                <option value="2019">2017</option>
+                                                <option value="2019">2016</option>
+                                                <option value="2019">2015</option>
+                                                <option value="2019">2014</option>
+                                                <option value="2019">2013</option>
+                                                <option value="2019">2012</option>
+                                                <option value="2019">2003</option>
+                                            </select>
+
+                                        </div>
+
+                                        <div class="form-group col">
+    
+                                            <label for="selectExercicio" class="label-servicos">Mês</label>
+                                            <select name="exercicio" class="form-control" id="selectExercicio">
+                                                <option value="todos" selected>TODOS</option>    
+                                                <option value="jan">Janeiro</option>
+                                                <option value="fev">Fevereiro</option>
+                                                <option value="mar">Março</option>
+                                                <option value="abr">Abril</option>
+                                                <option value="mai">Maio</option>
+                                                <option value="jun">Junho</option>
+                                                <option value="jul">Julho</option>
+                                                <option value="ago">Agosto</option>
+                                                <option value="set">Setembro</option>
+                                                <option value="out">Outubro</option>
+                                                <option value="nov">Novembro</option>
+                                                <option value="dez">Dezembro</option>
+                                            </select>
+    
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgao">Tipo</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgao">
+                                            <option value="EO" selected>Lei 4.320 Execução Orçamentaria</option>    
+                                            <option value="DCASP">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Nome</label>
+                                        
+                                        <select name="natureza" class="form-control" id="selectNatureza">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="Anexo1">Anexo 1 - Despesa e Receita</option>    
+                                            <option value="Anexo10">Anexo 10 - Receita Orçada x Arrecadada</option>    
+                                            <option value="Anexo2A">Anexo 2A - Receita</option>    
+                                            <option value="Anexo2B">Anexo 2B - Despesa</option>    
+                                            <option value="Anexo6">Anexo 6 - Programa de Trabalho Despesa e Crédito Adic.</option>    
+                                            <option value="Anexo7">Anexo 7 - Programa de Trabalho</option>    
+                                            <option value="Anexo8">Anexo 8 - Despesa Conforme Vínculo</option>    
+                                            <option value="Anexo9">Anexo 9 - Despesa por Órgão e Função</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Nível</th>
+                                                <th scope="col">Natureza da Receita</th>
+                                                <th scope="col">Descrição</th>
+                                                <th scope="col">Prev. Anual (R$)</th>
+                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
+                                                <th scope="col">Arrecadado (R$)</th>
+                                                <th scope="col">(%)</th>
+                                                <th scope="col">Visualizar</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-lrf" role="tabpanel" aria-labelledby="nav-lrf-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label for="selectExercicio" class="label-servicos">Exercício</label>
+                                        <select name="exercicio" class="form-control" id="selectExercicio">
+                                            <option value="2019">2019</option>
+                                            <option value="2019">2018</option>
+                                            <option value="2019">2017</option>
+                                            <option value="2019">2016</option>
+                                            <option value="2019">2015</option>
+                                            <option value="2019">2014</option>
+                                            <option value="2019">2013</option>
+                                            <option value="2019">2012</option>
+                                            <option value="2019">2003</option>
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgao">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgao">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Natureza da Receita</label>
+                                        
+                                        <select name="natureza" class="form-control" id="selectNatureza">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Natureza da Receita</th>
+                                                <th scope="col">Descrição</th>
+                                                <th scope="col">Prev. Anual (R$)</th>
+                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
+                                                <th scope="col">Arrecadado (R$)</th>
+    
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
     
                     <div class="tab-pane fade" id="v-pills-legislacao" role="tabpanel" aria-labelledby="v-pills-legislacao-tab"><p>Teste4</p></div>
     
