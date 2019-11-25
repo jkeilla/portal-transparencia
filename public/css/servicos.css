@@ -27,8 +27,8 @@
 
 .menu-lateral button:hover {
     font-weight: bold;
-    transform: translateY(-1px);
-    filter: drop-shadow(0px 2px 3px #757575);
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 4px #165eb1;
 }
 
 .menu-lateral button:focus {
