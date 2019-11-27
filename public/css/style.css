@@ -42,7 +42,7 @@ header .jumbotron {
 }
 
 .logo-maceio {
-    width: 160px;
+    width: 171px;
 }
 
 .titulo-site {
@@ -72,11 +72,15 @@ header .jumbotron {
 }
 
 .box-content {
-    width: 80%;
-    padding: 20px 0 20px 0;
+    width: 90%;
+    padding: 2% 0;
     margin-left: auto;
     margin-right: auto;
     color: #000000;
+}
+
+h3 {
+    margin-bottom: 2% !important;
 }
 
 .conteudo-geral {
@@ -171,14 +175,6 @@ header .jumbotron {
 
 .titulo-sites, .titulo-about, .titulo-talk {
     /*color: #3673ba;*/
-    color: #000000;
-}
-
-.sites-box-content {
-    width: 90%;
-    padding: 20px 0 20px 0;
-    margin-left: auto;
-    margin-right: auto;
     color: #000000;
 }
 
@@ -455,7 +451,7 @@ section .col-md-3:first-child {
 }
 
 #about-section {
-    background: url(../img/04_PontaVerde.jpg) no-repeat center top;
+    background: url(../img/PontaVerde.png) no-repeat center top;
     background-color: #7bc3d1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
