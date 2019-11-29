@@ -42,7 +42,7 @@ header .jumbotron {
 }
 
 .logo-maceio {
-    width: 171px;
+    width: 180px;
 }
 
 .titulo-site {
@@ -112,6 +112,10 @@ h3 {
     align-items: center;
     border: 0px;
     border-bottom: 3px solid #3673ba;
+}
+
+.servico-box-icone svg {
+    font-size: 45px;
 }
 
 .servico-box-texto {
@@ -236,7 +240,6 @@ h3 {
 }
 
 .contato li a img {
-    /*width: 35px;*/
     width: 45px;
 }
 
