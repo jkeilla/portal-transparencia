@@ -116,6 +116,11 @@ h3 {
 
 .servico-box-icone svg {
     font-size: 45px;
+    color: #3673ba;
+}
+
+.servico-box-icone i {
+    color: #3673ba;
 }
 
 .servico-box-texto {
