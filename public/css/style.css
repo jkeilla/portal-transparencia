@@ -60,7 +60,7 @@ header .jumbotron {
 
 .section-blue {
     background-color: #3573ba;
-    height: 300px;
+    height: auto;
     text-align: center;
     color: white;
 }
@@ -92,12 +92,12 @@ h3 {
 
 .servico-box {
     background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 7px #000000d4;
+    box-shadow: 0 0 5px #8e8e8e;
     color: #3673ba;
     padding: 10px;
-    margin: 10px 12px 6px 0;
-    width: 160px;
-    height: 135px;
+    margin: 12px 7px;
+    width: 165px;
+    height: 140px;
     max-height: 150px;
     display: inline-block;
     vertical-align: top;
@@ -114,8 +114,8 @@ h3 {
     border-bottom: 3px solid #3673ba;
 }
 
-.servico-box-icone svg {
-    font-size: 45px;
+.servico-box-icone i {
+    font-size: 50px;
 }
 
 .servico-box-texto {
@@ -503,5 +503,4 @@ label {
 }
 
 
-
-
+/* ----------------------------- */

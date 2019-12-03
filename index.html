@@ -15,8 +15,13 @@
     <link rel="stylesheet" href="public/css/reset.css">
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
     
-    <!-- <script defer src="https://use.fontawesome.com/releases/v4.0.1/js/all.js"></script> -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v4.7.0/js/all.js"></script> -->
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script> -->
+    <link href="fontawesome-free-5.11.2-web/css/fontawesome.css" rel="stylesheet">
+    <!-- <link href="fontawesome-free-5.11.2-web/css/brands.css" rel="stylesheet"> -->
+    <link href="fontawesome-free-5.11.2-web/css/solid.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
 
 </head>
 
@@ -62,7 +67,7 @@
                 
                 <span class="input-group-append">
                     <button class="btn border-left-0 border" type="button">
-                        <i class="fa fa-search"></i>
+                        <i class="fas fa-search"></i>
                     </button>
 
                 </span>
@@ -82,8 +87,7 @@
                 <a href="servicos.html" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <!-- <img src="public/img/arq.png"> -->
-                        <i class="fa fa-calculator"></i>
+                        <i class="fas fa-calculator"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -103,8 +107,7 @@
                 <a href="servicos.html" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <!-- <img src="public/img/arq.png"> -->
-                        <i class="far fa-money-bill-alt"></i>
+                        <i class="fas fa-money-bill-alt"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -124,8 +127,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
-                        <!-- <i class="fas fa-coins"></i> -->
+                        <i class="fas fa-coins"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -145,8 +147,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
-                        <!-- <i class="fas fa-user-tie"></i> -->
+                        <i class="fas fa-user-tie"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -166,7 +167,6 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <!-- <img src="public/img/arq.png"> -->
                         <i class="fas fa-users"></i>
                     </div>
 
@@ -187,7 +187,6 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <!-- <img src="public/img/arq.png"> -->
                         <i class="fas fa-gavel"></i>
                     </div>
 
@@ -208,8 +207,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
-                        <!-- <i class="fas fa-file-contract"></i> -->
+                        <i class="fas fa-file-contract"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -229,8 +227,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
-                        <!-- <i class="fas fa-file-contract"></i> -->
+                        <i class="fas fa-handshake"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -250,7 +247,6 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <!-- <img src="public/img/arq.png"> -->
                         <i class="fas fa-chart-line"></i>
                     </div>
 
@@ -271,7 +267,6 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <!-- <img src="public/img/arq.png"> -->
                         <i class="fas fa-balance-scale"></i>
                     </div>
 
@@ -292,8 +287,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
-                        <!-- <i class="fas fa-hammer"></i> -->
+                        <i class="fas fa-hammer"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -313,8 +307,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
-                        <!-- <i class="fas fa-spell-check"></i> -->
+                        <i class="fas fa-spell-check"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -334,7 +327,6 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <!-- <img src="public/img/arq.png"> -->
                         <i class="fas fa-question"></i>
                     </div>
 
@@ -358,6 +350,29 @@
 
         <div class="box-content">
 
+            <div class="row">
+
+                <div class="col-6">
+                    <canvas class="principais-tributos"></canvas>
+                </div>
+    
+                <div class="col-6">
+                    <canvas class="receitas-e-despesas"></canvas>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-6">
+                    <canvas class="transferencias-uniao"></canvas>
+                </div>
+    
+                <div class="col-6">
+                    <canvas class="transferencias-estado"></canvas>
+                </div>
+
+            </div>
 
         </div>
 
@@ -525,6 +540,7 @@
     <script src="public/js/bootstrap.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="public/js/rating.js"></script>
+    <script src="public/js/charts.js"></script>
     
 </body>
 
