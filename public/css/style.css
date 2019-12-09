@@ -504,4 +504,62 @@ label {
 }
 
 
-/* ----------------------------- */
+/* ------------ Tab Institucional ----------------- */
+
+.tabContent {
+  padding:20px;
+  width: 100%;
+}
+
+.panel-col-2 {
+    width: 48%;
+    float: left;
+}
+
+.panel-left {
+    margin-left: 10px;
+}
+
+.panel-right {
+    margin-right: 10px;
+}
+
+.title-tab {
+    background-color: #3573ba;
+    padding: 1px 1px 1px 4px;
+    border-radius: 3px;
+}
+
+.title-tab p {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 0;
+}
+
+.panel-title, .color-title {
+    color: #3573ba;
+}
+
+.panel-default>a>.panel-heading {
+     background-color: #fffff;
+    /*background-color: #f5f5f5;
+    border-color: #ddd;*/
+}
+
+.panel-body p {
+    margin-bottom: 0.5rem;
+}
+
+.panel-top {
+    margin-top: 20px;
+}
+
+.font-strong {
+    font-weight: bold;
+}
+
+
