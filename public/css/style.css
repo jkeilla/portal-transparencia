@@ -4,7 +4,6 @@
 
 body, html {
     font-family: 'Montserrat' !important;
-    font-weight: bold !important;
 }
 
 label, table, p, .tab-content {
@@ -561,5 +560,3 @@ label {
 .font-strong {
     font-weight: bold;
 }
-
-
