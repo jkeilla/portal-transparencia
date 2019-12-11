@@ -8,9 +8,10 @@
     display: flex;
     justify-content: center;
     max-width: 20% !important;    
+    height: fit-content;
 }
 
-.menu-lateral button {
+.menu-lateral a {
     background-color: white;
     border-radius: 10px !important;
     font-size: 1rem;
@@ -30,18 +31,14 @@
     color: #3573ba;
 }
 
-.menu-lateral button:hover {
-    font-weight: bold;
+.menu-lateral a:hover {
     transform: translateY(-2px);
-    box-shadow: 0px 6px 4px #165eb1;
+    box-shadow: 0 5px 4px #165eb1;
 }
 
-.menu-lateral button:focus {
-    outline: unset !important;
-    font-weight: bold;
-    -webkit-box-shadow: 0px 2px 3px #474747 inset;
-	   -moz-box-shadow: 0px 2px 3px #474747 inset; 
-            box-shadow: 0px 2px 3px #474747 inset;     
+.menu-lateral .nav-pills .nav-link.active, .nav-pills .show>.nav-link:focus {
+    background-color: #4ea1ff !important;
+    color: white;
 }
 
 .box-servicos {
