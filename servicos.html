@@ -1,0 +1,2493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="public/img/favicon.ico">
+    <title>Serviços Portal da Transparência de Maceió</title>
+
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/reset.css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    
+    <!-- <script defer src="https://use.fontawesome.com/releases/v4.0.1/js/all.js"></script> -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar justify-content-center fixed-top no-padding menu-superior">
+
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./institucional.html">Institucional</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://www.maceio.al.gov.br/" target="_blank">Site da Prefeitura</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./sitemap.html">Mapa do Site</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./fale_conosco.html">Fale Conosco</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid">
+            
+            <img src="public/img/logo.png" alt="Prefeitura de Maceió" class="logo-maceio filter-shadow">
+
+            <h1 class="titulo-site filter-shadow">Portal da Transparência Municipal</h1>
+
+            <div class="container input-group mb-3 width-input">
+
+                <input type="search" class="form-control py-2 btn-outline-secondaryborder-right-0 border filter-shadow" value="Qual serviço você deseja?">
+                
+                <span class="input-group-append">
+
+                    <button class="btn bg-white border-left-0 border" type="a">
+                        <i class="fa fa-search"></i>
+                    </button>
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="box-content">
+
+        <div class="row justify-content-center">
+    
+            <div class="col-3 menu-lateral">
+    
+                <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    
+                    <a class="nav-link" id="v-pills-planejamento-tab" data-toggle="pill" href="#v-pills-planejamento" role="tab" aria-controls="v-pills-planejamento" aria-selected="true">Planejamento Orçamentário</a>
+
+                    <a class="nav-link" id="v-pills-receita-tab" data-toggle="pill" href="#v-pills-receita" role="tab" aria-controls="v-pills-receita" aria-selected="false">Receita</a>
+
+                    <a class="nav-link" id="v-pills-despesas-tab" data-toggle="pill" href="#v-pills-despesas" role="tab" aria-controls="v-pills-despesas" aria-selected="false">Despesas</a>
+                    
+                    <a class="nav-link" id="v-pills-servidores-tab" data-toggle="pill" href="#v-pills-servidores" role="tab" aria-controls="v-pills-servidores" aria-selected="false">Servidores</a>
+
+                    <a class="nav-link" id="v-pills-bolsa-tab" data-toggle="pill" href="#v-pills-bolsa" role="tab" aria-controls="v-pills-bolsa" aria-selected="false">Bolsa Família</a>
+
+                    <a class="nav-link" id="v-pills-licitacoes-tab" data-toggle="pill" href="#v-pills-licitacoes" role="tab" aria-controls="v-pills-licitacoes" aria-selected="false">Licitações</a>
+
+                    <a class="nav-link" id="v-pills-contratos-tab" data-toggle="pill" href="#v-pills-contratos" role="tab" aria-controls="v-pills-contratos" aria-selected="false">Contratos</a>
+
+                    <a class="nav-link" id="v-pills-convenios-tab" data-toggle="pill" href="#v-pills-convenios" role="tab" aria-controls="v-pills-convenios" aria-selected="false">Convênios</a>
+
+                    <a class="nav-link" id="v-pills-demonstrativos-tab" data-toggle="pill" href="#v-pills-demonstrativos" role="tab" aria-controls="v-pills-demonstrativos" aria-selected="false">Demonstrativos Contábeis</a>
+
+                    <a class="nav-link" id="v-pills-legislacao-tab" data-toggle="pill" href="#v-pills-legislacao" role="tab" aria-controls="v-pills-legislacao" aria-selected="false">Consulta à Legistação</a>
+
+                    <a class="nav-link" id="v-pills-obras-tab" data-toggle="pill" href="#v-pills-obras" role="tab" aria-controls="v-pills-obras" aria-selected="false">Obras</a>
+                    
+                    <a class="nav-link" id="v-pills-glossario-tab" data-toggle="pill" href="#v-pills-glossario" role="tab" aria-controls="v-pills-glossario" aria-selected="false">Glossário</a>
+                    
+                    <a class="nav-link" id="v-pills-perguntas-tab" data-toggle="pill" href="#v-pills-perguntas" role="tab" aria-controls="v-pills-perguntas" aria-selected="false">Perguntas Frequentes</a>
+
+                </div>
+    
+            </div>
+    
+            <div class="col-8 box-servicos">
+    
+                <div class="tab-content" id="v-pills-tabContent">
+    
+                    <div class="tab-pane fade show active" id="v-pills-planejamento" role="tabpanel" aria-labelledby="v-pills-planejamento-tab">
+
+                        <!-- <p>Esta aba apresenta os subitens "PPA - Plano Plurianual", "LDO - Lei de Diretrizes Orçamentárias", "LOA - Lei Orçamentária Anual". A pesquisa pode ser refinada por Exercício. É possível efetuar download em formato PDF dos arquivos resultantes da busca.</p> -->
+                    
+                        <form>
+
+                            <div class="form-group">
+
+                                <label for="selectExercicioPlanejamento" class="label-servicos">Exercício</label>
+                                <select name="exercicio" class="form-control" id="selectExercicioPlanejamento">
+                                    <option value="2003">2003</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                </select>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputPlanejamento">Peça Planejamento</label>
+                                <input type="text" class="form-control" id="inputPlanejamento" placeholder="Peça planejamento">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputDescricao">Descrição</label>
+                                <input type="text" class="form-control" id="inputDescricao" placeholder="Peça planejamento">
+                            </div>
+
+                            <div class="btn-consulta-servicos">
+                                <button type="submit" class="btn btn-primary">Consultar</button>
+                                <button type="submit" class="btn btn-warning">Cancelar</button>
+                            </div>
+                            
+                        </form>
+
+                        <div class="table-responsive">
+
+                            <table class="table">
+
+                                <thead>
+
+                                    <tr>
+                                        
+                                        <th scope="col">Peça Planejamento</th>
+                                        <th scope="col">Descrição</th>
+                                        <th scope="col">Data</th>
+                                        
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                    </tr>
+
+                                </tbody>
+                                
+                            </table>
+
+                        </div>
+                    
+                    </div>
+
+                    <div class="tab-pane fade" id="v-pills-receita" role="tabpanel" aria-labelledby="v-pills-receita-tab">
+
+                        <p>Corresponde ao total de recursos arrecadados anualmente, classificada em Receitas Correntes (valor total da arrecadação das receitas tributárias, de contribuições, patrimonial, agropecuária, industrial, de serviços, as transferências correntes e outras receitas de fluxo) e em Receitas de Capital (valor da categoria econômica que compreende as operações de crédito, alienação de bens, amortização de empréstimos, transferências de capitais e outras). Aqui também é possível conhecer as receitas provenientes de transferências da União e do Estado.</p>
+                        
+                        <nav>
+                        
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                                <a class="nav-item nav-link active" id="nav-balancete-tab" data-toggle="tab" href="#nav-balancete" role="tab" aria-controls="nav-balancete" aria-selected="true">Balancete</a>
+
+                                <a class="nav-item nav-link" id="nav-uniao-tab" data-toggle="tab" href="#nav-uniao" role="tab" aria-controls="nav-uniao" aria-selected="false">Transferência da União</a>
+
+                                <a class="nav-item nav-link" id="nav-estado-tab" data-toggle="tab" href="#nav-estado" role="tab" aria-controls="nav-estado" aria-selected="false">Transferência do Estado</a>
+
+                                <a class="nav-item nav-link" id="nav-receita-tab" data-toggle="tab" href="#nav-receita" role="tab" aria-controls="nav-receita" aria-selected="false">Receita por Órgão</a>
+
+                            </div>
+
+                        </nav>
+
+                        <div class="tab-content box-servicos" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="nav-balancete" role="tabpanel" aria-labelledby="nav-balancete-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                    
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                            <label class="col-md-1 ate">até</label>
+                                            
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgaoReceitaBalancete">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgaoReceitaBalancete">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Natureza da Receita</label>
+                                        
+                                        <select name="natureza" class="form-control" id="selectNatureza">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Nível</th>
+                                                <th scope="col">Natureza da Receita</th>
+                                                <th scope="col">Descrição</th>
+                                                <th scope="col">Prev. Anual (R$)</th>
+                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
+                                                <th scope="col">Arrecadado (R$)</th>
+                                                <th scope="col">(%)</th>
+                                                <th scope="col">Visualizar</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-uniao" role="tabpanel" aria-labelledby="nav-uniao-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                    
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                            <label class="col-md-1 ate">até</label>
+                                            
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgaoReceitaUniao">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgaoReceitaUniao">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Natureza da Receita</label>
+                                        
+                                        <select name="natureza" class="form-control" id="selectNatureza">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Natureza da Receita</th>
+                                                <th scope="col">Descrição</th>
+                                                <th scope="col">Prev. Anual (R$)</th>
+                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
+                                                <th scope="col">Arrecadado (R$)</th>
+    
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="tab-pane fade" id="nav-estado" role="tabpanel" aria-labelledby="nav-estado-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                    
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                            <label class="col-md-1 ate">até</label>
+                                            
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgaoReceitaEstado">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgaoReceitaEstado">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Natureza da Receita</label>
+                                        
+                                        <select name="natureza" class="form-control" id="selectNatureza">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Natureza da Receita</th>
+                                                <th scope="col">Descrição</th>
+                                                <th scope="col">Prev. Anual (R$)</th>
+                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
+                                                <th scope="col">Arrecadado (R$)</th>
+    
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-receita" role="tabpanel" aria-labelledby="nav-receita-tab">
+
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                    
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                            <label class="col-md-1 ate">até</label>
+                                            
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgaoReceita">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgaoReceita">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Órgão</th>
+                                                <th scope="col">Prev. Anual (R$)</th>
+                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
+                                                <th scope="col">Arrecadado (R$)</th>
+                                                <th scope="col">(%)</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="tab-pane fade" id="v-pills-despesas" role="tabpanel" aria-labelledby="v-pills-despesas-tab">
+                        
+                        <p>Conjunto de dispêndios realizados pelas entes públicas para custear os serviços públicos (despesas correntes) prestados a sociedade ou para a realização de investimentos (despesas de capital). As pesquisas apresentam informações por Credores (por nome e CNPJ/CPF), Programas, Diárias, Itens de Consumo Resto a Pagar e Quadro de Detalhamento de Despesa (QDD).</p>
+                    
+                        <nav>
+                        
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                                <a class="nav-item nav-link active" id="nav-despesas-tab" data-toggle="tab" href="#nav-despesas" role="tab" aria-controls="nav-despesas" aria-selected="true">Despesas</a>
+
+                                <a class="nav-item nav-link" id="nav-credores-tab" data-toggle="tab" href="#nav-credores" role="tab" aria-controls="nav-credores" aria-selected="false">Credores</a>
+
+                                <a class="nav-item nav-link" id="nav-programas-tab" data-toggle="tab" href="#nav-programas" role="tab" aria-controls="nav-programas" aria-selected="false">Programas</a>
+
+                                <a class="nav-item nav-link" id="nav-diarias-tab" data-toggle="tab" href="#nav-diarias" role="tab" aria-controls="nav-diarias" aria-selected="false">Diárias</a>
+
+                                <a class="nav-item nav-link" id="nav-itens-tab" data-toggle="tab" href="#nav-itens" role="tab" aria-controls="nav-itens" aria-selected="false">Ítens de Consumo</a>
+
+                                <a class="nav-item nav-link" id="nav-excedentes-tab" data-toggle="tab" href="#nav-excedentes" role="tab" aria-controls="nav-excedentes" aria-selected="false">Excedentes a Pagar</a>
+
+                                <a class="nav-item nav-link" id="nav-qdd-tab" data-toggle="tab" href="#nav-qdd" role="tab" aria-controls="nav-qdd" aria-selected="false">QDD</a>
+
+                                <a class="nav-item nav-link" id="nav-por-orgaos-tab" data-toggle="tab" href="#nav-por-orgaos" role="tab" aria-controls="nav-por-orgaos" aria-selected="false">Despesas por Órgão</a>
+
+                            </div>
+
+                        </nav>
+    
+                        <div class="tab-content box-servicos" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="nav-despesas" role="tabpanel" aria-labelledby="nav-despesas-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                    
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                            <label class="col-md-1 ate">até</label>
+                                            
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgaoDespesas">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgaoDespesas">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Elemento da Despesa</label>
+                                        
+                                        <select name="natureza" class="form-control" id="selectNatureza">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Elemento da Despesa</th>
+                                                <th scope="col">Conta Despesa</th>
+                                                <th scope="col">Descrição</th>
+                                                <th scope="col">Orçado (R$)</th>
+                                                <th scope="col">Orçado Atualizado (R$)</th>
+                                                <th scope="col">Empenho (R$)</th>
+                                                <th scope="col">Liguidado (%)</th>
+                                                <th scope="col">Pago (%)</th>
+                                                <th scope="col">Visualizar</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-credores" role="tabpanel" aria-labelledby="nav-credores-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                    
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                            <label class="col-md-1 ate">até</label>
+                                            
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label>Nome do Credor</label>
+                                        <input type="text" class="form-control">
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label>CPF / CNPJ</label>
+                                        <input type="text" class="form-control">
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Nome / Razão Social</th>
+                                                <th scope="col">CPF / CPNJ</th>
+                                                <th scope="col">Empenho (R$)</th>
+                                                <th scope="col">Liquidado (R$)</th>
+                                                <th scope="col">Pago (R$)</th>
+    
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="tab-pane fade" id="nav-programas" role="tabpanel" aria-labelledby="nav-programas-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                    
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                            <label class="col-md-1 ate">até</label>
+                                            
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgaoDespesasProgramas">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgaoDespesasProgramas">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Programa</th>
+                                                <th scope="col">Órgão</th>
+                                                <th scope="col">Empenho (R$)</th>
+                                                <th scope="col">Liquidado (R$)</th>
+                                                <th scope="col">Pago (R$)</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-diarias" role="tabpanel" aria-labelledby="nav-diarias-tab">
+
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                    
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                            <label class="col-md-1 ate">até</label>
+                                            
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgaoDespesasDiárias">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgaoDespesasDiárias">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Órgão</th>
+                                                <th scope="col">Conta Despesa</th>
+                                                <th scope="col">Orçado (R$)</th>
+                                                <th scope="col">Orçado Atualizado (R$)</th>
+                                                <th scope="col">Empenho (R$)</th>
+                                                <th scope="col">Liquidado (R$)</th>
+                                                <th scope="col">Pago (%)</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-itens" role="tabpanel" aria-labelledby="nav-itens-tab">
+
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                    
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                            <label class="col-md-1 ate">até</label>
+                                            
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgaoDespesasItens">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgaoDespesasItens">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Almoxarifado</label>
+                                        <input type="text" class="form-control">
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Material</label>
+                                        <input type="text" class="form-control">
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Material</th>
+                                                <th scope="col">Quantidade</th>
+                                                <th scope="col">Data</th>
+                                                <th scope="col">Unitário (R$)</th>
+                                                <th scope="col">Total (R$)</th>
+                                                <th scope="col">Tipo</th>
+                                                <th scope="col">Empenho</th>
+                                                <th scope="col">Nota</th>
+                                                <th scope="col">Fornecedor</th>
+                                                <th scope="col">Processo</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-excedentes" role="tabpanel" aria-labelledby="nav-excedentes-tab">
+
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                    
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                            <label class="col-md-1 ate">até</label>
+                                            
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgaoDespesasExcedentes">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgaoDespesasExcedentes">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                    <a type="a" class="btn btn-muted btn-block" data-toggle="collapse" data-target="#collapseResumo" aria-expanded="false" aria-controls="collapseResumo">Resumo por Órgão (Clique para expandir a tabela)</a>
+
+
+                                    <div class="collapse table-responsive" id="collapseResumo">
+
+                                        <table class="table table-sm">
+
+                                            <thead>
+
+                                                <tr>
+
+                                                    <th scope="col">Órgão</th>
+                                                    <th scope="col">Valor Inscrito</th>
+                                                    <th scope="col">Liquidado (R$)</th>
+                                                    <th scope="col">Pago (R$)</th>
+                                                    <th scope="col">Saldo (R$)</th>
+
+                                                </tr>
+
+                                            </thead>
+
+                                            <tbody>
+
+                                                    <tr>
+            
+                                                        <td>...</td>
+                                                        <td>...</td>
+                                                        <td>...</td>
+                                                        <td>...</td>
+                                                        <td>...</td>
+            
+                                                    </tr>
+                
+                                                </tbody>
+
+                                        </table>
+
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Órgão</th>
+                                                <th scope="col">Prev. Anual (R$)</th>
+                                                <th scope="col">Prev. Anual Atualizada (R$)</th>
+                                                <th scope="col">Arrecadado (R$)</th>
+                                                <th scope="col">(%)</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-qdd" role="tabpanel" aria-labelledby="nav-qdd-tab">
+
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label for="selectAno" class="label-servicos">Ano</label>
+                                        <select name="ano" class="form-control" id="selectAno">
+                                            <option value="2019">2019</option>
+                                            <option value="2019">2018</option>
+                                            <option value="2019">2017</option>
+                                            <option value="2019">2016</option>
+                                            <option value="2019">2015</option>
+                                            <option value="2019">2014</option>
+                                            <option value="2019">2013</option>
+                                            <option value="2019">2012</option>
+                                            <option value="2019">2003</option>
+                                        </select>
+        
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label>Até</label>
+                                        <input type="date" class="form-control">
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgaoDespesasQDD">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgaoDespesasQDD">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Elemento da Despesa</label>
+                                        
+                                        <select name="natureza" class="form-control" id="selectNatureza">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Elemento da Despesa</th>
+                                                <th scope="col">Conta Despesa</th>
+                                                <th scope="col">Orçado (R$)</th>
+                                                <th scope="col">Orçado Atualizado (R$)</th>
+                                                <th scope="col">Empenho (R$)</th>
+                                                <th scope="col">Liquidado (R$)</th>
+                                                <th scope="col">Pago (R$)</th>
+                                                <th scope="col">Reservado (R$)</th>
+                                                <th scope="col">Contingenciado (R$)</th>
+                                                <th scope="col">Saldo Disponível (R$)</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-por-orgaos" role="tabpanel" aria-labelledby="nav-por-orgaos-tab">
+
+                                <form>
+
+                                    <div class="form-group">
+
+                                        <label>Período</label>
+
+                                        <div class="form-row">
+                                    
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                            <label class="col-md-1 ate">até</label>
+                                            
+                                            <div class="col-md-5">
+                                                <input type="date" class="form-control">
+                                            </div>
+        
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectOrgaoDespesasOrgaos">Orgão</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectOrgaoDespesasOrgaos">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="...">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Órgão</th>
+                                                <th scope="col">Orçado (R$)</th>
+                                                <th scope="col">Orçado Atualizado (R$)</th>
+                                                <th scope="col">Empenho (R$)</th>
+                                                <th scope="col">Liquidado (R$)</th>
+                                                <th scope="col">Pago (R$)</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="tab-pane fade" id="v-pills-servidores" role="tabpanel" aria-labelledby="v-pills-servidores-tab">
+
+                        <p>A listagem e os vencimentos dos servidores do poder executivo municipal, podem ser consultados por órgão, ano, nome, cargo e vínculo, gerando resultados que incluem os valores e as cargas horárias de todos os servidores efetivos, comissionados, ativos e inativos.</p>
+                        
+                        <form>
+
+                            <div class="form-group">
+
+                                <label>Referência</label>
+
+                                <div class="form-row">
+                                    
+                                    <div class="col">
+                                        <input type="date" class="form-control">
+                                    </div>
+                                    
+                                    <div class="col">
+                                        <input type="date" class="form-control">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-row">
+                                    
+                                <div class="col">
+                                    <label for="nomeServidores">Nome</label>
+                                    <input type="text" class="form-control" id="nomeServidores">
+                                </div>
+                                
+                                <div class="col">
+                                    <label for="cpfServidores">CPF</label>
+                                    <input type="text" class="form-control" id="cpfServidores">
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="inputCargo">Cargo</label>
+                                <input type="text" class="form-control" id="inputCargo">
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="selectNatureza">Vínculo</label>
+                                
+                                <select name="natureza" class="form-control" id="selectNatureza">
+                                    <option value="todos" selected>TODOS</option>    
+                                    <option value="...">...</option>    
+                                </select>
+
+                            </div>
+
+                            <div class="btn-consulta-servicos">
+                                <button type="submit" class="btn btn-primary">Consultar</button>
+                                <button type="submit" class="btn btn-warning">Cancelar</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+    
+                    <div class="tab-pane fade" id="v-pills-bolsa" role="tabpanel" aria-labelledby="v-pills-bolsa-tab">
+                        
+                        <p>Para saber em que dia sacar o benefício, a família deve observar qual é o último algarismo do Número de Identificação Social (NIS) impresso no cartão do Bolsa Família. Aquelas que têm cartões terminados em 1 recebem no primeiro dia do calendário de pagamento, os terminados em 2 no segundo dia e assim por diante. O calendário de pagamento do mês de março segue até 29 de março. Além do calendário anual de pagamento, o beneficiário da capital alagoana também pode obter mais informações sobre o calendário de pagamento pelo telefone (82) 3315-3686 ou na Central de Relacionamento do MDS (0800 707 2003).</p>
+
+                        <nav>
+                        
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                                <a class="nav-item nav-link active" id="nav-bolsa-familia-tab" data-toggle="tab" href="#nav-bolsa-familia" role="tab" aria-controls="nav-bolsa-familia" aria-selected="true">Bolsa Família</a>
+
+                                <a class="nav-item nav-link" id="nav-calendario-tab" data-toggle="tab" href="#nav-calendario" role="tab" aria-controls="nav-calendario" aria-selected="false">Calendário de Pagamentos</a>
+
+                            </div>
+
+                        </nav>
+    
+                        <div class="tab-content box-servicos" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="nav-bolsa-familia" role="tabpanel" aria-labelledby="nav-bolsa-familia-tab">
+                                
+                                <form>
+
+                                    <div class="form-group">
+                                        <label>Titular</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+
+                                    <div class="form-row">
+
+                                        <div class="col">
+
+                                            <label for="selectExercicioBolsa">Exercicio</label>
+                                            <select name="exercicio" class="form-control" id="selectExercicioBolsa">
+                                                <option value="2003">2003</option>
+                                                <option value="2012">2012</option>
+                                                <option value="2013">2013</option>
+                                                <option value="2014">2014</option>
+                                                <option value="2015">2015</option>
+                                                <option value="2016">2016</option>
+                                                <option value="2017">2017</option>
+                                                <option value="2018">2018</option>
+                                                <option value="2019">2019</option>
+                                            </select>
+
+                                        </div>
+
+                                        <div class="col">
+                                            <label>CPF</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        
+                                        <div class="col">
+                                            <label>Número NIS</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Titular</th>
+                                                <th scope="col">NIS</th>
+                                                <th scope="col">CPF</th>
+                                                <th scope="col">Título de Eleitor</th>
+                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+    
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+    
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-calendario" role="tabpanel" aria-labelledby="nav-calendario-tab">
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+
+                                        <thead>
+
+                                            <tr>
+
+                                                <th scope="col">Final</th>
+                                                <th scope="col">Janeiro</th>
+                                                <th scope="col">Fevereiro</th>
+                                                <th scope="col">Março</th>
+                                                <th scope="col">Abril</th>
+                                                <th scope="col">Maio</th>
+                                                <th scope="col">Junho</th>
+                                                <th scope="col">Julho</th>
+                                                <th scope="col">Agosto</th>
+                                                <th scope="col">Setembro</th>
+                                                <th scope="col">Outubro</th>
+                                                <th scope="col">Novembro</th>
+                                                <th scope="col">Dezembro</th>
+
+                                            </tr>
+
+                                        </thead>
+
+                                        <tbody>
+
+                                            <tr>
+
+                                                <th scope="row">01</th>
+                                                <td>...</td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <th scope="row">02</th>
+                                                <td>...</td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <th scope="row">03</th>
+                                                <td>...</td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <th scope="row">04</th>
+                                                <td>...</td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <th scope="row">05</th>
+                                                <td>...</td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <th scope="row">06</th>
+                                                <td>...</td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <th scope="row">07</th>
+                                                <td>...</td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <th scope="row">08</th>
+                                                <td>...</td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <th scope="row">09</th>
+                                                <td>...</td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <th scope="row">00</th>
+                                                <td>...</td>
+
+                                            </tr>
+
+
+                                           
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+    
+                    <div class="tab-pane fade" id="v-pills-licitacoes" role="tabpanel" aria-labelledby="v-pills-licitacoes-tab">
+
+                        <a class="btn btn-primary licitacao" href="http://www.licitacao.maceio.al.gov.br/" target="_blank">
+                            Clique aqui para ser redirecionado ao site licitacao.maceio.al.gov.br
+                        </a>
+
+                    </div>
+    
+                    <div class="tab-pane fade" id="v-pills-contratos" role="tabpanel" aria-labelledby="v-pills-contratos-tab">
+
+                        <p>Consulta de contratos celebrados entre os órgãos da administração direta e indireta do poder executivo municipal e a listagem de fornecedores da administração municipal.</p>
+                        
+                        <form>
+
+                            <div class="form-group">
+
+                                <label>Nome do Credor</label>
+                                <input type="text" class="form-control">
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="selectOrgaoContratos">Orgão</label>
+                                
+                                <select name="orgao" class="form-control" id="selectOrgaoContratos">
+                                    <option value="todos" selected>TODOS</option>    
+                                    <option value="...">...</option>    
+                                </select>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label>Número do Contrato</label>
+                                
+                                <div class="form-row">
+
+                                    <div class="form-group col-md-9">
+                                        <input type="number" class="form-control" placeholder="Número">
+                                    </div>
+                                    
+                                    <div class="form-group col-md-3">
+                                        <input type="text" class="form-control" data-mask="0000" maxlength="4" placeholder="Ano">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label>Período</label>
+
+                                <div class="form-row">
+                                    
+                                    <div class="col-md-5">
+                                        <input type="date" class="form-control">
+                                    </div>
+
+                                    <label class="col-md-1 ate">até</label>
+                                    
+                                    <div class="col-md-5">
+                                        <input type="date" class="form-control">
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label>Valor</label>
+                                <select name="valor" class="form-control" id="selectValor">
+                                    <option value="todos">TODOS</option>
+                                    <option value="100000">Até 100 mil</option>
+                                    <option value="500000">Até 500 mil</option>
+                                    <option value="1.000.000">Até 1 milhão</option>
+                                    <option value="1.500.000">Até 1 milhão e meio</option>
+                                    <option value="2.000.000">Acima de 2 milhões</option>
+                                </select>
+
+                            </div>
+
+                            <div class="btn-consulta-servicos">
+                                <button type="submit" class="btn btn-primary">Consultar</button>
+                                <button type="submit" class="btn btn-warning">Cancelar</button>
+                            </div>
+                            
+                        </form>
+
+                        <div class="table-responsive">
+
+                            <table class="table">
+
+                                <thead>
+
+                                    <tr>
+                                        
+                                        <th scope="col">Número do Contrato</th>
+                                        <th scope="col">Ano</th>
+                                        <th scope="col">Assinatura</th>
+                                        <th scope="col">Início</th>
+                                        <th scope="col">Final</th>
+                                        <th scope="col">Órgão</th>
+                                        <th scope="col">Credor</th>
+                                        <th scope="col">Valor</th>
+                                        
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+
+                                    </tr>
+
+                                </tbody>
+                                
+                            </table>
+
+                        </div>
+
+                    </div>
+    
+                    <div class="tab-pane fade" id="v-pills-convenios" role="tabpanel" aria-labelledby="v-pills-convenios-tab">
+                        
+                        <p>Objetos de recursos públicos transferidos pela União ao Município de Maceió e do Município de Maceió para instituições privadas sem fins lucrativos. A atualização dos dados é mensal.</p>
+
+                        <div class="form-group">
+
+                            <label>Número do Convênio</label>
+                            
+                            <div class="form-row">
+
+                                <div class="form-group col-md-9">
+                                    <input type="number" class="form-control" placeholder="Número">
+                                </div>
+                                
+                                <div class="form-group col-md-3">
+                                    <input type="text" class="form-control" data-mask="0000" maxlength="4" placeholder="Ano">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label>Período</label>
+
+                            <div class="form-row">
+                                
+                                <div class="col-md-5">
+                                    <input type="date" class="form-control">
+                                </div>
+
+                                <label class="col-md-1 ate">até</label>
+                                
+                                <div class="col-md-5">
+                                    <input type="date" class="form-control">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="selectOrgaoConvenios">Orgão</label>
+                            
+                            <select name="orgao" class="form-control" id="selectOrgaoConvenios">
+                                <option value="todos" selected>TODOS</option>    
+                                <option value="...">...</option>    
+                            </select>
+
+                        </div>
+
+                        <div class="btn-consulta-servicos">
+                            <button type="submit" class="btn btn-primary">Consultar</button>
+                            <button type="submit" class="btn btn-warning">Cancelar</button>
+                        </div>
+
+                        <div class="table-responsive">
+
+                            <table class="table">
+
+                                <thead>
+
+                                    <tr>
+                                        
+                                        <th scope="col">Número</th>
+                                        <th scope="col">Tipo de convênio</th>
+                                        <th scope="col">Data</th>
+                                        <th scope="col">Órgão</th>
+                                        <th scope="col">Data Vig. Final</th>
+                                        <th scope="col">Data Vig. Prorrogada</th>
+                                        <th scope="col">Objeto</th>
+                                        <th scope="col">Valor (%)</th>
+                                        
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                    </tr>
+
+                                </tbody>
+                                
+                            </table>
+                            
+                        </div>
+
+                    </div>
+    
+                    <div class="tab-pane fade" id="v-pills-demonstrativos" role="tabpanel" aria-labelledby="v-pills-demonstrativos-tab">
+                        
+                        <p>Demonstrativos Contábeis relativos à Lei 4.320/64 (Balanço Orçamentário, Balanço Financeiro, Balanço Patrimonial, Demonstração das Variações Patrimoniais, Demonstração da Dívida fundada interna, Demonstração da Dívida Flutuante, Demonstração dos Fluxos de Caixa e Demonstração das Mutações do Patrimônio Líquido (DMPL) - e Lei de Responsabilidade Fiscal – LRF – (RREO e RGF) por exercício e tipo.</p>
+                        
+                        <nav>
+                        
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                                <a class="nav-item nav-link active" id="nav-demonstrativos-tab" data-toggle="tab" href="#nav-demonstrativos" role="tab" aria-controls="nav-demonstrativos" aria-selected="true">Demonstrativos</a>
+
+                                <a class="nav-item nav-link" id="nav-lrf-tab" data-toggle="tab" href="#nav-lrf" role="tab" aria-controls="nav-lrf" aria-selected="false">LRF</a>
+
+                            </div>
+
+                        </nav>
+
+                        <div class="tab-content box-servicos" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="nav-demonstrativos" role="tabpanel" aria-labelledby="nav-demonstrativos-tab">
+                                
+                                <form>
+
+                                    <div class="form-row">
+
+                                        <div class="form-group col">
+
+                                            <label for="selectExercicioDemonstrativos" class="label-servicos">Exercício</label>
+                                            <select name="exercicio" class="form-control" id="selectExercicioDemonstrativos">
+                                                <option value="2003">2003</option>
+                                                <option value="2012">2012</option>
+                                                <option value="2013">2013</option>
+                                                <option value="2014">2014</option>
+                                                <option value="2015">2015</option>
+                                                <option value="2016">2016</option>
+                                                <option value="2017">2017</option>
+                                                <option value="2018">2018</option>
+                                                <option value="2019">2019</option>
+                                            </select>
+
+                                        </div>
+
+                                        <div class="form-group col">
+    
+                                            <label for="selectMes" class="label-servicos">Mês</label>
+                                            <select name="exercicio" class="form-control" id="selectMes">
+                                                <option value="todos" selected>TODOS</option>    
+                                                <option value="jan">Janeiro</option>
+                                                <option value="fev">Fevereiro</option>
+                                                <option value="mar">Março</option>
+                                                <option value="abr">Abril</option>
+                                                <option value="mai">Maio</option>
+                                                <option value="jun">Junho</option>
+                                                <option value="jul">Julho</option>
+                                                <option value="ago">Agosto</option>
+                                                <option value="set">Setembro</option>
+                                                <option value="out">Outubro</option>
+                                                <option value="nov">Novembro</option>
+                                                <option value="dez">Dezembro</option>
+                                            </select>
+    
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectTipo">Tipo</label>
+                                        
+                                        <select name="orgao" class="form-control" id="selectTipo">
+                                            <option value="EO" selected>Lei 4.320 Execução Orçamentaria</option>    
+                                            <option value="DCASP">...</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNatureza">Nome</label>
+                                        
+                                        <select name="natureza" class="form-control" id="selectNatureza">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="Anexo10">Anexo 10 - Receita Orçada x Arrecadada</option>    
+                                            <option value="Anexo9">Anexo 9 - Despesa por Órgão e Função</option>    
+                                            <option value="Anexo8">Anexo 8 - Despesa Conforme Vínculo</option>    
+                                            <option value="Anexo7">Anexo 7 - Programa de Trabalho</option>    
+                                            <option value="Anexo6">Anexo 6 - Programa de Trabalho Despesa e Crédito Adic.</option>    
+                                            <option value="Anexo2B">Anexo 2B - Despesa</option>    
+                                            <option value="Anexo2A">Anexo 2A - Receita</option>    
+                                            <option value="Anexo1">Anexo 1 - Despesa e Receita</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Exercício</th>
+                                                <th scope="col">Anexo</th>
+                                                <th scope="col">Título</th>
+                                                <th scope="col">Data</th>
+                                                <th scope="col">Arquivo</th>
+                                                                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane fade" id="nav-lrf" role="tabpanel" aria-labelledby="nav-lrf-tab">
+                                
+                                <form>
+
+                                    <div class="form-row">
+
+                                        <div class="form-group col">
+
+                                            <label for="selectExercicioDemonstrativosLRF" class="label-servicos">Exercício</label>
+                                            <select name="exercicio" class="form-control" id="selectExercicioDemonstrativosLRF">
+                                                <option value="2003">2003</option>
+                                                <option value="2012">2012</option>
+                                                <option value="2013">2013</option>
+                                                <option value="2014">2014</option>
+                                                <option value="2015">2015</option>
+                                                <option value="2016">2016</option>
+                                                <option value="2017">2017</option>
+                                                <option value="2018">2018</option>
+                                                <option value="2019">2019</option>
+                                            </select>
+
+                                        </div>
+
+                                        <div class="form-group col">
+
+                                            <label for="selectPeriodo">Período</label>
+                                            
+                                            <select name="orgao" class="form-control" id="selectPeriodo">
+                                                <option value="todos" selected>TODOS</option>    
+                                                <option value="1">1º Bimenstre</option>    
+                                                <option value="2">2º Bimenstre</option>    
+                                                <option value="3">3º Bimenstre</option>    
+                                                <option value="4">4º Bimenstre</option>    
+                                                <option value="5">5º Bimenstre</option>    
+                                                <option value="6">6º Bimenstre</option>    
+                                            </select>
+    
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="form-group">
+    
+                                        <label for="selectTipo" class="label-servicos">Tipo</label>
+                                        <select name="exercicio" class="form-control" id="selectTipo">
+                                            <option value="jan">RGF - Relatório de Gestão Fiscal</option>
+                                            <option value="fev">RREO - Relatório resumido de Execução Orçamentária</option>
+                                        </select>
+
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label for="selectNome">Nome</label>
+                                        
+                                        <select name="natureza" class="form-control" id="selectNome">
+                                            <option value="todos" selected>TODOS</option>    
+                                            <option value="Anexo1">Anexo 1 - Balanço Orçamentário</option>    
+                                            <option value="Anexo2">Anexo 2 - Demonstrativo das Despesas por Função/Subfunção</option>    
+                                            <option value="Anexo3">Anexo 3 - Demonstrativo da Receita Corrente Líquida</option>    
+                                            <option value="Anexo4">Anexo 4 - Demonstrativo das Receitas e Despesas Previdenciárias</option>    
+                                            <option value="Anexo5">Anexo 5 - Demonstrativo do Resultado Nominal</option>    
+                                            <option value="Anexo6">Anexo 6 - Demonstrativo do Resultado Primário</option>    
+                                            <option value="Anexo7">Anexo 7 - Demonstrativo dos Restos a Pagar por Poder e Órgão</option>    
+                                            <option value="Anexo8">Anexo 8 - Demonstrativo das Receitas e Despesas com MDE</option>    
+                                            <option value="Anexo9">Anexo 9 - Demonstrativo Receita de Oper. Crédito e Despesa de Capital</option>    
+                                            <option value="Anexo10">Anexo 10 - Demonstrativo da Projeção Atuarial</option>    
+                                            <option value="Anexo11">Anexo 11 - Demonstrativo da Receita de Alienação de Ativos e Aplicação de Recurso</option>    
+                                            <option value="Anexo12">Anexo 12 - Demonstrativo das Receitas e Despesas com Saúde</option>    
+                                            <option value="Anexo14">Anexo 14 - Demonstrativo Simplificado do Relat. Resumido da Exec. Orçamentária</option>    
+                                        </select>
+
+                                    </div>
+
+                                    <div class="btn-consulta-servicos">
+                                        <button type="submit" class="btn btn-primary">Consultar</button>
+                                        <button type="submit" class="btn btn-warning">Cancelar</button>
+                                    </div>
+    
+                                </form>
+
+                                <div class="table-responsive">
+
+                                    <table class="table">
+    
+                                        <thead>
+        
+                                            <tr>
+                                                
+                                                <th scope="col">Exercício</th>
+                                                <th scope="col">Anexo</th>
+                                                <th scope="col">Título</th>
+                                                <th scope="col">Data</th>
+                                                <th scope="col">Arquivo</th>
+                                                                                                
+                                            </tr>
+        
+                                        </thead>
+        
+                                        <tbody>
+        
+                                            <tr>
+
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                
+                                            </tr>
+        
+                                        </tbody>
+                                        
+                                    </table>
+                                    
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+    
+                    <div class="tab-pane fade" id="v-pills-legislacao" role="tabpanel" aria-labelledby="v-pills-legislacao-tab">
+                        
+                        <p>Legislação relacionada às Leis aprovadas pela Câmara Municipal e Decretos editados pelo Prefeito de Maceió, que afetam a administração pública municipal.</p>
+
+                        <form>
+
+                            <div class="form-group">
+
+                                <div class="form-row">
+
+                                    <div class="form-group col-5">
+
+                                        <label for="selectTipo" class="label-servicos">Tipo</label>
+                                        <select name="exercicio" class="form-control" id="selectTipo">
+                                            <option value="todos" selected>TODOS</option>
+                                            <option value="decreto">DECRETO</option>
+                                            <option value="lei">LEI</option>
+                                        </select>
+        
+                                    </div>
+
+                                    <div class="col-7">
+
+                                        <label for="inputPlanejamento">Lei</label>
+                                        
+                                        <div class="row">
+            
+                                            <div class="col-8">
+                                                <input type="text" class="form-control" id="inputPlanejamento" placeholder="Número">
+                                            </div>
+                
+                                            <div class="col-3">
+                                                <input type="text" class="form-control" id="inputDescricao" placeholder="Ano">
+                                            </div>
+        
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="inputTitulo">Título</label>
+                                <input type="text" class="form-control" id="inputTitulo" placeholder="Descrição">
+                            </div>
+
+                            <div class="btn-consulta-servicos">
+                                <button type="submit" class="btn btn-primary">Consultar</button>
+                                <button type="submit" class="btn btn-warning">Cancelar</button>
+                            </div>
+                            
+                        </form>
+
+                        <div class="table-responsive">
+
+                            <table class="table">
+
+                                <thead>
+
+                                    <tr>
+                                        
+                                        <th scope="col">Tipo</th>
+                                        <th scope="col">Ano</th>
+                                        <th scope="col">Número</th>
+                                        <th scope="col">Descrição</th>
+                                        
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                    </tr>
+
+                                </tbody>
+                                
+                            </table>
+
+                        </div>
+
+                    </div>
+    
+                    <div class="tab-pane fade" id="v-pills-obras" role="tabpanel" aria-labelledby="v-pills-obras-tab">
+                        
+                        <p>Obras no município de Maceió.</p>
+
+                        <div class="form-group">
+
+                            <label>Número da obra</label>
+                            
+                            <div class="form-row">
+
+                                <div class="form-group col-md-4">
+                                    <input type="number" class="form-control" placeholder="Número">
+                                </div>
+                                
+                                <div class="form-group col-md-2">
+                                    <input type="text" class="form-control" data-mask="0000" maxlength="4" placeholder="Ano">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label>Data de início</label>
+
+                            <div class="form-row">
+                        
+                                <div class="col-md-5">
+                                    <input type="date" class="form-control">
+                                </div>
+
+                                <label class="col-md-1 ate">até</label>
+                                
+                                <div class="col-md-5">
+                                    <input type="date" class="form-control">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label>Data prevista para o término</label>
+
+                            <div class="form-row">
+                        
+                                <div class="col-md-5">
+                                    <input type="date" class="form-control">
+                                </div>
+
+                                <label class="col-md-1 ate">até</label>
+                                
+                                <div class="col-md-5">
+                                    <input type="date" class="form-control">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="table-responsive">
+
+                            <table class="table">
+
+                                <thead>
+
+                                    <tr>
+                                        
+                                        <th scope="col">Número</th>
+                                        <th scope="col">Ano</th>
+                                        <th scope="col">Objeto</th>
+                                        <th scope="col">Empresa Contratada</th>
+                                        <th scope="col">Data de início</th>
+                                        <th scope="col">Data Prevista para o término</th>
+                                        <th scope="col">Valor Total</th>
+                                        <th scope="col">Valor Pago</th>
+                                        <th scope="col">Situação</th>
+                                        
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+                                        <td>...</td>
+
+                                    </tr>
+
+                                </tbody>
+                                
+                            </table>
+
+                        </div>
+
+                    </div>
+    
+                    <div class="tab-pane fade" id="v-pills-glossario" role="tabpanel" aria-labelledby="v-pills-glossario-tab"><p>Teste4</p></div>
+    
+                    <div class="tab-pane fade" id="v-pills-perguntas" role="tabpanel" aria-labelledby="v-pills-perguntas-tab">
+                        
+                        <div class="list-group">
+                            
+                            <div class="list-group-item">
+
+                                <h4>A partir de quando estão disponíveis as informações no Portal?</h4>
+
+                                <p>A consulta divulga dados cujos documentos foram emitidos a partir de 2013 e que sejam referentes a receitas e despesas realizadas por todos os órgãos e entidades da Administração Pública do Município de Maceió.</p>
+
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                            <div class="list-group-item">
+                            </div>
+
+                        </div>
+
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+
+    </div>
+
+    <script src="public/js/jquery-3.4.1.min.js"></script>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+</body>
+
+</html>

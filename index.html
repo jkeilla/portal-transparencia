@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,13 +10,15 @@
     <title>Portal da Transparência de Maceió</title>
 
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link rel="stylesheet" href="public/css/style.css">
-    <link rel="stylesheet" href="public/css/reset.css">
-    <link rel="stylesheet" href="public/css/bootstrap.min.css">       
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
     
-    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+    <link href="fontawesome-free-5.11.2-web/css/fontawesome.css" rel="stylesheet">
+    <!-- <link href="fontawesome-free-5.11.2-web/css/brands.css" rel="stylesheet"> -->
+    <link href="fontawesome-free-5.11.2-web/css/solid.css" rel="stylesheet">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
 
 </head>
 
@@ -22,17 +26,17 @@
 
     <header>
 
-        <nav class="navbar justify-content-center fixed-top">
+        <nav class="navbar justify-content-center fixed-top no-padding menu-superior">
 
             <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link active" href="./index.html">Início</a>
+                  <a class="nav-link" href="./index.html">Início</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./about.html">Sobre</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Institucional</a>
+                  <a class="nav-link" href="./institucional.html">Institucional</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="http://www.maceio.al.gov.br/" target="_blank">Site da Prefeitura</a>
@@ -59,8 +63,10 @@
                 <input type="search" class="form-control py-2 btn-outline-secondaryborder-right-0 border filter-shadow" value="Qual serviço você deseja?">
                 
                 <span class="input-group-append">
-                    <button class="btn border-left-0 border" type="button">
-                        <i class="fa fa-search"></i>
+
+                    <button class="btn bg-white 
+                    border-left-0 border" type="button">
+                        <i class="fas fa-search"></i>
                     </button>
 
                 </span>
@@ -77,10 +83,10 @@
     
             <div class='servico-box fades zoom'>
 
-                <a href="#" class="no-decor">
+                <a href="servicos.html" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-calculator"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -97,10 +103,10 @@
 
             <div class='servico-box fades zoom'>
 
-                <a href="#" class="no-decor">
+                <a href="servicos.html" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-coins"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -120,7 +126,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-file-invoice-dollar"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -140,7 +146,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-user-tie"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -160,7 +166,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-users"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -180,7 +186,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-gavel"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -200,7 +206,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-file-contract"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -220,7 +226,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-handshake"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -240,7 +246,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-chart-line"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -260,7 +266,7 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-balance-scale"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -280,27 +286,27 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-hammer"></i>
                     </div>
 
                     <div class='servico-box-texto'>
 
                         <div class='titulo'>
-                            Perguntas Frequentes
+                            Obras
                         </div>
 
                     </div>
 
                 </a>
 
-            </div>  
+            </div>
 
             <div class='servico-box fades zoom'>
 
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-spell-check"></i>
                     </div>
 
                     <div class='servico-box-texto'>
@@ -320,20 +326,20 @@
                 <a href="#" class="no-decor">
 
                     <div class='servico-box-icone'>
-                        <img src="public/img/arq.png">
+                        <i class="fas fa-question"></i>
                     </div>
 
                     <div class='servico-box-texto'>
 
                         <div class='titulo'>
-                            Obras
+                            Perguntas Frequentes
                         </div>
 
                     </div>
 
                 </a>
 
-            </div>
+            </div>  
 
         </div>
 
@@ -343,6 +349,7 @@
 
         <div class="box-content">
 
+            <h3>Estatísticas</h3>
 
         </div>
 
@@ -350,7 +357,7 @@
     
     <section class="section-white">
 
-        <div class="sites-box-content">
+        <div class="box-content">
 
             <h3 class="titulo-sites">Links de Acesso</h3>
 
@@ -442,13 +449,13 @@
                     <ul>
     
                         <li><a href="https://www.facebook.com/PrefeituraDeMaceio/" target="_blank">
-                            <img src="public/img/facebook.png" alt="Siga-nos no Facebook" class="zoom"></a>
+                            <img src="public/img/facebook.png" alt="Link da página do Facebook da Prefeitura" class="zoom"></a>
                         </li>
                         <li><a href="https://www.instagram.com/prefeiturademaceio/?hl=pt-br" target="_blank">
-                            <img src="public/img/twitter.png" alt="Siga-nos no Twitter" class="zoom"></a>
+                            <img src="public/img/twitter.png" alt="Link do perfil da Prefeitura no Twitter" class="zoom"></a>
                         </li>
                         <li><a href="https://twitter.com/prefmaceio" target="_blank">
-                            <img src="public/img/insta.png" alt="Siga-nos no Instagram" class="zoom"></a>
+                            <img src="public/img/insta.png" alt="Link do perfil da Prefeitura no instagram" class="zoom"></a>
                         </li>
     
                     </ul>
@@ -492,7 +499,7 @@
         
         <div class="footer-img">
 
-            <img src="public/img/logo-cidade-inteligente.png" alt="Maceió Cidade Inteligente">
+            <h:img src="public/img/logo-cidade-inteligente.png" alt="Maceió Cidade Inteligente"></h:img>
 
         </div>
         

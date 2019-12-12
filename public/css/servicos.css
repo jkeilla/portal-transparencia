@@ -1,0 +1,81 @@
+/* -------- Página Serviços ------------ */
+
+
+.menu-lateral {
+    background-color: #3573ba;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    max-width: 20% !important;    
+    height: fit-content;
+}
+
+.menu-lateral a {
+    background-color: white;
+    border-radius: 10px !important;
+    font-size: 1rem;
+    color: #3573ba;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 100%;
+    border: 0;
+}
+
+.menu-lateral .nav {
+    width: 85%;
+}
+
+.menu-lateral .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: white !important;
+    color: #3573ba;
+}
+
+.menu-lateral a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 4px #165eb1;
+}
+
+.menu-lateral .nav-pills .nav-link.active, .nav-pills .show>.nav-link:focus {
+    background-color: #4ea1ff !important;
+    color: white;
+}
+
+.box-servicos {
+    margin: 1%;
+}
+
+.box-servicos form {
+    margin: 2%;
+}
+
+.box-servicos table {
+    margin-top: 5% !important;    
+}
+
+.btn-consulta-servicos {
+    margin-top: 4%;
+}
+
+#v-pills-licitacoes {
+    margin: 20%;
+}
+
+.ate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.licitacao {
+    padding: 15px !important;
+    font-size: 16px;
+}
+
+#nav-calendario th {
+    font-weight: bold;
+}
+
+/* .tab-content .form-row {
+    margin-bottom: 16px;
+} */

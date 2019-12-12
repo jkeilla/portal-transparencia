@@ -1,11 +1,13 @@
-/* /css/style/ 
-   Author: Dylnara Azevedo & Jéssica Keila
-   Since: 04/11/2019
-*/
+@import url("reset.css");
+@import url("servicos.css");
+
 
 body, html {
     font-family: 'Montserrat' !important;
-    font-weight: bold !important;
+}
+
+label, table, p, .tab-content {
+    font-size: 14px !important;
 }
 
 /* -------- Header ------------ */
@@ -27,11 +29,11 @@ header .jumbotron {
 }
 
 .jumbotron {
-    background: url("../img/banner.jpg") no-repeat;
+    background: url("../img/banner.png") no-repeat;
     background-size: cover;
     margin-top: 55px;
     filter: drop-shadow(0 2px 4px black);
-    height: 375px;
+    height: 385px;
 }
 
 .filter-shadow {
@@ -39,13 +41,13 @@ header .jumbotron {
 }
 
 .logo-maceio {
-    width: 160px;
+    width: 180px;
 }
 
 .titulo-site {
     font-weight: bold;
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 2.5%;
     font-size: 40px !important;
 }
 
@@ -57,7 +59,7 @@ header .jumbotron {
 
 .section-blue {
     background-color: #3573ba;
-    height: 300px;
+    height: 135px;
     text-align: center;
     color: white;
 }
@@ -69,11 +71,20 @@ header .jumbotron {
 }
 
 .box-content {
-    width: 80%;
-    padding: 20px 0 20px 0;
+    width: 90%;
+    padding: 2% 0;
     margin-left: auto;
     margin-right: auto;
     color: #000000;
+}
+
+.section-blue h3 {
+    color: white;
+    filter: drop-shadow(0px 0px 5px black);
+}
+
+h3 {
+    margin-bottom: 2% !important;
 }
 
 .conteudo-geral {
@@ -85,12 +96,12 @@ header .jumbotron {
 
 .servico-box {
     background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 7px #000000d4;
+    box-shadow: 0 0 5px #8e8e8e;
     color: #3673ba;
     padding: 10px;
-    margin: 10px 12px 6px 0;
-    width: 160px;
-    height: 135px;
+    margin: 12px 7px;
+    width: 165px;
+    height: 140px;
     max-height: 150px;
     display: inline-block;
     vertical-align: top;
@@ -105,6 +116,11 @@ header .jumbotron {
     align-items: center;
     border: 0px;
     border-bottom: 3px solid #3673ba;
+}
+
+.servico-box-icone i {
+    font-size: 50px;
+    color: #3673ba;
 }
 
 .servico-box-texto {
@@ -171,14 +187,6 @@ header .jumbotron {
     color: #000000;
 }
 
-.sites-box-content {
-    width: 90%;
-    padding: 20px 0 20px 0;
-    margin-left: auto;
-    margin-right: auto;
-    color: #000000;
-}
-
 .sites-box {
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 7px #000000d4;
@@ -237,7 +245,6 @@ header .jumbotron {
 }
 
 .contato li a img {
-    /*width: 35px;*/
     width: 45px;
 }
 
@@ -263,6 +270,14 @@ header .jumbotron {
 
 .social-networks li {
     margin: 2% 0;
+}
+
+.menu-superior .nav>li>a {
+    padding: 16px 15px;
+}
+
+.menu-superior .nav>li>a:hover {
+    background-color: #488dce;
 }
 
 iframe {
@@ -307,17 +322,21 @@ iframe {
     margin-bottom: 0;
 }
 
-/* -------- sitemap & about ------------ */
+/* -------- siteMap & about ------------ */
 
 .sitemap-top, .about-top, .talk-top {
     margin-top: 55px;
 }
 
-.sitemap-width, .about-width {
+.about-width {
+    width: 75%;
+}
+
+.sitemap-width {
     width: 85%;
 }
 
-.box-sitemap, .box-about {
+.box-sitemap, .box-about, .box-talk {
     /*background-color: rgba(255, 255, 255, 0.1);
     background-color: rgba(255, 255, 255, 0.53);*/
     background-color: rgba(255, 255, 255, 0.75);
@@ -333,8 +352,29 @@ iframe {
     text-align: left;
 }
 
+.box-about {
+    padding: 30px 40px;
+    text-align: justify;
+}
+
+.about-text {
+    color: #3573ba;
+    font-weight: bold;
+    font-size: 16px !important;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
 section .col-md-3 {
   border-left: 1px solid #ccc;
+}
+
+.fade {
+    opacity: unset !important;
+}
+
+.no-padding {
+    padding: 0 !important;
 }
 
 section .col-md-3:first-child {
@@ -398,19 +438,6 @@ section .col-md-3:first-child {
     }
 }
 
-.box-about {
-    padding: 30px 40px;
-    text-align: justify;
-}
-
-.about-text {
-    color: #3573ba;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 0;
-}
-
 /* ---------- imagem background ----------- */
 
 #backg-section {
@@ -432,7 +459,7 @@ section .col-md-3:first-child {
 }
 
 #about-section {
-    background: url(../img/04_PontaVerde.jpg) no-repeat center top;
+    background: url(../img/04_PontaVerde.png) no-repeat center top;
     background-color: #7bc3d1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -449,5 +476,204 @@ section .col-md-3:first-child {
     -o-background-size: cover;
 }
 
+/* ---------- Fale conosco ----------- */
 
+.buttons-talk {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.btn-talk {
+    margin: 0 5px;
+    width: 100px;
+}
+
+.text-talk {
+    font-size: 16px !important;
+}
+
+/* ---------- form edited ----------- */
+
+.form-group {
+    margin-bottom: 5px !important;
+}
+
+label {
+    margin-bottom: 0 !important;
+}
+
+.btn-primary {
+    background-color: #3573ba !important;
+    border-color: #3573ba !important;
+}
+
+
+/* ------------ Tab Institucional ----------------- */
+
+.tabContent {
+  padding:20px;
+  width: 100%;
+}
+
+.panel-col-2 {
+    width: 48%;
+    float: left;
+}
+
+.panel-left {
+    margin-left: 10px;
+}
+
+.panel-right {
+    margin-right: 10px;
+}
+
+.title-tab {
+    background-color: #3573ba;
+    padding: 1px 1px 1px 4px;
+    border-radius: 3px;
+}
+
+.title-tab p {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 0;
+}
+
+.panel-title, .color-title {
+    color: #3573ba;
+}
+
+.panel-default>a>.panel-heading {
+    background-color: white;
+    /*background-color: #f5f5f5;
+    border-color: #ddd;*/
+}
+
+.panel-body p {
+    margin-bottom: 0.5rem;
+}
+
+.panel-top {
+    margin-top: 20px;
+}
+
+.font-strong {
+    font-weight: bold;
+}
+
+
+/* ------------- Glossary ------------ */
+
+.bs-callout {
+    padding: 15px 15px 5px 15px;
+    margin: 10px 0;
+    border: 1px solid #3573ba38;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+
+.bs-callout-primary {
+    border-left-color: #3573ba;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+
+#portfolio {
+    padding: 100px 0;
+    background: #053740;
+}
+.categories {
+    padding-bottom: 30px;
+    text-align: center;
+}
+ul.cat li {
+    display: inline-block;
+}
+ol.type li {
+    display: inline-block;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+ol.type li a {
+    background: transparent;
+    color: #3573ba;
+    padding: 10px 20px;
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+}
+ol.type li a.active {
+    background: #3573ba;
+    color: #ffffff;
+}
+ol.type li a:hover {
+    background: #3573ba;
+    color: #ffffff;
+}
+.isotope-item {
+    z-index: 2
+}
+.isotope-hidden.isotope-item {
+    z-index: 1
+}
+.isotope, .isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope-item {
+    margin-right: -1px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.isotope {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+.portfolio-item {
+    margin: 15px 0;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.portfolio-item:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
