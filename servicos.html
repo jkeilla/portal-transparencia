@@ -109,6 +109,7 @@
                     <a class="nav-link" id="v-pills-perguntas-tab" data-toggle="pill" href="#v-pills-perguntas" role="tab" aria-controls="v-pills-perguntas" aria-selected="false">Perguntas Frequentes</a>
 
                 </div>
+                <div class="clearfix"></div>
     
             </div>
     
@@ -2487,6 +2488,35 @@
     <script src="public/js/bootstrap.bundle.min.js"></script>
     <script src="public/js/bootstrap.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    
+
+    <script>
+    var locHash = location.hash;
+    var defaultTab = '#v-pills-planejamento-tab';
+    if ( $(locHash).length ){
+        // desmarca as abas (remove o "active") / marca a aba certa (hash)
+        $(".nav-link").removeClass('active');
+        $(locHash).addClass('active');
+        // esconde o conteudo de todas (display:none;) / exibe o conteudo da certa
+        $(".tab-pane").hide();
+        $("#tabpanel-"+locHash+"").show();
+    }
+
+
+
+    // selecionar a aba a partir do hash
+    var locHash = location.hash;
+    if ( $(""+locHash+"").length ){
+        // simula um click na aba da URL
+        $(""+locHash+"").trigger('click');
+        console.log('locHash: '+locHash);
+    } else {
+        alert('Primeira Etapa');
+    }
+
+
+
+    </script>   
 
 </body>
 

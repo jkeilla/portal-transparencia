@@ -63,12 +63,31 @@
 
                     <p class="text-talk">Esta seção traz conceitos básicos sobre diversos temas apresentados ou correlatos a este Portal da Transparência. O objetivo é facilitar a compreensão dos assuntos abordados no Portal e possibilitar as condições para o exercício do controle social pelo cidadão.</p>
 
-                    <div class="container ng-scope">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <ul class="cat">
-                                    <li>
-                                      <ol class="type">
+                    <!-- Tabs -->
+                        <ul class="nav nav-tabs">
+                          <li class="active"><a id="1" href="#">Tab 1</a></li>
+                          <li><a id="2" href="#">Tab 2</a></li>
+                          <li><a id="3" href="#">Tab 3</a></li>
+                        </ul>
+
+                        <!-- Accordions -->
+                        <div class="tabContent" id="tabContent1">
+                          Tab Content 1
+                        </div>
+                        <div class="tabContent" id="tabContent2">
+                          Tab Content 2
+                        </div>  
+                        <div class="tabContent" id="tabContent3">
+                          Tab Content 3
+                        </div>  
+
+
+                    <!--<div class="container ng-scope">
+                        
+                        <div class="col-xs-12">
+                            <ul class="cat">
+                                <li>
+                                    <ol class="type">
                                         <li><a href="#" data-filter=".a" class="active">A</a></li>
                                         <li><a href="#" data-filter=".b">B</a></li>
                                         <li><a href="#" data-filter=".c">C</a></li>
@@ -95,15 +114,15 @@
                                         <li><a href="#" data-filter=".x">X</a></li>
                                         <li><a href="#" data-filter=".y">Y</a></li>
                                         <li><a href="#" data-filter=".z">Z</a></li>
-                                      </ol>
-                                    </li>
-                                  </ul>
-                            </div>
+                                    </ol>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
                         </div>
-
+                        
                         <div class="row">
-                            <div class="col-xs-12 portfolio-items">
-                                <div class="a">
+                            <div class="portfolio-items">
+                                <div class="col-xs-12 a">
                                     
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Abertura de Crédito Adicional</h4>
@@ -306,8 +325,8 @@
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 portfolio-items">
-                                <div class="b">
+                            <div class="portfolio-items">
+                                <div class="col-xs-12 b">
 
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Baixado</h4>
@@ -341,8 +360,8 @@
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 portfolio-items">
-                                <div class="c">
+                            <div class="portfolio-items">
+                                <div class="col-xs-12 c">
                                     
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Cadastro de Fornecedores</h4>
@@ -553,8 +572,8 @@
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 portfolio-items">
-                                <div class="d">
+                            <div class="portfolio-items">
+                                <div class="col-xs-12 d">
 
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Data Base</h4>
@@ -805,8 +824,8 @@
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 portfolio-items">
-                                <div class="e">
+                            <div class="portfolio-items">
+                                <div class="col-xs-12 e">
 
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Elemento de Despesa</h4>
@@ -978,8 +997,8 @@
                                 </div>
                             </div>
 
-                            <div class="col-xs-12 portfolio-items">
-                                <div class="f">
+                            <div class="portfolio-items">
+                                <div class="col-xs-12 f">
              
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Fato Gerador</h4>
@@ -1044,23 +1063,29 @@
                                     </div>
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
                                         <h4 class="ng-binding">Fundos de Participação</h4>
-                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Recursos recebidos pelos Estados, Distrito Federal e Municípios, por sua participação, estabelecida na Constituição e em lei, na arrecadação de tributos federais. A Constituição de 1988 determinou que a partir de 1993, 44% do produto arrecadado, por meio do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI) sejam destinados aos fundos, da seguinte forma: 21,5%, ao Fundo de Participação dos Estados e do Distrito Federal; 22,5% ao Fundo de Participação dos Municípios.</p>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding">
+
+
+                                            <p>Recursos recebidos pelos Estados, Distrito Federal e Municípios, por sua participação, estabelecida na Constituição e em lei, na arrecadação de tributos federais. A Constituição de 1988 determinou que a partir de 1993, 44% do produto arrecadado, por meio do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI) sejam destinados aos fundos, da seguinte forma: 21,5%, ao Fundo de Participação dos Estados e do Distrito Federal; 22,5% ao Fundo de Participação dos Municípios.</p>
 
                                             <p><em>Fonte: Tesouro Nacional</em></p>
                                         </p>
                                     </div>
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
                                         <h4 class="ng-binding">Fundo de Participação dos Estados (FPE)</h4>
-                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Modalidade de transferência constitucional de recursos financeiros da União para Estados e do Distrito Federal, previsto na Constituição Federal no art. 159, inciso I, alínea a. O Fundo de Participação dos Estados (FPE) e constituído de 21,5% da arrecadação líquida (arrecadação bruta deduzida de restituições e incentivos fiscais) do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI).</p>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding">
+
+                                            <p>Modalidade de transferência constitucional de recursos financeiros da União para Estados e do Distrito Federal, previsto na Constituição Federal no art. 159, inciso I, alínea a. O Fundo de Participação dos Estados (FPE) e constituído de 21,5% da arrecadação líquida (arrecadação bruta deduzida de restituições e incentivos fiscais) do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI).</p>
 
                                             <p><em>Fonte: Controladoria-Geral da União</em></p>
                                         </p>
                                     </div>
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
                                         <h4 class="ng-binding">Fundo de Participação dos Municípios (FPM)</h4>
-                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Modalidade de transferência constitucional de recursos financeiros da União para os Municípios, previstos na Constituição Federal no art. 159, inciso I, alínea “b”. O Fundo de Participação dos Municípios (FPM) é constituído de 22,5% da arrecadação líquida (arrecadação bruta deduzida de restituições e incentivos fiscais) do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI). A distribuição dos recursos aos municípios é feita de acordo com o número de habitantes. São fixadas faixas populacionais, cabendo a cada uma delas um coeficiente individual. O mínimo e de 0,6 para municípios com ate 10.188 habitantes e o máximo e 4,0 para aqueles acima 156 mil. Os critérios atualmente utilizados para o cálculo dos coeficientes de participação estão baseados na&nbsp;<a href="http://www.planalto.gov.br/ccivil_03/Leis/L5172.htm" target="_blank">Lei 5.172/66&nbsp;</a>(Código Tributário Nacional) e no&nbsp;<a href="https://www.planalto.gov.br/ccivil_03/decreto-lei/1965-1988/Del1881.htm" target="_blank">Decreto-Lei 1.881/81.&nbsp;</a>Do total de recursos, 10% são destinados as capitais, 86,4% para os demais municípios e os 3,6% restantes vão para um fundo de reserva que beneficia os municípios com população superior a 142.633 habitantes (coeficiente de 3.8), excluídas as capitais.</p>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding">
+                                            <p>Modalidade de transferência constitucional de recursos financeiros da União para os Municípios, previstos na Constituição Federal no art. 159, inciso I, alínea “b”. O Fundo de Participação dos Municípios (FPM) é constituído de 22,5% da arrecadação líquida (arrecadação bruta deduzida de restituições e incentivos fiscais) do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI). A distribuição dos recursos aos municípios é feita de acordo com o número de habitantes. São fixadas faixas populacionais, cabendo a cada uma delas um coeficiente individual. O mínimo e de 0,6 para municípios com ate 10.188 habitantes e o máximo e 4,0 para aqueles acima 156 mil. Os critérios atualmente utilizados para o cálculo dos coeficientes de participação estão baseados na&nbsp;<a href="http://www.planalto.gov.br/ccivil_03/Leis/L5172.htm" target="_blank">Lei 5.172/66&nbsp;</a>(Código Tributário Nacional) e no&nbsp;<a href="https://www.planalto.gov.br/ccivil_03/decreto-lei/1965-1988/Del1881.htm" target="_blank">Decreto-Lei 1.881/81.&nbsp;</a>Do total de recursos, 10% são destinados as capitais, 86,4% para os demais municípios e os 3,6% restantes vão para um fundo de reserva que beneficia os municípios com população superior a 142.633 habitantes (coeficiente de 3.8), excluídas as capitais.</p>
 
-                                        <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
                                         </p>
                                     </div>
  
@@ -1068,7 +1093,7 @@
                             </div>
 
                         </div>
-                    </div>  
+                    </div> --> 
 
                 </div>
 
