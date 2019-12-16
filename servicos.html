@@ -2493,19 +2493,18 @@
     <script>
 
     var locHash = location.hash;
-    var defaultTab = '#v-pills-planejamento';
+    var defaultTab = '#tab-v-pills-planejamento';
     if ( $(locHash).length ){
         // desmarca as abas (remove o "active") / marca a aba certa (hash)
-        $(".nav-link").removeClass('active');
+        $(defaultTab).removeClass('active');
         $(locHash).addClass('active');
 
         // esconde o conteudo de todas (display:none;) / exibe o conteudo da certa
-        $(".tab-pane").removeClass('active');
-        $(".tab-pane").removeClass('show');
+        $("div"+defaultTab+"-panel.tab-pane").removeClass('active'); console.log(defaultTab+'.tab-pane');
+        $("div"+defaultTab+"-panel.tab-pane").removeClass('show');
         $("div"+locHash+"-panel").addClass('active'); console.log('add active');
         $("div"+locHash+"-panel").addClass('show'); console.log('div'+locHash+'-panel');
-        $("div"+locHash+"-panel>div"+id+".tab-pane").addClass('active'); console.log('add tab');
-        $("div"+locHash+"-panel>div"+id+".tab-pane").addClass('show'); 
+
     }
 
     </script>   
