@@ -41,6 +41,12 @@
     color: white;
 }
 
+a:focus {
+    outline: thin dotted #3573ba;
+    outline: 1px auto #3573ba;
+    outline-offset: -2px;
+}
+
 .box-servicos {
     margin: 1%;
 }
