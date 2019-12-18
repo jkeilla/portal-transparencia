@@ -33,20 +33,14 @@ function main() {
     });
 	
 	
-	// Hide nav on click
-  $(".navbar-nav li a").click(function (event) {
-    // check if window is small enough so dropdown is created
-    var toggle = $(".navbar-toggle").is(":visible");
-    if (toggle) {
-      $(".navbar-collapse").collapse('hide');
-    }
-  });
 
-  	// Portfolio isotope filter
+    // Portfolio isotope filter
     $(window).load(function() {
         var $container = $('.portfolio-items');
         $container.isotope({
             filter: '*',
+            stagger: 30,
+            transitionDuration:'0.4s',
             animationOptions: {
                 duration: 750,
                 easing: 'linear',
@@ -59,6 +53,9 @@ function main() {
             var selector = $(this).attr('data-filter');
             $container.isotope({
                 filter: selector,
+                stagger: 30,
+                transitionDuration:'0.4s',
+  
                 animationOptions: {
                     duration: 750,
                     easing: 'linear',
@@ -69,23 +66,8 @@ function main() {
         });
 
     });
-
-    $('.nav a').click(function (e) {
-    $(this).tab('show');
   
-      var tabContent = '#tabContent' + this.id; 
-      
-      $('#tabContent1').hide();
-      $('#tabContent2').hide();
-      $('#tabContent3').hide();
-      $(tabContent).show();
-    })
-
-	
-  	// Pretty Photo
-	$("a[rel^='prettyPhoto']").prettyPhoto({
-		social_tools: false
-	});	
+    // Pretty Photo	
 
 }());
 
