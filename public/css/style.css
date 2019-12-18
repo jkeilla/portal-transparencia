@@ -625,10 +625,12 @@ ol.type li a {
 ol.type li a.active {
     background: #3573ba;
     color: #ffffff;
+    border-radius: 15px;
 }
 ol.type li a:hover {
     background: #3573ba;
     color: #ffffff;
+    border-radius: 15px;
 }
 .isotope-item {
     z-index: 2

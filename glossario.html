@@ -63,32 +63,14 @@
 
                     <p class="text-talk">Esta seção traz conceitos básicos sobre diversos temas apresentados ou correlatos a este Portal da Transparência. O objetivo é facilitar a compreensão dos assuntos abordados no Portal e possibilitar as condições para o exercício do controle social pelo cidadão.</p>
 
-                    <!-- Tabs -->
-                        <ul class="nav nav-tabs">
-                          <li class="active"><a id="1" href="#">Tab 1</a></li>
-                          <li><a id="2" href="#">Tab 2</a></li>
-                          <li><a id="3" href="#">Tab 3</a></li>
-                        </ul>
-
-                        <!-- Accordions -->
-                        <div class="tabContent" id="tabContent1">
-                          Tab Content 1
-                        </div>
-                        <div class="tabContent" id="tabContent2">
-                          Tab Content 2
-                        </div>  
-                        <div class="tabContent" id="tabContent3">
-                          Tab Content 3
-                        </div>  
-
-
-                    <!--<div class="container ng-scope">
-                        
-                        <div class="col-xs-12">
-                            <ul class="cat">
-                                <li>
-                                    <ol class="type">
-                                        <li><a href="#" data-filter=".a" class="active">A</a></li>
+                    <div class="container ng-scope">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <ul class="cat">
+                                    <li>
+                                      <ol class="type">
+                                        <li><a href="#" data-filter="*" class="active">All</a></li>
+                                        <li><a href="#" data-filter=".a">A</a></li>
                                         <li><a href="#" data-filter=".b">B</a></li>
                                         <li><a href="#" data-filter=".c">C</a></li>
                                         <li><a href="#" data-filter=".d">D</a></li>
@@ -114,15 +96,15 @@
                                         <li><a href="#" data-filter=".x">X</a></li>
                                         <li><a href="#" data-filter=".y">Y</a></li>
                                         <li><a href="#" data-filter=".z">Z</a></li>
-                                    </ol>
-                                </li>
-                            </ul>
-                            <div class="clearfix"></div>
+                                      </ol>
+                                    </li>
+                                  </ul>
+                            </div>
                         </div>
-                        
+
                         <div class="row">
-                            <div class="portfolio-items">
-                                <div class="col-xs-12 a">
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="a">
                                     
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Abertura de Crédito Adicional</h4>
@@ -325,8 +307,8 @@
                                 </div>
                             </div>
 
-                            <div class="portfolio-items">
-                                <div class="col-xs-12 b">
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="b">
 
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Baixado</h4>
@@ -360,8 +342,8 @@
                                 </div>
                             </div>
 
-                            <div class="portfolio-items">
-                                <div class="col-xs-12 c">
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="c">
                                     
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Cadastro de Fornecedores</h4>
@@ -572,8 +554,8 @@
                                 </div>
                             </div>
 
-                            <div class="portfolio-items">
-                                <div class="col-xs-12 d">
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="d">
 
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Data Base</h4>
@@ -824,8 +806,8 @@
                                 </div>
                             </div>
 
-                            <div class="portfolio-items">
-                                <div class="col-xs-12 e">
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="e">
 
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Elemento de Despesa</h4>
@@ -997,8 +979,8 @@
                                 </div>
                             </div>
 
-                            <div class="portfolio-items">
-                                <div class="col-xs-12 f">
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="f">
              
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
                                         <h4 class="ng-binding">Fato Gerador</h4>
@@ -1063,37 +1045,1472 @@
                                     </div>
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
                                         <h4 class="ng-binding">Fundos de Participação</h4>
-                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding">
-
-
-                                            <p>Recursos recebidos pelos Estados, Distrito Federal e Municípios, por sua participação, estabelecida na Constituição e em lei, na arrecadação de tributos federais. A Constituição de 1988 determinou que a partir de 1993, 44% do produto arrecadado, por meio do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI) sejam destinados aos fundos, da seguinte forma: 21,5%, ao Fundo de Participação dos Estados e do Distrito Federal; 22,5% ao Fundo de Participação dos Municípios.</p>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Recursos recebidos pelos Estados, Distrito Federal e Municípios, por sua participação, estabelecida na Constituição e em lei, na arrecadação de tributos federais. A Constituição de 1988 determinou que a partir de 1993, 44% do produto arrecadado, por meio do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI) sejam destinados aos fundos, da seguinte forma: 21,5%, ao Fundo de Participação dos Estados e do Distrito Federal; 22,5% ao Fundo de Participação dos Municípios.</p>
 
                                             <p><em>Fonte: Tesouro Nacional</em></p>
                                         </p>
                                     </div>
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
                                         <h4 class="ng-binding">Fundo de Participação dos Estados (FPE)</h4>
-                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding">
-
-                                            <p>Modalidade de transferência constitucional de recursos financeiros da União para Estados e do Distrito Federal, previsto na Constituição Federal no art. 159, inciso I, alínea a. O Fundo de Participação dos Estados (FPE) e constituído de 21,5% da arrecadação líquida (arrecadação bruta deduzida de restituições e incentivos fiscais) do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI).</p>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Modalidade de transferência constitucional de recursos financeiros da União para Estados e do Distrito Federal, previsto na Constituição Federal no art. 159, inciso I, alínea a. O Fundo de Participação dos Estados (FPE) e constituído de 21,5% da arrecadação líquida (arrecadação bruta deduzida de restituições e incentivos fiscais) do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI).</p>
 
                                             <p><em>Fonte: Controladoria-Geral da União</em></p>
                                         </p>
                                     </div>
                                     <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
                                         <h4 class="ng-binding">Fundo de Participação dos Municípios (FPM)</h4>
-                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding">
-                                            <p>Modalidade de transferência constitucional de recursos financeiros da União para os Municípios, previstos na Constituição Federal no art. 159, inciso I, alínea “b”. O Fundo de Participação dos Municípios (FPM) é constituído de 22,5% da arrecadação líquida (arrecadação bruta deduzida de restituições e incentivos fiscais) do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI). A distribuição dos recursos aos municípios é feita de acordo com o número de habitantes. São fixadas faixas populacionais, cabendo a cada uma delas um coeficiente individual. O mínimo e de 0,6 para municípios com ate 10.188 habitantes e o máximo e 4,0 para aqueles acima 156 mil. Os critérios atualmente utilizados para o cálculo dos coeficientes de participação estão baseados na&nbsp;<a href="http://www.planalto.gov.br/ccivil_03/Leis/L5172.htm" target="_blank">Lei 5.172/66&nbsp;</a>(Código Tributário Nacional) e no&nbsp;<a href="https://www.planalto.gov.br/ccivil_03/decreto-lei/1965-1988/Del1881.htm" target="_blank">Decreto-Lei 1.881/81.&nbsp;</a>Do total de recursos, 10% são destinados as capitais, 86,4% para os demais municípios e os 3,6% restantes vão para um fundo de reserva que beneficia os municípios com população superior a 142.633 habitantes (coeficiente de 3.8), excluídas as capitais.</p>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Modalidade de transferência constitucional de recursos financeiros da União para os Municípios, previstos na Constituição Federal no art. 159, inciso I, alínea “b”. O Fundo de Participação dos Municípios (FPM) é constituído de 22,5% da arrecadação líquida (arrecadação bruta deduzida de restituições e incentivos fiscais) do Imposto sobre a Renda e Proventos de Qualquer Natureza (IR) e do Imposto sobre Produtos Industrializados (IPI). A distribuição dos recursos aos municípios é feita de acordo com o número de habitantes. São fixadas faixas populacionais, cabendo a cada uma delas um coeficiente individual. O mínimo e de 0,6 para municípios com ate 10.188 habitantes e o máximo e 4,0 para aqueles acima 156 mil. Os critérios atualmente utilizados para o cálculo dos coeficientes de participação estão baseados na&nbsp;<a href="http://www.planalto.gov.br/ccivil_03/Leis/L5172.htm" target="_blank">Lei 5.172/66&nbsp;</a>(Código Tributário Nacional) e no&nbsp;<a href="https://www.planalto.gov.br/ccivil_03/decreto-lei/1965-1988/Del1881.htm" target="_blank">Decreto-Lei 1.881/81.&nbsp;</a>Do total de recursos, 10% são destinados as capitais, 86,4% para os demais municípios e os 3,6% restantes vão para um fundo de reserva que beneficia os municípios com população superior a 142.633 habitantes (coeficiente de 3.8), excluídas as capitais.</p>
 
-                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        <p><em>Fonte: Controladoria-Geral da União</em></p>
                                         </p>
                                     </div>
  
                                 </div>
                             </div>
 
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="g">
+
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Gestão</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Ato de gerenciar a parcela do patrimônio público, sob a responsabilidade de uma determinada unidade. Aplica-se o conceito de gestão a fundos, entidades supervisionadas e a outras situações em que se justifique a administração distinta.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Gestor</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Quem gerencia ou administra negócios, bens ou serviços.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">GF - Guia de Recolhimento do FGTS e de Informações a Previdência Social</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Finalidade: Permite o registro do recolhimento do FGTS destinado aos seus beneficiários, no âmbito das UGs que utilizam o SIAFI, e do recolhimento do valor pago, através de transferências intra-Siafi de recursos entre a UG recolhedora e o FGTS.</p>
+
+                                            <p><em>Fonte: Manual do Siafi do Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">GP - Guia de Recolhimento da Previdência Social</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Finalidade: Permite registrar o recolhimento das contribuições para a Seguridade Social por meio de transferências de recursos intra-Siafi entre a UG recolhedora e a Conta Única do Tesouro Nacional.</p>
+
+                                            <p><em>Fonte: Manual do Siafi do Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">GR - Guia de Recolhimento da União</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Finalidade: Permite o recolhimento de receitas da União de uma UG para outra UG via Siafi.</p>
+
+                                            <p><em>Fonte: Manual do Siafi do Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Grupo de Despesa</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Classificação da despesa quanto à sua natureza, compreendendo os grupamentos, a saber: 1 - Pessoal e encargos sociais; 2 - Juros e encargos da dívida interna; 3 - Juros e encargos da dívida externa; 4 - Outras despesas correntes; 5 - Investimentos; 6 - Inversões financeiras; 7 - Amortização da dívida interna; 8 - Amortização da dívida externa; 9 - Outras despesas de capital.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Guia de Recebimento (GR)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Destina-se a arrecadação de receitas próprias, ao recolhimento de devolução de despesas ou ao acolhimento de depósitos de diversas origens.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>                    
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="h">
+                                  
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Homologação</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Ato que certifica a justeza dos atos praticados anteriormente.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="i">
+        
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Impostos</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Tributos cuja obrigação tem por fato gerador uma situação independente de qualquer atividade estatal específica em relação ao contribuinte. Basicamente, os fatos geradores de impostos são:</p>
+
+                                            <p>•&nbsp;&nbsp;<strong>Patrimônio:</strong>&nbsp;tributado por impostos diretos como, por exemplo, o IPTU, o IPVA e o ITR;</p>
+
+                                            <p>•&nbsp;&nbsp;<strong>Renda:</strong>&nbsp;tributada por impostos diretos, cuja base de cálculo é constituída pelos fluxos anuais de rendimentos;</p>
+
+                                            <p>•&nbsp;&nbsp;<strong>Consumo:</strong>&nbsp;a compra e venda de mercadorias e serviços constituem o fato dominante, variando apenas o momento em que o imposto é cobrado (do produtor - IPI, ou do consumidor - ICMS) e a base de cálculo de operação (se o valor adicionado ou o total de transação). Atualmente, todos os impostos sobre o consumo são IVA, ou seja, sobre o valor agregado.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                            </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Inadimplência Suspensa</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>O convênio é assim inscrito quando o convenente requer, judicial ou administrativamente, a suspensão da inadimplência da transferência voluntária da qual é responsável. Trata-se de decisão de caráter liminar.</p>
+
+                                            <p><em>Fonte: Manual do Siafi com adaptações</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Inadimplente</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Contratante ou convenente que está em atraso com alguma documentação ou prestação de contas.</p>
+
+                                            <p><em>Fonte: Manual do Siafi com adaptações</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Incentivo Fiscal</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Assume, geralmente, a forma de isenção parcial ou total de um imposto, tendo por objetivo incrementar um determinado segmento produtivo, transferir recursos para o desenvolvimento de regiões carentes ou melhorar a distribuição de renda do país.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Indicadores Econômicos</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Entende-se por indicador o elemento que permite o acompanhamento de um fenômeno em observação. Alguns indicadores econômicos, baseados em variáveis conhecidas, são construídos (tais como o consumo industrial de energia elétrica, venda de eletrodomésticos e de auto veículos, etc.), e seu comportamento passa a identificar o comportamento provável da atividade econômica. Evidências desse tipo são utilizadas como "termômetros" pelos mentores da política econômica para mudança e redirecionamento dos instrumentos de política. A previsão orçamentária de recursos requer a construção ou adoção de indicadores que possibilitem acompanhar oscilações de curto prazo das variáveis que afetam o comportamento das receitas.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Inexigibilidade de licitação</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Modalidade que a Lei de Licitações desobriga a Administração de realizar o procedimento licitatório, por inviabilidade de competição. Se não há competidores, não é necessária a licitação. As contratações mais comuns são aquelas em que a Administração só encontra um fornecedor ou o representante comercial e exclusivo. A lista prevista na lei é apenas exemplificativa (art. 25 da Lei nº 8.666/1993).</p>
+
+                                        <p><em>Fonte: Licitações e contratos: Orientações básicas /Tribunal de Contas da União. - 3. ed, rev. atual. e ampl. Brasília: TCU, Secretaria de Controle Interno, 2006</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Ingressos Públicos ou Entradas</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Importâncias em dinheiro, a qualquer título, recebidas pelos cofres públicos. Nem todos os ingressos constituem receitas públicas, uma vez que alguns se caracterizam como simples movimentos de fundos, isto é, não se incorporam ao patrimônio do Estado, uma vez que suas entradas condicionam-se a uma restituição posterior.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Interveniente</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Órgão da administração pública direta e indireta de qualquer esfera do governo, ou entidade privada que participa do convênio para manifestar consentimento ou assumir obrigações em nome próprio.</p>
+
+                                            <p><em>Fonte: Decreto nº 6.170/2007</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Inversões Financeiras</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Dotações destinadas a aquisição de imóveis, ou bens de capital já em utilização; a títulos financeiros e a constituição ou aumento do capital de entidades ou empresas, inclusive as operações bancárias ou de seguros.</p>
+
+                                         <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Investimentos</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Despesas de capital destinadas ao planejamento e a execução de obras públicas, a realização de programas especiais de trabalho e a aquisição de instalações, equipamento e material permanente.</p>
+
+                                         <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Isenção</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Favor fiscal concedido por lei, que consiste em dispensar o contribuinte do pagamento de um tributo devido. Na isenção, a obrigação de pagar o tributo existe, mas foi dispensada. Na imunidade, essa obrigação inexiste.</p>
+
+                                         <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="j">
+
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Janela Orçamentária</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Destinação de recursos na lei orçamentária em valores significativamente inferiores aos custos das ações correspondentes, com a finalidade de facilitar futuras suplementações. Dotação simbólica.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="k">
+                                    
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="l">
+        
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Lei de Licitações</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Lei nº 8.666, de 1993, que regulamenta o art. 37, inciso XXI, da Constituição Federal e institui normas para licitações e contratos da Administração Pública e da outras providências.</p>
+
+                                            <p><em>Fonte: Lei 8.666/93</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Lei de Diretrizes Orçamentárias (LDO)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Lei que compreende as metas e prioridades da Administração Pública Federal, incluindo as despesas de capital para o exercício financeiro subsequente, orienta a elaboração da Lei Orçamentária Anual, dispõe sobre as alterações na legislação tributária e estabelece a política de aplicação das agências financeiras oficiais de fomento.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Lei de Responsabilidade Fiscal</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Define as responsabilidades e deveres do administrador público em relação aos orçamentos da União, dos estados e dos municípios, bem como os limites de gastos com pessoal, proibindo a criação de despesas de duração continuada sem uma fonte segura de receitas. Introduziu restrições orçamentárias na legislação brasileira e criou a disciplina fiscal para os três poderes, Executivo, Legislativo e Judiciário. Lei Complementar Nº 101, de 04 de Maio de 2000.</p>
+
+                                            <p><em>Fonte: Câmara dos Deputados</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Lei de Meios</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Sinônimo de Lei Orçamentária ou Lei de Orçamento. Assim denominada porque possibilita os meios para o desenvolvimento das ações relativas aos diversos órgãos e entidades que integram a administração pública.</p>
+
+                                            <p><em>Fonte: Ministério do Planejamento Orçamento e Gestão</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Leilão</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Modalidade de licitação entre quaisquer interessados para a venda de bens inservíveis para a administração ou de produtos legalmente apreendidos, a quem oferecer maior lance, igual ou superior ao da avaliação.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Lei Orçamentária Anual (LOA)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Lei especial que contem a discriminação da receita e da despesa pública, de forma a evidenciar a política econômica financeira e o programa de trabalho do governo, obedecidos os princípios de unidade, universalidade e anualidade.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Liberação de Cotas</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Transferência dos recursos financeiros do órgão central do sistema de programação financeira para os órgãos setoriais.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Licitação</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Processo pelo qual o poder público adquire bens e/ou serviços destinados a sua manutenção e expansão. São modalidades de licitação: convite, tomada de preços, concorrência pública, leilão e concurso público. (Lei 8.666 de 21 de junho de 1993).</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Linguagem Cidadã</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Nomes mais intuitivos pelos quais as ações governamentais são apresentadas aos cidadãos. Exemplo: Transferência de Renda Diretamente as Famílias em Condição de Pobreza e Extrema Pobreza (Bolsa Família).</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Liquidação</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Verificação do direito adquirido pelo credor, tendo por base os títulos e documentos comprobatórios do respectivo crédito.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Liquidação (definição mais detalhada)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>É o segundo estágio da despesa orçamentária. A liquidação da despesa é, normalmente, processada pelas Unidades Executoras ao receberem o objeto do empenho (o material, serviço, bem ou obra). Conforme previsto no art. 63 da&nbsp;<a href="http://www.planalto.gov.br/ccivil_03/Leis/L4320.htm" target="_blank">Lei nº 4.320/1964</a>, a liquidação consiste na verificação do direito adquirido pelo credor tendo por base os títulos e documentos comprobatórios do respectivo crédito e tem como objetivos: apurar a origem e o objeto do que se deve pagar; a importância exata a pagar; e a quem se deve pagar a importância, para extinguir a obrigação.&nbsp;<br>
+                                        A liquidação das despesas com fornecimento ou com serviços prestados terão por base: o contrato, ajuste ou acordo respectivo; a nota de empenho; e os comprovantes da entrega de material ou da prestação efetiva do serviço.</p>
+
+                                            <p>Principais documentos contábeis envolvidos nessa fase: NS (Nota de Sistema) e NL (Nota de Lançamento).</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União (CGU)</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Localização</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Unidade em que o agente público se encontra fisicamente.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Lotação</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Unidade de trabalho do agente público.</p>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                                
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="m">
+        
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Mandatário</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>É o representante do mandante e quando age diante de terceiras pessoas, o faz em seu nome. Aliás, a propósito, o caráter de representação é típico nas entidades associativas e de classe, assim como nas Assembleias Legislativas, Câmara dos Deputados, Senado Federal etc.</p>
+
+                                            <p><em>Fonte: Terra/Politica</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Material de Consumo</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Aquele cuja duração é limitada a curto lapso de tempo. Exemplos: artigos de escritório, de limpeza e higiene, material elétrico e de iluminação, gêneros alimentícios, artigos de mesa, combustíveis etc.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Material Permanente</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Aquele de duração superior a dois anos. Exemplos: mesas, máquinas, tapeçaria, equipamentos de laboratórios, ferramentas, veículos, semoventes, etc.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Medição</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Verificação das quantidades das obras ou serviços executados em cada etapa contratual.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Medida Provisória</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Instrumento legal, previsto na Constituição Federal, de uso exclusivo do Presidente da Republica e com forca de Lei. As Medidas Provisórias podem ser usadas em casos de relevância e urgência, devendo ser submetidas de imediato ao Congresso Nacional, e aprovadas em um prazo máximo de 30 dias. Caso contrário, perdem eficácia, a partir da data da sua publicação, se não forem republicadas.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Ministério</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Unidade administrativa de primeiro grau na hierarquia federal.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Modalidade de Aplicação</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Classificação da natureza da despesa que traduz a forma como os recursos serão aplicados pelos órgãos/entidades, podendo ser diretamente pelos mesmos ou sob a forma de transferências a outras entidades públicas ou privadas que se encarregarão da execução das acões.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Multa</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Pena pecuniária imposta ao contribuinte faltoso para com a obrigação tributária.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="n">
+        
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Natureza da Despesa</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Os arts. 12 e 13 da Lei nº 4.320, de 1964, tratam da classificação da despesa por categoria econômica e elementos. Assim como no caso da receita, o art. 8 o estabelece que os itens da discriminação da despesa mencionados no art. 13 serão identificados por números de código decimal, na forma do Anexo IV dessa Lei, atualmente consubstanciados no Anexo II da Portaria Interministerial nº 163, de 2001. O conjunto de informações que formam o código e conhecido como classificação por natureza de despesa e informa a categoria econômica, o grupo a que pertence, a modalidade de aplicação e o elemento.</p>
+
+                                            <p><em>Fonte: Secretaria de Orçamento Federal</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">NE - Nota de Empenho</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Finalidade: Permite registrar o comprometimento de despesa, bem como os casos em que se faca necessário o reforço ou a anulação desse compromisso.</p>
+
+                                            <p><em>Fonte: Manual do Siafi do Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">NIS (Número de Identidade Social)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Número gerado para cadastrar famílias de baixa renda, criando um Cadastramento Único em que são registrados dados de identificação do domicílio, da família e seus membros, bem como identificação do agricultor familiar. São coletados e incluídos no Cadastro informações referentes as características do domicílio, a composição familiar, qualificação escolar e profissional, rendimentos e despesas mensais, e grau de parentesco. Estão envolvidos no Cadastramento Único o Ministério do Desenvolvimento Social e Combate a Fome (MDS), o Estado, o Município e a CAIXA.</p>
+
+                                            <p><em>Fonte: Ministério do Desenvolvimento Social e Combate a Fome</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">NL - Nota de Lançamento</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Finalidade: Permite registrar eventos contábeis não vinculados a documentos específicos.</p>
+
+                                            <p><em>Fonte: Manual do Siafi do Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Nome Fantasia</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Nome de Fantasia, ou Título de Estabelecimento, é a expressão usada para diferenciar e identificar o estabelecimento físico onde se encontra a empresa, sendo de uso não obrigatório.</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Nota de Dotação</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Registro de desdobramento, por plano interno e/ou fonte, quando detalhada, dos créditos previstos na Lei Orçamentária Anual, bem como a inclusão dos créditos nela não considerados.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Nota de Empenho</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Registro de eventos vinculados ao comprometimento da despesa, na base do empenho.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Nota de Lançamento</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Registro da apropriação/liquidação de receitas e despesas, bem como de outros eventos, inclusive os relativos a entidades supervisionadas.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Nota de Previsão de Receita</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Registro das previsões de receitas relativas as entidades e fundos não abrangidos pelos orçamentos da União.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">NS - Nota de Lançamento de Sistema</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Finalidade: Permite registrar eventos contábeis de forma automática.</p>
+
+                                            <p><em>Fonte: Manual do Siafi do Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Número do convênio</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Número do convênio cadastrado no Sistema Integrado de Administração Financeira do Governo Federal (SIAFI).</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="o">
+        
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">OB - Ordem Bancária</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Finalidade - Permite registrar o pagamento de compromissos, bem como a transferência de recursos entre UG, liberação de recursos para fins de adiantamento, suprimento de fundos, cota, repasse, sub-repasse e afins.</p>
+
+                                        <p><em>Fonte: Manual do Siafi do Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Objeto</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>O produto do convênio ou contrato de repasse, observados o programa de trabalho e as suas finalidades.</p>
+
+                                        <p><em>Fonte: Decreto nº 6.170, de 25 de julho de 2007</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Objeto do Convênio</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Aquilo pactuado entre o Governo Federal concedente e o convenente beneficiado no município.</p>
+
+                                        <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Objeto de Gasto</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Nível mais detalhado de classificação da natureza da despesa. É o mesmo que elemento de despesa (vide Classificação Econômica da Despesa).</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Obra</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Construção, reforma ou ampliação de bens imóveis realizadas por execução direta ou indireta.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Obrigações Patronais</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Despesas com encargos que a administração é levada a atender pela sua condição de empregadora, resultante de pagamento de pessoal, tais como as contribuições previdenciárias.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Oferta pública (competitiva)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Emissão de títulos públicos realizada por meio de processo competitivo de formação de taxas.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">"On Line"</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Modalidade de processamento eletrônico de dados, de caráter interativo e instantâneo, que permite consultas e acertos imediatos por parte do usuário, assim como mensagens também imediatas oriundas do sistema.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Opção Parcial</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Manifestação por parcela acumulável de função ou de cargo de confiança a que fora designado o agente público investido em cargo efetivo.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Operação de Crédito</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Levantamento de empréstimo pelas entidades da administração pública, com o objetivo de financiar seus projetos e/ou atividades, podendo ser interna ou externa.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento Base-Zero</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Abordagem orçamentária desenvolvida nos Estados Unidos da América, pela&nbsp;<em>Texas Instruments Inc.</em>, durante o ano de 1969. Foi adotada pelo estado de Georgia (gov. Jimmy Carter), com vistas ao ano fiscal de 1973. Principais características: analise, revisão e avaliação de todas as despesas propostas e não apenas das solicitações que ultrapassam o nível de gasto já existente; todos os programas devem ser justificados cada vez que se inicia um novo ciclo orçamentário.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento de Desempenho</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Processo orçamentário que se caracteriza por apresentar duas dimensões do orçamento: o objeto de gasto e um programa de trabalho, contendo as ações desenvolvidas. Toda a ênfase reside no desempenho organizacional, sendo também conhecido como orçamento funcional.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento Fiscal</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Integra a Lei Orçamentária Anual e referem-se ao orçamento dos Poderes da União, seus fundos, órgãos e entidades da administração direta e indireta, inclusive fundações instituídas e mantidas pelo Poder Público.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento Incremental</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Orçamento feito por ajustes marginais nos seus itens de receita e despesa.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento de Investimento</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Integra a Lei Orçamentária Anual e refere-se ao orçamento de investimento das empresas em que a União, direta ou indiretamente, detenha a maioria do capital social com direito a voto.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento da Seguridade Social</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Integra a Lei Orçamentária Anual e abrange todas as entidades, fundos e fundações de administração direta e indireta, instituídos e mantidos pelo Poder público, vinculados a Seguridade Social.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento Programa</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Originalmente, sistema de planejamento, programação e orçamentação, introduzido nos Estados Unidos da América, no final da década de 50, sob a denominação de PPBS (<em>Planning Programinha Budgeting System)</em>. Principais características: integração, planejamento, orçamento; quantificação de objetivos e fixação de metas; relações insumo-produto; alternativas programáticas; acompanhamento físico-financeiro; avaliação de resultados; e gerência por objetivos.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento Público</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Lei de iniciativa do Poder Executivo que estima a receita e fixa a despesa da administração pública. E elaborada em um exercício para, depois de aprovada pelo Poder Legislativo, vigorar no exercício seguinte.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento Sem Teto Fixo</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Critério de alocação de recursos que consiste em conferir total liberdade aos órgãos/unidades no estabelecimento dos quantitativos financeiros correspondentes as suas propostas orçamentárias parciais. Em gíria orçamentária, conhecido como "o céu é o limite".</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento SEST</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Tipo de orçamento que controla os dispêndios das empresas estatais (empresas públicas, sociedades de economia mista e suas subsidiárias e todas as empresas controladas pela União, autarquias, fundações instituídas pelo Poder Público e órgãos autônomos da administração direta), de modo a ajustá-los aos programas governamentais, tendo em vista os objetivos, as políticas e as diretrizes constantes dos planos de governo.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento com Teto Fixo</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Critério de alocação de recursos que consiste em estabelecer um quantitativo financeiro fixo, geralmente obtido mediante a aplicação de percentual único sobre as despesas realizadas em determinado período, com base no qual os órgãos/unidades deverão elaborar suas propostas orçamentárias parciais. Também conhecido, na gíria orçamentária, como "teto burro".</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento com Teto Móvel</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Critério de alocação de recursos que representa uma variação do chamado "teto fixo", pois trabalha com percentuais diferenciados, procurando refletir um escalonamento de prioridades entre programações, órgãos e unidades. Em gíria orçamentária, conhecido como "teto inteligente".</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Orçamento Tradicional</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Processo orçamentário em que apenas uma dimensão do orçamento é explicitada, qual seja, o objeto de gasto. Também é conhecido como Orçamento Clássico.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Ordem Bancária</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Destina-se ao pagamento de compromissos, bem como a liberação de recursos para fins de adiantamento e suprimento de fundos.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Ordenador de Despesa</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Qualquer autoridade de cujos atos resultem emissão de empenho, autorização de pagamento, suprimento ou dispêndio de recursos da União ou pelos quais responda.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Órgão</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Ministério, Secretaria ou Entidade desse mesmo grau, aos quais estão vinculadas as respectivas Unidades Orçamentárias.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Órgão Central</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Incumbido de normatizar e coordenar a ação dos outros  órgãos que compõem o sistema.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Órgão Setorial</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Articulador entre o órgão central e os órgãos executores, dentro de um sistema, sendo responsável pela coordenação das ações na sua esfera de atuação.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Órgãos Autônomos</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>São os que se localizam na cúpula da Administração, subordinados diretamente a chefia dos órgãos independentes; gozam de autonomia administrativa, financeira e técnica e participam das decisões governamentais. Entram nessa categoria os Ministérios, as Secretarias de Estado e de Município, o Serviço Nacional de Informações e o Ministério Público.</p>
+
+                                        <p><em>Fonte: Hely Lopes Meirelies</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Órgão de Exercício</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Corresponde a unidade em que o agente público exerce suas atribuições.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Órgãos Independentes</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>São os originários da Constituição e representativos dos três Poderes do Estado, sem qualquer subordinação hierárquica ou funcional, e sujeitos apenas aos controles constitucionais de um sobre o outro; suas atribuições são exercidas por agentes políticos. Entram nessa categoria as Casas Legislativas, a Chefia do Executivo e os Tribunais.</p>
+
+                                        <p><em>Fonte: Hely Lopes Meirelies</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Órgão de Lotação</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Corresponde a unidade em que o agente público foi empossado.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Órgãos Superiores</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>São órgãos de direção, controle e comando, mas sujeitos a subordinação e ao controle hierárquico de uma chefia; não gozam de autonomia administrativa nem financeira. Incluem-se nessa categoria órgãos com variadas denominações, como Departamentos, Coordenadorias, Divisões, Gabinetes.</p>
+
+                                        <p><em>Fonte: Hely Lopes Meirelies</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Outras Despesas de Capital</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Despesas de capital não classificáveis como "investimentos" ou "inversões financeiras".</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Outras Despesas Correntes</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Despesas com a manutenção e funcionamento da máquina administrativa do governo, tais como: aquisição de pessoal, material de consumo, pagamento de serviços prestados por pessoa física sem vínculo empregatício ou pessoa jurídica independente da forma contratual, e outras não classificadas nos demais grupos de despesas correntes.</p>
+
+                                        <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="p">
+        
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Padrão</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Identificação de posicionamento na classe do cargo efetivo ocupado pelo agente público.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Padronização</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding">
+                                            <p>Estabelecimento de critérios, por parte do concedente, especialmente quanto as características do objeto e a seu custo, a serem seguidos em todos os convênios ou contratos de repasse com o mesmo objeto.</p>
+
+                                            <p><em>Fonte: Decreto nº 6.170, de 25 de julho de 2007</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Pagamento</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Último estágio da despesa pública. Caracteriza-se pela emissão do cheque ou ordem bancária em favor do credor.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Pagamento (definição mais detalhada)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>O pagamento refere-se ao terceiro estágio da despesa orçamentária e será processada pela Unidade Gestora Executora no momento da emissão do documento Ordem Bancária (OB) e documentos relativos a retenções de tributos, quando for o caso. O pagamento consiste na entrega de numerário ao credor e só pode ser efetuado após a regular liquidação da despesa. A&nbsp;<a href="http://www.planalto.gov.br/ccivil_03/Leis/L4320.htm" target="_blank">Lei nº 4.320/1964</a>, em seu art. 64, define ordem de pagamento como sendo o despacho exarado por autoridade competente, determinando que a despesa liquidada seja paga.&nbsp;<br>
+                                        Principais documentos contábeis envolvidos nessa fase: OB (Ordem Bancária), DF (Documento de Arrecadação de Receitas Federais - DARF), DR (Documento de Arrecadação Financeira - Dar), GR (Guia de Recolhimento da União) e NL (Nota de Lançamento) em casos específicos.</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União (CGU)</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Pagamentos de Sentenças Judiciárias</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Despesas em virtude de sentenças judiciárias. Far-se-ão exclusivamente na ordem cronológica de apresentação dos precatórios e a conta dos créditos respectivos. As dotações orçamentárias e os créditos adicionais serão consignados ao Poder Judiciário, nos Tribunais responsáveis pelas sentenças.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Passivo</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Contas relativas as obrigações, que uma pessoa física ou jurídica deve satisfazer. Evidência as origens de recursos aplicados no ativo, dividindo-se em passivo circulante, exigível de curto e longo prazos, resultados de exercícios futuros, patrimônio liquido e passivo compensado.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Passivo Circulante</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Depósitos, restos a pagar, antecipações de receita, bem como outras obrigações pendentes ou em circulação, exigíveis ate o termino do exercício seguinte.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Passivo Compensado</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Contas com função precípua de controle, relacionadas aos bens, direitos, obrigações e situações não compreendidas no patrimônio, mas que, direta ou indiretamente, possam vir a afetá-lo, inclusive as referentes a atos e fatos relacionados com a execução orçamentária e financeira.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Patrimônio</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Conjunto de bens direitos e obrigações de uma entidade.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Patrimônio Líquido</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Capital autorizado, as reservas de capital e outras que forem definidas, bem como o resultado acumulado e não destinado.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Patrimônio Público</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Conjunto de bens a disposição da coletividade.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Pessoa Física</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>É a pessoa natural, isto é, todo indivíduo (homem ou mulher), desde o nascimento até a morte. A personalidade civil da pessoa começa do nascimento com vida.</p>
+
+                                            <p><em>Fonte: Dicionário Aurélio</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Pessoa Jurídica</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>É a entidade abstrata com existência e responsabilidade jurídicas como, por exemplo, uma associação, empresa, companhia, legalmente autorizadas. Podem ser de direito público (União, Unidades Federativas, Autarquias etc.), ou de direito privado (empresas, sociedades simples, associações etc.).</p>
+
+                                            <p><em>Fonte: Dicionário Aurélio</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Pessoal e Encargos Sociais</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Despesa com o pagamento pelo efetivo serviço exercido de cargo/emprego ou função no setor público quer civil ou militar, ativo ou inativo, bem como as obrigações de responsabilidade do empregador.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Planejamento</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Metodologia de administração que consiste, basicamente, em determinar os objetivos a alcançar, as ações a serem realizadas, compatibilizando-as com os meios disponíveis para sua execução. Essa concepção da ação planejada e também conhecida como planejamento normativo.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Plano Plurianual</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Lei que estabelece de forma regionalizada as diretrizes, objetivos e metas da administração pública federal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada. Vigora por cinco anos, sendo elaborado no primeiro ano do mandato presidencial, abrangendo até o primeiro ano do mandato seguinte.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Portal da Transparência</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>É um canal pelo qual o cidadão pode acompanhar a execução financeira dos programas de governo, em âmbito federal. Estão disponíveis informações sobre os recursos públicos federais transferidos pelo Governo Federal a estados, municípios e Distrito Federal e diretamente ao cidadão, bem como dados sobre os gastos realizados pelo próprio Governo Federal em compras ou contratação de obras e serviços.</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Pregão Eletrônico</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>O pregão, na forma eletrônica, como modalidade de licitação do tipo menor preço, realizar-se-á quando a disputa pelo fornecimento de bens ou serviços comuns for feita a distância em sessão pública, por meio de sistema que promova a comunicação pela internet. A modalidade eletrônica e regulamentada pelo Decreto 5.450, de 31 de maio de 2005.</p>
+
+                                            <p><em>Fonte: Formação de Pregoeiros/8ª ICFEX</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Prestação de Contas</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Demonstrativo organizado pelo próprio agente, entidade ou pessoa designada, acompanhado ou não de documentos comprobatórios das operações de receita e despesa, os quais, se aprovados pelo Ordenador de Despesa, integrarão a sua tomada de contas. E também o levantamento organizado pelo Serviço de Contabilidade das entidades da Administração Indireta, inclusive das Fundações instituídas pelo Poder Publico.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Previsão</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Num sentido mais amplo, e prever a direção e a extensão, partindo do conhecimento do presente, do passado, e com base em certas hipóteses sobre o futuro. Admite a probabilidade e exclui a certeza absoluta.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+
+                                            <p>- E a estimativa do que se espera arrecadar durante o exercício (projeções).</p>
+
+                                            <p><em>Fonte: Manual da Receita do Governo Federal</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Previsão Orçamentária</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>A previsão orçamentária e, além de ato de planejamento das atividades financeiras do Estado, ato de caráter jurídico, "criador de direitos e de obrigações".</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Programas de Governo</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>São políticas públicas, principal instrumento que os governos utilizam para promover a integração entre os entes e os setores para aperfeiçoar seus recursos, sejam eles financeiros, humanos, logísticos ou materiais.</p>
+
+                                            <p><em>Fonte: Banco do Brasil</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Programa de Trabalho</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Instrumento que integra as solicitações de convênios, contendo todo o detalhamento das responsabilidades assumidas por cada um dos participantes, apresentado em propostas referentes a realização de projetos ou eventos de duração certa.</p>
+
+                                            <p><em>Fonte: Ministério do Desenvolvimento Agrário</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Projeto</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Instrumento cuja programação deve ser articulada e compatibilizada com outros, para alcançar os objetivos de um programa, envolvendo um conjunto de operações limitadas no tempo, das quais resulta um produto que concorre para a expansão ou aperfeiçoamento da ação do governo.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Projeto Básico</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Conjunto de elementos que definem a obra ou serviço, ou complexo de obras e serviços, objeto de uma licitação, e que possibilita a estimativa de seu custo final e prazo de execução.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Projeto Executivo</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Conjunto dos elementos necessários e suficientes a execução completa da obra.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Proposta Orçamentária</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Previsão da receita e despesa para um exercício, com os respectivos quadros e justificativas. No caso da União, materializa o Projeto de Lei Orçamentária encaminhado pelo Poder Executivo ao Congresso Nacional.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Provisão</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Operação descentralizadora de crédito orçamentário, em que a unidade orçamentária de origem possibilita a realização de seus programas de trabalho por parte de unidade administrativa diretamente subordinada, ou por outras unidades orçamentárias ou administrativas não subordinadas, dentro de um mesmo Ministério ou Órgão.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Publicação (convênio)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Data em que foi publicado no Diário Oficial da União, o ato que da "eficácia" ao convênio.</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        </p>
+                                    </div>
+  
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="q">
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="r">
+        
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Receita</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Recursos auferidos na gestão, a serem computados na apuração do resultado do exercício, desdobrados nas categorias econômicas de correntes e de capital.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receita - Arrecadação</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>É aquele em que os contribuintes comparecem perante os agentes arrecadadores, geralmente por meio de estabelecimentos bancários oficiais ou privados, devidamente credenciados, a fim de liquidarem suas obrigações com o Estado.</p>
+
+                                            <p><em>Fonte: Manual da Receita do Governo Federal</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receitas Correntes</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Receitas que apenas aumentam o patrimônio não duradouro do Estado, isto é, que se esgotam dentro do período anual. São os casos, por exemplo, das receitas dos impostos que, por se extinguirem no decurso da execução orçamentária, tem, por isso, de ser elaboradas todos os anos. Compreendem as receitas tributárias, patrimoniais, industriais e outras de natureza semelhante, bem como as provenientes de transferências correntes.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receitas de Capital</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Receitas que alteram o patrimônio duradouro do estado, como, por exemplo, aquelas provenientes da observância de um período ou do produto de um empréstimo contraído pelo estado a longo prazo. Compreendem, assim, a constituição de dívidas, a conversão em espécie de bens e direitos, reservas, bem como as transferências de capital.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receita Extra Orçamentária</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Valores provenientes de toda e qualquer arrecadação que não figure no orçamento e, consequentemente, toda arrecadação que não constitui renda do Estado. O seu caráter e de extemporaneidade ou de transitoriedade nos orçamentos.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receita Lançada</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Ato administrativo que visa liquidar a obrigação tributária, por meio da identificação do fato gerador ocorrido, determinação do sujeito passivo, mensuração da base de cálculo e aplicação de alíquota.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receita - Lançamento</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>De acordo com o art. 53 da Lei 4.320/64, lançamento ... “é o ato da repartição competente, que verifica a procedência do crédito fiscal e a pessoa que lhe é devedora e inscreve o débito desta”. Somente passam por esta fase as receitas provenientes de tributos ou derivadas. As receitas originárias, não estão sujeitas a lançamento e ingressam diretamente no estágio da arrecadação.</p>
+
+                                            <p><em>Fonte: Manual da Receita do Governo Federal</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receita Orçamentária</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Valores constantes do orçamento, caracterizada conforme o art. 11 da Lei nº 4.320/64.</p>
+
+                                           <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receita Ordinária</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Receita arrecadada sem vinculação específica, inclusive transferências aos Estados, Distrito Federal e Municípios, a disposição do Tesouro para a execução do orçamento, conforme alocação das despesas.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receita Originária</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Rendimentos que os governos auferem, utilizando os seus próprios recursos patrimoniais industriais e outros, não entendidos como tributos. As receitas originárias correspondem às rendas, como os foros, laudêmios, aluguéis, dividendos, participações (se patrimoniais) e em tarifas (quando se tratar de rendas industriais).</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receita - Previsão</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>É a estimativa do que se espera arrecadar durante o exercício (projeções).</p>
+
+                                            <p><em>Fonte: Manual da Receita do Governo Federal</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receita Própria</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>As arrecadações pelas entidades públicas em razão de sua atuação econômica no mercado. Estas receitas são aplicadas pelas próprias unidades geradoras.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receita Pública</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Montante dos ingressos financeiros aos cofres públicos em decorrência da instituição e cobrança de tributos, taxas contribuições (receita derivada) e também das decorrentes da exploração do seu patrimônio (receita originária). Total em dinheiro recolhido pelo Tesouro Nacional, incorporado ao patrimônio do Estado, que serve para custear as despesas públicas e as necessidades de investimentos públicos.</p>
+
+                                           <p><em>Fonte: Manual para os Agentes Municipais do Programa Olho Vivo</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Receita - Recolhimento</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Vem a ser a entrega do produto da arrecadação efetuado pelos agentes arrecadadores diretamente ao caixa da União (Conta Única do Tesouro Nacional). Somente por meio do recolhimento, em conta especifica, e que se pode dizer que os recursos estão disponíveis para a utilização pelos gestores financeiros, em nome da União.</p>
+
+                                            <p><em>Fonte: Manual da Receita do Governo Federal</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Regime de Caixa</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Modalidade contábil que considera para a apuração do resultado do exercício apenas os pagamentos e recebimentos ocorridos efetivamente no exercício.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Regime de Competência</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Modalidade contábil que considera os fatos contábeis ocorridos durante o exercício para fins de apuração dos resultados do mesmo.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Regime Jurídico</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Conjunto de direitos e deveres aplicáveis ao agente público.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Registro</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Conjunto de dados relacionados entre si, organizados e mantidos por qualquer meio de armazenamento.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Rescindido</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>O convênio e assim inscrito em virtude do inadimplemento de quaisquer cláusulas pactuadas, particularmente quando constatadas as seguintes situações: a) utilização dos recursos em desacordo com o Plano de Trabalho; b) aplicação dos recursos no mercado financeiro; e c) falta de apresentação das Prestações de Contas Parciais e Final, nos prazos estabelecidos.</p>
+
+                                            <p><em>Fonte: Manual do Siafi com adaptações</em></p>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="s">
+        
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Seguridade Social</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sistema Integrado de Administração de Serviços Gerais (SIASG)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Sistema informatizado de apoio as atividades operacionais, utilizado pelos órgãos e pelas entidades da Administração Federal direta, autárquica e fundacional, que possui três módulos básicos: o catálogo unificado de materiais e serviços, o cadastro unificado de fornecedores e o registro de preços de bens e serviços.</p>
+
+                                            <p><em>Fonte: Ministério do Planejamento, Orçamento e Gestão</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sistema de Gestão de Convênios (SICONV)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Subsistema vinculado ao SIASG, desenvolvido de modo a permitir registro de contratos de execução firmados pelo órgão convenente, com valores superiores a R$ 450.000,00, e para atender a determinações de dispositivos legais (Paragrafo 2º do Artigo 116 da Lei nº 8.666/93 e Artigo 2º da Lei nº 9.452/97).</p>
+
+                                            <p><em>Fonte: Comprasnet/SIASG</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sistema Integrado de Administração Financeira do Governo Federal (SIAFI)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Modalidade de acompanhamento das atividades relacionadas com a administração financeira dos recursos da União, que centraliza ou uniformiza o processamento da execução orçamentária, recorrendo a técnicas de elaboração eletrônica de dados, com o envolvimento das unidades executoras e setoriais, sob a supervisão do Tesouro Nacional e resultando na integração dos procedimentos concernentes, essencialmente, a programação financeira, a contabilidade e a administração orçamentária.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sistema Integrado de Dados Orçamentários (SIDOR)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Conjunto de procedimentos, justapostos entre si, com a incumbência de cuidar do processamento de cunho orçamentário, por meio de computação eletrônica, cabendo sua supervisão a Secretaria de Orçamento Federal (SOF).</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sistema Integrado de Administração de Recursos Humanos (SIAPE)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Sistema informatizado de Gestão de Recursos Humanos do Poder Executivo Federal, que controla as informações cadastrais e processa os pagamentos dos servidores da Administração Pública Federal.</p>
+
+                                            <p><em>Fonte: Ministério do Planejamento, Orçamento e Gestão</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sistema de Contas</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Conjunto de contas que registra ocorrências de características comuns a determinados atos administrativos. O sistema de contas na administração pública compreende o sistema orçamentário, financeiro, patrimonial e de compensação.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sistema de Contas de Compensação</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Registra os valores que direta ou indiretamente possam vir a afetar o patrimônio.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sistema de Contas Financeiro</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Registra a arrecadação da receita e o pagamento da despesa orçamentária e extra-orçamentária. A fonte alimentadora do sistema financeiro e o caixa, que movimenta a entrada e a saída de numerário.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sistema de Contas Orçamentário</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Registra a receita prevista e as autorizações legais de despesa constantes da Lei Orçamentária Anual e dos créditos adicionais, demonstrando a despesa fixada e a realizada no exercício, bem como compara a receita prevista com a arrecadada. As fontes alimentadoras do sistema orçamentário são: os orçamentos e suas alterações, o caixa e atos administrativos.</p>
+
+                                           <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sistema Orçamentário</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Estrutura composta pelas organizações, recursos humanos, informações, tecnologia, regras e procedimentos, necessários ao cumprimento das funções definidas no processo orçamentário.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sistema Patrimonial</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Sistema de contas que registra os bens patrimoniais do Estado, os créditos e os débitos suscetíveis de serem classificados como permanentes ou que sejam resultados do movimento financeiro, as variações patrimoniais provocadas pela execução do orçamento ou que tenham outras origens, bem como o resultado econômico do exercício.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Situação Vínculo</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Demonstra a situação atual do agente público no exercício das funções de seu cargo ou emprego ou no exercício de funções ou cargos de confiança.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sociedade de Economia Mista</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Entidade dotada de personalidade jurídica de direito privado, criada por lei para o exercício de atividade econômica, sob a forma de sociedade anônima, cujas ações com direito a voto pertençam em sua maioria ao Poder Público.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Sub-Repasse</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Importância que a unidade orçamentária transfere a outra unidade orçamentária ou administrativa do mesmo Ministério ou Órgão, cuja figura esta ligada a provisão.</p>
+
+                                           <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Subsídio</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Concessão de dinheiro feita pelo governo as empresas para lhes aumentar a renda ou abaixar os preços ou para estimular as exportações do país. Podem também ser concedidas diretamente ao consumidor. Em termos orçamentários, caracteriza uma subvenção econômica.</p>
+
+                                           <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Subvenção Econômica</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Alocação destinada a cobertura dos déficits de manutenção das empresas públicas de natureza autárquica ou não, assim como as dotações destinadas a cobrir a diferença entre os preços de mercado e os preços de revenda. Pelo governo de gêneros alimentícios ou outros e também as dotações destinadas ao pagamento de bonificações a produtores de determinados gêneros ou materiais.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Subvenção Social</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Suplementação dos recursos de origem privada aplicados na prestação de serviços de assistência social ou cultural sem finalidade lucrativa.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Superávit Orçamentário</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Quando a soma das receitas estimadas e maior que as das despesas orçamentarias previstas.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Superávit Financeiro</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Diferença positiva entre o ativo financeiro e o passivo financeiro, conjugando-se, ainda, os saldos dos créditos adicionais e as operações de créditos a eles vinculados.</p>
+
+                                           <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Suprimento de Fundos</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Instrumento de execução ao qual pode recorrer o ordenador de despesas para, por meio de servidor subordinado, realizar despesas que, a critério da administração e consideradas as limitações previstas em lei, não possam ou não devam ser realizadas por via bancária.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</p></em>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="t">
+        
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                            <h4 class="ng-binding">Taxa</h4>
+                                            <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Espécie de tributo que os indivíduos pagam ao Estado, em razão do exercício do Poder de Policia ou pela utilização, efetiva ou potencial, de serviços públicos específicos e divisíveis, prestados ao contribuinte ou postos a sua disposição.</p>
+
+                                                <p><em>Fonte: Tesouro Nacional</em></p>
+                                            </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Termo Aditivo</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Instrumento elaborado com a finalidade de alterar itens de contratos, convênios ou acordos firmados pela administração pública.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Termo de Cooperação</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Um instrumento político e ou diplomático com o qual as Autoridades Públicas ou Privadas indicam a disposição de realizar mútua cooperação técnico-científica entre os signatários.</p>
+
+                                            <p><em>Fonte: Serviço de Convênios e Contratos/UnB</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Títulos da Dívida Pública</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Títulos financeiros com variadas taxas de juros, métodos de atualização monetária e prazo de vencimento, utilizados como instrumentos de endividamento interno e externo.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Tomada de Contas</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Levantamento organizado por serviço de contabilidade analítica, baseado na escrituração dos atos e fatos praticados na movimentação de créditos, recursos financeiros e outros bens públicos, por um ou mais responsáveis pela gestão financeira e patrimonial, a cargo de uma unidade administrativa e seus agentes, em determinado exercício ou período de gestão.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Tomada de Contas Especial</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Instrumento de que dispõe a Administração Pública para ressarcir-se de eventuais prejuízos que lhe forem causados, sendo o processo revestido de rito próprio e somente instaurado depois de esgotadas as medidas administrativas para reparação do dano.</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Tomada de Preços</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Modalidade de licitação realizada entre interessados previamente cadastrados, observada a necessária qualificação.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferências Correntes</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Dotações destinadas a terceiros sem a correspondente prestação de serviços incluindo as subvenções sociais, os juros da divida, a contribuição de previdência social, etc.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferências de Capital</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Dotações para investimentos ou inversões financeiras que outras pessoas de direito público ou privado devam realizar, independente de contraprestação direta em bens ou serviços, constituindo essas transferências auxílios ou contribuições, segundo derivem da lei de orçamento ou de lei especial anterior, bem como as dotações para amortização da divida pública.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferências ao Exterior</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Despesas realizadas mediante transferência de recursos financeiros a órgãos e entidades governamentais pertencentes a outros países, a organismos internacionais e a fundos instituídos por diversos países, inclusive aqueles que tenham sede ou recebam os recursos no Brasil.</p>
+
+                                            <p><em>Fonte: MTO/2009-Minisiterio do Planejamento</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferência de Recursos</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>No Portal representam os recursos federais transferidos da União para estados, municípios, Distrito Federal ou diretamente repassados a cidadãos.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferências Intra governamentais</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Transferências feitas no âmbito de cada governo. Podem ser a autarquias, fundações, fundos, empresas e a outras entidades autorizadas em legislação específica.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferências Intergovernamentais</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Transferências feitas entre a União, Estados, Distrito Federal e Municípios.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferências Constitucionais</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>São transferências, previstas na Constituição Federal, de parcelas das receitas federais arrecadadas pela União e que devem ser repassadas aos Estados, ao Distrito Federal e aos Municípios. O objetivo do repasse é amenizar as desigualdades regionais e promover o equilíbrio socioeconômico entre Estados e Municípios. Dentre as principais transferências da União para os Estados, o DF e os Municípios, previstas na Constituição, destacam-se: o Fundo de Participação dos Estados e do Distrito Federal (FPE); o Fundo de Participação dos Municípios (FPM); o Fundo de Compensação pela Exportação de Produtos Industrializados (FPEX); o Fundo de Manutenção e de Desenvolvimento do Ensino Fundamental e de Valorização do Magistério (FUNDEF); e o Imposto sobre a Propriedade Territorial Rural (ITR).</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferências destinadas ao Sistema Único de Saúde (SUS)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>São transferências tratadas separadamente por conta da relevância do assunto, por meio da celebração de convênio, de contratos de repasses e, principalmente, de transferências fundo a fundo. O SUS compreende todas as ações e serviços de saúde estatais das esferas federal, estadual, municipal e distrital, bem como os serviços privados de saúde contratados ou conveniados. Os valores são depositados diretamente do Fundo Nacional de Saúde aos fundos de saúde estaduais, municipais e do Distrito Federal. Os depósitos são feitos em contas individualizadas, isto é, especificas dos fundos.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferências Diretas ao Cidadão</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>São os recursos financeiros repassados pela União diretamente ao cidadão que participa de programas específicos. A União concede benefício monetário mensal, sob a forma de transferência de renda diretamente a população-alvo do programa.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferências Legais</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>São as parcelas das receitas federais arrecadadas pela União, repassadas aos Estados, ao Distrito Federal e aos Municípios, previstas em leis específicas. Essas leis determinam a forma de habilitação, a transferência, a aplicação dos recursos e como devera ocorrer a respectiva prestação de contas. Dentre as principais transferências da União para os Estados, o DF e os Municípios, previstas em leis, destacam-se: o Programa Nacional de Alimentação Escolar (PNAE), o Programa Nacional de Apoio ao Transporte do Escolar (PNATE), o Programa Dinheiro Direto na Escola (PDDE), o Programa de Apoio aos Sistemas de Ensino para Atendimento a Educação de Jovens e Adultos, entre outros.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferências Voluntárias</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>São os recursos financeiros repassados pela União aos Estados, Distrito Federal e Municípios em decorrência da celebração de convênios, acordos, ajustes ou outros instrumentos similares, cuja finalidade é a realização de obras e/ou serviços de interesse comum. A Transferência Voluntária e a entrega de recursos a outro ente da Federação, a título de cooperação, auxílio ou assistência financeira, que não decorra de determinação constitucional, legal ou os destinados ao Sistema Único de Saúde (SUS).</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Transferências Fundo a Fundo</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Caracterizam-se pelo repasse, por meio da descentralização, de recursos diretamente de fundos da esfera federal para fundos da esfera estadual, municipal e do Distrito Federal, dispensando a celebração de convênios. As transferências fundo a fundo são utilizadas nas áreas de assistência social e de saúde.</p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Tributo</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Receita instituída pela União, pelos Estados, Distrito Federal e Municípios, compreendendo os impostos, as taxas e contribuições de melhoria, nos termos da Constituição e das leis vigentes em matéria financeira. A Constituição de 1988 colocou as contribuições sob o mesmo regime constitucional dos tributos em geral, as quais são aplicadas as normas gerais de legislação tributária e os princípios da legalidade, irretroatividade e anterioridade.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</p></em>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="u">
+        
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Unidade Administrativa</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Segmento da administração direta ao qual a lei orçamentária anual não consigna recursos e que depende de destaques ou provisões para executar seus programas de trabalho.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Unidade Aplicadora</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Unidade responsável pela aplicação de recursos orçamentários transferidos de outras unidades, com vistas ao desenvolvimento da programação objeto da transferência.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Unidade Gestora</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Unidade orçamentária ou administrativa investida do poder de gerir recursos orçamentários e financeiros, próprios ou sob descentralização.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Unidade Gestora Executora</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Unidade gestora que utiliza o crédito recebido da unidade gestora responsável. A unidade gestora que utiliza os seus próprios créditos passa a ser ao mesmo tempo unidade gestora executora e unidade gestora responsável.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Unidade Gestora Responsável</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Unidade gestora responsável pela realização de parte do programa de trabalho por ela descentralizado.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Unidade Orçamentária</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>É a repartição da Administração Federal a quem o orçamento da União consigna dotações específicas para a realização de seus programas de trabalho.</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Universalidade do Orçamento</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Princípio segundo o qual a lei orçamentaria deve compreender todas as receitas e todas as despesas pelos seus totais.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Unidade Transferidora</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Figura que existe na estrutura orçamentária apenas para viabilizar a transferência de recursos para outras unidades que são, efetivamente, as responsáveis pelo desenvolvimento da programação objeto da transferência.</p>
+
+                                            <p><em>Fonte: Tesouro Nacional</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">UORG</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Unidade Organizacional. Utilizada para identificar a lotação ou o exercício do agente público.</p>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="v">
+        
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios" style="">
+                                        <h4 class="ng-binding">Valor do Convênio</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>É o valor correspondente a participação do concedente. É adicionado ao valor original do convênio a parcela (999) que corresponde a rendimento de aplicação financeira, quando for o caso.</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Valor da Contrapartida (convênio)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Valor correspondente a participação do convenente no convênio, para a execução do objeto.</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Valor Liberado (convênio)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Valor total liberado pelo Governo Federal até a data de atualização da base de dados. É adicionado ao valor original do convênio a parcela (999) que corresponde a rendimento de aplicação financeira, quando for o caso.</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        </p>
+                                    </div>
+                                    <div class="bs-callout bs-callout-primary ng-scope" ng-repeat="glo in glossarios">
+                                        <h4 class="ng-binding">Valor Última Liberação (convênio)</h4>
+                                        <p ng-bind-html="glo.FaqResposta" class="ng-binding"><p>Valor relativo a ultima liberação de recursos do convênio pelo concedente ao convenente.</p>
+
+                                            <p><em>Fonte: Controladoria-Geral da União</em></p>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="w">
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="x">
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="y">
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 portfolio-items">
+                                <div class="z">
+                                    
+                                </div>
+                            </div>
+
                         </div>
-                    </div> --> 
+                    </div>  
 
                 </div>
 
