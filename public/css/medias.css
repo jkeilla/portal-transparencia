@@ -38,15 +38,6 @@
     }
 }
 
-/* --- SERVIÇOS ---- */
-
-@media screen and (max-width: 768px) {
-    .ui-datepicker {
-        padding: 8px !important;
-    }
-
-}
-
 /* -------- MAPA DO SITE E SOBRE ------------ */
 
 @media (max-width: 767px) {
@@ -74,10 +65,6 @@
         margin-bottom: 3%;
     }
 
-    .ui-datepicker {
-        width: 30%;
-    }
-
 }
 
 @media (min-width: 380px) and (max-width: 414px) {
@@ -85,21 +72,10 @@
         font-size: 1.1em;
     }
 
-    .ui-button-text-only .ui-button-text {
-        padding: 0;
-    }
-
     .btn-consulta-servicos button {
         margin-bottom: 3%;
     }
 
-    .ui-datepicker {
-        width: 55%;
-    }
-
-    #dlg-empenho .ui-button-text-only .ui-button-text {
-        padding: 12px;
-    }
 }
 
 @media screen and (max-width: 414px) {
@@ -114,7 +90,7 @@
 
     /* --- Institucional ---- */
 
-    .panel-col-2 {
+    .panel-col-1, .panel-col-2 {
         width: 90%;
         float: left;
     }
@@ -182,44 +158,16 @@
         width: 123%;
     }
 
-    .ui-button-text-only .ui-button-text {
-        padding: 0;
-    }
-
     .btn-consulta-servicos button {
         margin-bottom: 3%;
     }
-
-    .ui-datepicker {
-        width: 55%;
-    }
-
-    .dlg-content {
-        height: 90% !important;
-        top: 9% !important;
-    }
-    #dlg-empenho .ui-button-text-only .ui-button-text {
-        padding: 12px;
-    }
-
 
 }
 
 @media screen and (max-width: 360px) {
-    .ui-button-text-only .ui-button-text {
-        padding: 0;
-    }
 
     .btn-consulta-servicos button {
         margin-bottom: 3%;
-    }
-
-    .ui-datepicker {
-        width: 55%;
-    }
-    .dlg-content {
-        height: 83% !important;
-        top: 12% !important;
     }
 
 }

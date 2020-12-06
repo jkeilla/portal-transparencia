@@ -83,6 +83,15 @@ a:focus {
     font-weight: bold;
 }
 
-/* .tab-content .form-row {
-    margin-bottom: 16px;
-} */
+#btn-menu-lateral {
+    display: none;
+}
+
+.fa-bars {
+    background-color: #3573ba;
+    padding: .25rem .75rem;
+    font-size: 20px;
+    color: rgba(255,255,255,.5);
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: .25rem;
+}
