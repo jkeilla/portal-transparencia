@@ -1,0 +1,49 @@
+.bs-callout {
+    padding: 15px 15px 5px 15px;
+    margin: 10px 0;
+    border-left-width: 5px !important;
+    border-radius: 3px;
+    border-left-color: #3573ba !important
+}
+
+.bs-callout h4 {
+    color: #428bca;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+
+.categories ul {
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+.glossario a {
+    color: #3573ba !important;
+    padding: 5px 10px !important;
+}
+
+.glossario a:hover, .glossario .nav-tabs .nav-link.active {
+    background: #3573ba !important;
+    color: #ffffff !important;
+    border-radius: 15px !important;
+    border-color: #3573ba !important;
+}
+
+.glossario .nav-tabs .nav-item {
+    margin-bottom: 0.7%;
+}
+
+.glossario .tab-pane.fade {
+  transition: all 0.8s;
+  transform: translateY(17rem);
+}
+
+.glossario .tab-pane.fade.show {
+  transform: translateY(0rem);
+}
+
