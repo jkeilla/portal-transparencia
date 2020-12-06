@@ -1,4 +1,3 @@
-@import url("reset.css");
 @import url("servicos.css");
 
 
@@ -16,6 +15,7 @@ label, table, p, .tab-content {
     background-color: #3573ba;
     height: 55px;
     box-shadow: 0 0 7px black;
+    justify-content: center !important;
 }
 
 .navbar li a {

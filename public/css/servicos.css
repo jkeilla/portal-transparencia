@@ -76,6 +76,7 @@ a:focus {
 .licitacao {
     padding: 15px !important;
     font-size: 16px;
+    margin: 30% 15%;
 }
 
 #nav-calendario th {

@@ -1,0 +1,300 @@
+/* HEADER */
+
+@media (min-width: 414px) and (max-width: 1024px) {
+
+    .jumb-servicos {
+        height: 283px;
+    }
+
+    .servico-box {
+        width: 160px;
+        height: 135px;
+    }
+
+}
+
+@media screen and (max-width: 414px){
+    .width-100 {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 414px) {
+
+    .titulo-site {
+        font-size: 29px !important;
+    }
+}
+
+@media(min-width: 360px) and (max-width: 375px) {
+
+    .titulo-site {
+        font-size: 28px !important;
+
+    }
+    .servico-box {
+        width: 146px!important;
+        height: 140px;
+    }
+}
+
+/* --- SERVIÇOS ---- */
+
+@media screen and (max-width: 768px) {
+    .ui-datepicker {
+        padding: 8px !important;
+    }
+
+}
+
+/* -------- MAPA DO SITE E SOBRE ------------ */
+
+@media (max-width: 767px) {
+    section .col-md-3 {
+        border-left: none;
+    }
+
+    .box-sitemap ul li:hover {
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .menu-lateral {
+        max-width: 35% !important;
+    }
+
+    .menu-lateral .nav {
+        width: 98%;
+    }
+
+    .btn-consulta-servicos button {
+        margin-bottom: 3%;
+    }
+
+    .ui-datepicker {
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 380px) and (max-width: 414px) {
+    .menu-lateral a {
+        font-size: 1.1em;
+    }
+
+    .ui-button-text-only .ui-button-text {
+        padding: 0;
+    }
+
+    .btn-consulta-servicos button {
+        margin-bottom: 3%;
+    }
+
+    .ui-datepicker {
+        width: 55%;
+    }
+
+    #dlg-empenho .ui-button-text-only .ui-button-text {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .jumbotron {
+        margin-top: 50px !important;
+        line-height: 100px;
+    }
+
+    .sitemap-top, .about-top, .talk-top {
+        margin-top: 50px;
+    }
+
+    /* --- Institucional ---- */
+
+    .panel-col-2 {
+        width: 90%;
+        float: left;
+    }
+
+    /* --- Sobre ---- */
+
+    .about-text {
+        font-size: 13px !important;
+        line-height: 16px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    /* --- Contato ---- */
+
+    .endereco {
+        border: 0 !important;
+        margin: 15% 0;
+    }
+
+    .social-networks ul {
+        display: inline-flex;
+    }
+
+    .social-networks li {
+        margin-right: 4%;
+    }
+
+    /* --- Serviços ---- */
+
+    .hr-servicos {
+        display: block;
+    }
+
+    #btn-menu-lateral {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fa-bars {
+        width: 100%;
+    }
+
+    .menu-lateral {
+        max-width: 100% !important;
+    }
+
+    .menu-lateral .nav {
+        width: 100% !important;
+    }
+
+    .buttons-talk, .btn-consulta-servicos {
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .menu-lateral a {
+        font-size: 0.8em;
+    }
+
+    .menu-lateral .nav {
+        width: 123%;
+    }
+
+    .ui-button-text-only .ui-button-text {
+        padding: 0;
+    }
+
+    .btn-consulta-servicos button {
+        margin-bottom: 3%;
+    }
+
+    .ui-datepicker {
+        width: 55%;
+    }
+
+    .dlg-content {
+        height: 90% !important;
+        top: 9% !important;
+    }
+    #dlg-empenho .ui-button-text-only .ui-button-text {
+        padding: 12px;
+    }
+
+
+}
+
+@media screen and (max-width: 360px) {
+    .ui-button-text-only .ui-button-text {
+        padding: 0;
+    }
+
+    .btn-consulta-servicos button {
+        margin-bottom: 3%;
+    }
+
+    .ui-datepicker {
+        width: 55%;
+    }
+    .dlg-content {
+        height: 83% !important;
+        top: 12% !important;
+    }
+
+}
+
+/* FOOTER - MEDIAS */
+
+@media screen and (max-width: 1100px) {
+    .footer p {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footer p {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer p {
+        font-size: 0.7rem !important;
+    }
+
+    .footer .footer-img {
+        max-width: 120px !important;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 414px) {
+    .footer p {
+        font-size: 0.6rem !important;
+    }
+
+    .footer .footer-img {
+        min-width: 200px !important;
+    }
+
+    .footer-img img {
+        max-width: 90% !important;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 378px) {
+    .footer p {
+        font-size: 0.6rem !important;
+    }
+
+    .footer .footer-img {
+        min-width: 161px !important;
+    }
+
+    .footer-img img {
+        max-width: 90% !important;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer p {
+        font-size: 0.5rem !important;
+    }
+
+    .footer-img img {
+        max-width: 90% !important;
+    }
+
+    .footer .footer-img {
+        min-width: 161px !important;
+    }
+
+}
